@@ -161,6 +161,23 @@ public class BaseClass {
 		  return false;
 		 }
 	
+	public final boolean waitForAudioVideoFinished(By by){
+		 for(int sec=1; sec<=100; sec++){
+			   try{
+			    if ( driver.findElement(by).isDisplayed() ) {
+			     
+			     return true;
+			    }
+			   }catch(Exception e){
+				      
+			   }
+			   try{
+			   Thread.sleep(10000);
+			   }catch(Exception e){}
+			  }
+			  return false;
+			 }
+	
 	public void analyzeBrowserLogs() {
 		  
         LogEntries logEntries = getWebDriver().manage().logs().get(LogType.BROWSER);
