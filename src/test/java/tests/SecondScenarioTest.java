@@ -8,13 +8,15 @@ import Pages.InputPages.ILogLevel;
 import Pages.InputPages.TestCore;
 import Pages.LoginPage;
 
-public class loginTest extends TestCore{
+public class SecondScenarioTest extends TestCore{
+	
+	
 	
 	@Test(enabled=false)
-	public void createAccountTest(){
+	public void secondScenarioTest() throws InterruptedException{
 		LoginPage loginPage = new LoginPage(driver);
 		
-		log("Test Started [Create New Account] test", ILogLevel.TESTCASE);
+		log("Test Started [Second Scenario] test", ILogLevel.TESTCASE);
 		
 		BaseClass.takeScreenshot("launch");
 		loginPage.clickOnSkipButton();
@@ -25,13 +27,17 @@ public class loginTest extends TestCore{
 		loginPage.clickOnCaminho();
 		loginPage.clickOnOnetab();
 		loginPage.clickOnIntroductionVideo();
+		loginPage.clickDepois();
+		loginPage.clickInSight();
+		loginPage.playVideo();
+		loginPage.clickArtigos();
+		loginPage.clickCitacoes();
+		loginPage.clickTimer();
+		loginPage.clickIniciar();
 		loginPage.clickOnCloseButton();
 		loginPage.clickOnSimOption();
 		loginPage.clickOnProfileTab();
 		Assert.assertTrue(loginPage.isProfileNamePresent(loginPage.name), "[Name] doesn't present on profile page");
-		loginPage.clickOnVideoTab();
-		loginPage.clickOnVideoPlaybutton();
-		
 		log("Test Completed Successfully", ILogLevel.TESTCASE);
 	}
 
