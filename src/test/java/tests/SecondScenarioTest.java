@@ -12,7 +12,7 @@ public class SecondScenarioTest extends TestCore{
 	
 	
 	
-	@Test(enabled=false)
+	@Test(enabled = false)
 	public void secondScenarioTest() throws InterruptedException{
 		LoginPage loginPage = new LoginPage(driver);
 		

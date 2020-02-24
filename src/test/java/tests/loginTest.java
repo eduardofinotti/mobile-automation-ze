@@ -10,7 +10,7 @@ import Pages.LoginPage;
 
 public class loginTest extends TestCore{
 	
-	@Test(enabled=false)
+	@Test(enabled = false)
 	public void createAccountTest(){
 		LoginPage loginPage = new LoginPage(driver);
 		

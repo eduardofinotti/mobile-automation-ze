@@ -12,7 +12,7 @@ import pageObject.LoginPageObject;
 
 public class ForthScenario extends TestCore{
 
-	@Test
+	@Test(enabled=false)
 	public void forthScenario() throws InterruptedException{
 		LoginPage loginPage = new LoginPage(driver);
 		
