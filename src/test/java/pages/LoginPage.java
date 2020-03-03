@@ -250,6 +250,7 @@ public class LoginPage extends BaseClass {
             String gettext = melement.get(i).getText();
             if (gettext.contains(text)) {
                 driver.findElements(By.className(classname)).get(i).click();
+                log(text + "clicked", ILogLevel.TEST);
                 pause(_wait);
             }
         }
@@ -331,12 +332,11 @@ public class LoginPage extends BaseClass {
     }
 
     public void clickCitacoes() {
-        log("Citacões clicked", ILogLevel.TEST);
         try {
-            click(By.xpath(LoginPageObject.citacoes), "CITAÇÕES", 15);
+            click(By.name("CITAÇÕES"), "CITAÇÕES", 30);
             takeScreenshot("Citacoes");
         } catch (Exception e) {
-            clickTextUsingClassName(LoginPageObject.classname, "CITAÇÕES", 15);
+            clickTextUsingClassName(LoginPageObject.classname, "CITAÇÕES", 30);
             takeScreenshot("Citacoes");
         }
 

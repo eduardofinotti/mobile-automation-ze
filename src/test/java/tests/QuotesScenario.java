@@ -14,34 +14,21 @@ import org.testng.annotations.Test;
  *
  * @author codeu
  */
-public class FifthScenario extends TestCore {
-
-    @Test(enabled = false)
-    public void fifthScenario() throws InterruptedException {
+public class QuotesScenario extends TestCore{
+    
+    @Test
+    public void quotesScenario() throws InterruptedException {
         LoginPage loginPage = new LoginPage(driver);
 
-        log("Test Started [Fifth Scenario Test] test", ILogLevel.TESTCASE);
+        log("Test Started [Quotes Scenario Test] test", ILogLevel.TESTCASE);
         loginPage.clickOnSkipButton();
         loginPage.clickLogin();
         loginPage.enterEmail1();
         loginPage.enterPassword1();
         loginPage.clickEnter();
-        loginPage.scrollTo();
         loginPage.clickInSight();
-        loginPage.scrollTo();
-        loginPage.clickArtigos();
-        loginPage.scrollTo();
         loginPage.clickCitacoes();
-        loginPage.scrollTo();
-        loginPage.clickPraticas();
-        loginPage.scrollTo();
-        loginPage.clickFundamentos();
-        loginPage.scrollScreen();
         loginPage.scrollOneFunamentos();
-        loginPage.clickDay1();
-        loginPage.clickDay1Audio1();
-        loginPage.iniciar();
         log("Test Completed Successfully", ILogLevel.TESTCASE);
     }
-
 }
