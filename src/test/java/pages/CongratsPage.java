@@ -5,7 +5,7 @@ import components.CongratsComponents;
 import org.openqa.selenium.By;
 import tests.BaseClass;
 
-public abstract class CongratsPage extends BaseClass {
+public class CongratsPage extends BaseClass {
 
     public static void nextPratice() {
         if (waitForElementDisplayed(By.id(CongratsComponents.idBtnNext))) {
@@ -17,4 +17,6 @@ public abstract class CongratsPage extends BaseClass {
             click(By.id(CongratsComponents.idBtnCancel), "[FINISH PRACTICE]", 10);
         }
     }
+
+
 }

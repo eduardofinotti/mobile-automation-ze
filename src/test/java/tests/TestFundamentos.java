@@ -5,7 +5,7 @@ import pages.*;
 
 public class TestFundamentos extends BaseClass{
 
-    @Test
+    @Test(enabled = false)
     public void fundamentosTest(){
         IntroductionPage.clickSkip();
         CreateAccountPage.clickToLogin();

@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import tests.BaseClass;
 
 
-public abstract class PlayerPage extends BaseClass {
+public class PlayerPage extends BaseClass {
 
     public static void skipAudio(){
         click(By.id(PlayerComponents.idBtnSkipAudio), "[CLOSE PLAYER]", 1);

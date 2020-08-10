@@ -5,7 +5,7 @@ import pages.*;
 
 public class TestGeral extends BaseClass{
 
-    @Test
+    @Test(enabled = false)
     public void testGeral(){
         IntroductionPage.clickSkip();
         CreateAccountPage.clickToLogin();

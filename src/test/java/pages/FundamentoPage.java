@@ -7,7 +7,7 @@ import components.PracticesComponents;
 import org.openqa.selenium.By;
 import tests.BaseClass;
 
-public abstract class FundamentoPage extends BaseClass {
+public class FundamentoPage extends BaseClass {
 
     public static void scrollScreenFundamentos(){
         log("[SCROLL SCREEN FUNDAMENTOS]");

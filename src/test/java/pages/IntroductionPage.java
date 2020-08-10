@@ -4,7 +4,7 @@ import components.IntroductionComponents;
 import org.openqa.selenium.By;
 import tests.BaseClass;
 
-public abstract class IntroductionPage extends BaseClass {
+public class IntroductionPage extends BaseClass {
 
     public static void clickSkip(){
         pause(10);

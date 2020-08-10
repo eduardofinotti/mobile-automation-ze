@@ -6,7 +6,7 @@ import components.CultivandoHabitoComponents;
 import org.openqa.selenium.By;
 import tests.BaseClass;
 
-public abstract class CultivandoHabitoPage extends BaseClass {
+public class CultivandoHabitoPage extends BaseClass {
 
     public static void clickDayOneCultivandoHabito() {
         log("[CLICK DAY ONE]");

@@ -6,7 +6,9 @@ import components.CultivandoHabitoComponents;
 import org.openqa.selenium.By;
 import tests.BaseClass;
 
-public abstract class CaminhoPage extends BaseClass {
+public class CaminhoPage extends BaseClass {
+
+    private CaminhoPage(){};
 
     public static void clickDayOneCaminho() {
         log("[CLICK DAY ONE CAMINHO]");

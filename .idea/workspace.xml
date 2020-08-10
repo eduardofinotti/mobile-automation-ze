@@ -26,27 +26,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="477ca8ad-e5ff-4c24-a9dc-119837592ebe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestFundamentos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/lojong-android-tester.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lojong-android-tester.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/components/LanguageComponents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/components/MenuComponents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/components/PurchaseComponents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LanguagePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/MenuPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/PurchasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestLang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestPurchase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lojong_android.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/InputPages/BaseClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/InputPages/ILogLevel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/InputPages/IValues.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/InputPages/Page.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/InputPages/TestCore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/InputPages/WicketBy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObject/LoginPageObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/components/CommonComponents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/components/CommonComponents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/components/MainComponents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/components/MainComponents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CaminhoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CaminhoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CongratsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CongratsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CreateAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CreateAccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CultivandoHabitoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CultivandoHabitoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/FundamentoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/FundamentoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/InsightPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/InsightPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/IntroductionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/IntroductionPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/FifthScenario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ForthScenario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/QuotesScenario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SecondScenarioTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ThirdScenarioTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/loginTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PlayerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PlayerPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PracticesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PracticesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestFundamentos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestFundamentos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestGeral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestGeral.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestPractices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestPractices.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +79,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../teste/lojong-android-tester" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -94,20 +98,7 @@
       <recent name="C:\Users\codeu\Desktop\lojong-android-tester\src\main\assembly" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestPractices">
-    <configuration name="Funamento" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="components.Funamento" />
-      <module name="lojong-android-tester" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="components.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TestPurchase">
     <configuration name="TestGeral.practicesTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="lojong-android-tester" />
       <useClassPathOnly />
@@ -153,6 +144,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestLang" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="lojong-android-tester" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestLang" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestPractices" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="lojong-android-tester" />
       <extension name="coverage">
@@ -170,7 +178,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPractices.sampleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPurchase" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="lojong-android-tester" />
       <extension name="coverage">
         <pattern>
@@ -179,9 +187,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.TestPractices" />
-      <option name="METHOD_NAME" value="sampleTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestPurchase" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -209,20 +216,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Funamento" />
       <item itemvalue="TestNG.TesteGeral" />
       <item itemvalue="TestNG.TestGeral.practicesTest" />
-      <item itemvalue="TestNG.TestPractices.sampleTest" />
       <item itemvalue="TestNG.TestGeral.testGeral" />
       <item itemvalue="TestNG.TestPractices" />
+      <item itemvalue="TestNG.TestLang" />
+      <item itemvalue="TestNG.TestPurchase" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestPurchase" />
+        <item itemvalue="TestNG.TestLang" />
         <item itemvalue="TestNG.TestPractices" />
         <item itemvalue="TestNG.TestGeral.testGeral" />
         <item itemvalue="TestNG.TestGeral.practicesTest" />
-        <item itemvalue="Application.Funamento" />
-        <item itemvalue="TestNG.TestPractices.sampleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -261,6 +268,10 @@
       <workItem from="1591062243795" duration="7000" />
       <workItem from="1592853904821" duration="1329000" />
       <workItem from="1592856182725" duration="21000" />
+      <workItem from="1594337035684" duration="1321000" />
+      <workItem from="1594338651692" duration="1877000" />
+      <workItem from="1594585381134" duration="8000" />
+      <workItem from="1595685834712" duration="10038000" />
     </task>
     <servers />
   </component>
@@ -309,34 +320,46 @@
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1590677244951" />
     <state x="463" y="119" key="FileChooserDialogImpl/1366.0.1536.832/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1592854519303" />
-    <state width="1323" height="123" key="GridCell.Tab.0.bottom" timestamp="1592855712538">
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1595699857764">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1590696449403" />
+    <state width="1323" height="125" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1366.728@0.0.1366.728" timestamp="1594338975737" />
     <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1590682003935" />
+    <state width="1323" height="225" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.0.1536.824@0.0.1366.728" timestamp="1594338120238" />
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1536.824/-1366.0.1366.728@0.0.1366.728" timestamp="1595699857764" />
     <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589051304026" />
-    <state width="1323" height="123" key="GridCell.Tab.0.bottom/1366.0.1536.832/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1592855712538" />
-    <state width="1323" height="123" key="GridCell.Tab.0.center" timestamp="1592855712537">
+    <state width="1323" height="181" key="GridCell.Tab.0.bottom/1366.0.1536.832/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1594340610649" />
+    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1595699857764">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1590696449403" />
+    <state width="1323" height="125" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1366.728@0.0.1366.728" timestamp="1594338975736" />
     <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1590682003935" />
+    <state width="1323" height="225" key="GridCell.Tab.0.center/0.0.1366.728/-1920.0.1536.824@0.0.1366.728" timestamp="1594338120238" />
+    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1536.824/-1366.0.1366.728@0.0.1366.728" timestamp="1595699857764" />
     <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589051304025" />
-    <state width="1323" height="123" key="GridCell.Tab.0.center/1366.0.1536.832/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1592855712537" />
-    <state width="1323" height="123" key="GridCell.Tab.0.left" timestamp="1592855712537">
+    <state width="1323" height="181" key="GridCell.Tab.0.center/1366.0.1536.832/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1594340610649" />
+    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1595699857764">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1590696449402" />
+    <state width="1323" height="125" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1366.728@0.0.1366.728" timestamp="1594338975736" />
     <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1590682003935" />
+    <state width="1323" height="225" key="GridCell.Tab.0.left/0.0.1366.728/-1920.0.1536.824@0.0.1366.728" timestamp="1594338120238" />
+    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1536.824/-1366.0.1366.728@0.0.1366.728" timestamp="1595699857764" />
     <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589051304025" />
-    <state width="1323" height="123" key="GridCell.Tab.0.left/1366.0.1536.832/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1592855712537" />
-    <state width="1323" height="123" key="GridCell.Tab.0.right" timestamp="1592855712537">
+    <state width="1323" height="181" key="GridCell.Tab.0.left/1366.0.1536.832/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1594340610649" />
+    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1595699857764">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1590696449403" />
+    <state width="1323" height="125" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1366.728@0.0.1366.728" timestamp="1594338975737" />
     <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1590682003935" />
+    <state width="1323" height="225" key="GridCell.Tab.0.right/0.0.1366.728/-1920.0.1536.824@0.0.1366.728" timestamp="1594338120238" />
+    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1536.824/-1366.0.1366.728@0.0.1366.728" timestamp="1595699857764" />
     <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589051304025" />
-    <state width="1323" height="123" key="GridCell.Tab.0.right/1366.0.1536.832/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1592855712537" />
+    <state width="1323" height="181" key="GridCell.Tab.0.right/1366.0.1536.832/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1594340610649" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1590681918971">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -361,10 +384,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="691" height="372" key="XDebugger.FullValuePopup/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1588254670070" />
-    <state x="-1223" y="0" width="907" height="715" maximized="true" key="dock-window-1" timestamp="1589211945870">
+    <state x="-1071" y="-8" width="961" height="715" maximized="true" key="dock-window-1" timestamp="1595698926780">
       <screen x="-1366" y="0" width="1366" height="728" />
     </state>
     <state x="-1223" y="0" width="907" height="715" maximized="true" key="dock-window-1/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1589211945870" />
+    <state x="-1071" y="-8" width="961" height="715" maximized="true" key="dock-window-1/0.0.1366.728/1366.0.1536.824/-1366.0.1366.728@0.0.1366.728" timestamp="1595698926780" />
     <state x="390" y="99" width="585" height="530" key="find.popup" timestamp="1589035760914">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -5,7 +5,7 @@ import components.MainComponents;
 import org.openqa.selenium.By;
 import tests.BaseClass;
 
-public abstract class InsightPage extends BaseClass {
+public class InsightPage extends BaseClass {
 
     public static void scrollToBottomVideos() {
         scrollToText(InsightComponents.textFinalVideo);
@@ -35,7 +35,6 @@ public abstract class InsightPage extends BaseClass {
     public static void clickCitacoes() {
         clickByText(InsightComponents.textCitacoes, "[CLICK CITAÇÕES]", 5);
         captureScreenshot();
-
     }
 
     public static void scrollToBottomCitacoes() {

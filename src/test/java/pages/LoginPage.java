@@ -6,14 +6,13 @@ import components.LoginComponents;
 import org.openqa.selenium.By;
 import tests.BaseClass;
 
-public abstract class LoginPage extends BaseClass {
+public class LoginPage extends BaseClass {
 
-    public static String email = "douglas2@lojongapp.com";
+    public static String email = "testcompra@gmail.com";
     public static String password = "1234";
 
     public static void enterEmail() {
         sendKeys(By.id(LoginComponents.idBtnEmail), email, 3, email);
-
     }
 
     public static void enterPassword() {

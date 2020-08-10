@@ -6,7 +6,7 @@ import components.PracticesComponents;
 import org.openqa.selenium.By;
 import tests.BaseClass;
 
-public abstract class PracticesPage extends BaseClass {
+public class PracticesPage extends BaseClass {
 
     public static void scrollToBottom() {
         scrollToId(PracticesComponents.cardInstagram);
