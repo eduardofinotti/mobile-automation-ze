@@ -14,7 +14,7 @@ public class LanguagePage extends BaseClass {
         pause(5);
         if(waitForElementDisplayed(By.id(LanguageComponents.idBtnPortuguese))){
             click(By.id(LanguageComponents.idBtnPortuguese), "[CLICK PORTUGUESE]", 5);
-            captureScreenshot();
+            //captureScreenshot();
         }
     }
 
@@ -24,7 +24,7 @@ public class LanguagePage extends BaseClass {
         pause(5);
         if(waitForElementDisplayed(By.id(LanguageComponents.idBtnSpanish))){
             click(By.id(LanguageComponents.idBtnSpanish), "[CLICK SPANISH]", 5);
-            captureScreenshot();
+           // captureScreenshot();
         }
     }
 

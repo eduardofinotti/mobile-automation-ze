@@ -16,7 +16,7 @@ public class MainPage extends BaseClass {
     public static void clickMenu(){
         if(waitForElementDisplayed(By.id(MainComponents.idBtnMain))){
             click(By.id(MainComponents.idBtnMain), "[CLICK MENU]", 5);
-            captureScreenshot();
+           // captureScreenshot();
         }
     }
 }

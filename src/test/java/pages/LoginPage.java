@@ -22,7 +22,7 @@ public class LoginPage extends BaseClass {
     public static void clickLogin(){
         if(waitForElementDisplayed(By.xpath(LoginComponents.xpathEnterButton))){
             click(By.xpath(LoginComponents.xpathEnterButton), "[DO LOGIN ]", 15);
-            captureScreenshot();
+            //captureScreenshot();
         }
     }
 

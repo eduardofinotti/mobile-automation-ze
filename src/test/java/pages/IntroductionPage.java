@@ -10,7 +10,7 @@ public class IntroductionPage extends BaseClass {
         pause(10);
         if(waitForElementDisplayed(By.id(IntroductionComponents.idBtnSkip))){
             click(By.id(IntroductionComponents.idBtnSkip), "[Skip] button", 5);
-            captureScreenshot();
+            //captureScreenshot();
         }
     }
 }
