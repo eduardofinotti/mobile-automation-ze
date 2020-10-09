@@ -1,62 +1,41 @@
 package pages;
 
-import components.CommonComponents;
-import components.MainComponents;
-import components.PurchaseComponents;
-import io.appium.java_client.android.AndroidKeyCode;
-import org.openqa.selenium.By;
-import tests.BaseClass;
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.pagefactory.AndroidFindBy;
+import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import io.appium.java_client.pagefactory.iOSXCUITFindBy;
+import org.openqa.selenium.support.PageFactory;
+import hooks.BaseClass;
 
 public class PurchasePage extends BaseClass {
 
-    public static void clickBtnAds(){
-        if(waitForElementDisplayed(By.id(PurchaseComponents.idActiveAds))){
-            click(By.id(PurchaseComponents.idActiveAds), "[CLICK BTN ADS]", 5);
-            captureScreenshot();
-        }
-    }
-    public static void clickOption1(){
-        if(waitForElementDisplayed(By.id(PurchaseComponents.idOption1))){
-            click(By.id(PurchaseComponents.idOption1), "[CLICK OPTION1]", 5);
-            captureScreenshot();
-        }
-    }
-    public static void clickOption2(){
-        if(waitForElementDisplayed(By.id(PurchaseComponents.idOption2))){
-            click(By.id(PurchaseComponents.idOption2), "[CLICK OPTION2]", 5);
-            captureScreenshot();
-        }
-    }
-    public static void clickOption3(){
-        if(waitForElementDisplayed(By.id(PurchaseComponents.idOption3))){
-            click(By.id(PurchaseComponents.idOption3), "[CLICK OPTION3]", 5);
-            captureScreenshot();
-        }
-    }
-    public static void clickOption4(){
-        if(waitForElementDisplayed(By.id(PurchaseComponents.idOption1))){
-            click(By.id(PurchaseComponents.idOption4), "[CLICK OPTION4]", 5);
-            captureScreenshot();
-        }
-    }
-    public static void clickOption5(){
-        if(waitForElementDisplayed(By.id(PurchaseComponents.idOption5))){
-            click(By.id(PurchaseComponents.idOption5), "[CLICK OPTION5]", 5);
-            captureScreenshot();
-        }
+    public PurchasePage() {
+        AppiumDriver driver = new BaseClass().driver.get();
+        PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
-    public static void backPage(){
-        if(waitForElementDisplayed(By.id(CommonComponents.idBtnBack))){
-            click(By.id(CommonComponents.idBtnBack), "[CLICK BACK]", 5);
-            captureScreenshot();
-        }
-    }
+    @AndroidFindBy(id = "btn_adsactivate")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement idActiveAds;
 
-    public static void clickNext(){
-        if(waitForElementDisplayed(By.id(CommonComponents.idBtnNext))){
-            click(By.id(CommonComponents.idBtnNext), "[CLICK NEXT]", 10);
-            captureScreenshot();
-        }
-    }
+    @AndroidFindBy(id = "option_1")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement idOption1;
+
+    @AndroidFindBy(id = "option_2")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement idOption2;
+
+    @AndroidFindBy(id = "option_3")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement idOption3;
+
+    @AndroidFindBy(id = "option_4")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement idOption4;
+
+    @AndroidFindBy(id = "option_5")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement idOption5;
 }

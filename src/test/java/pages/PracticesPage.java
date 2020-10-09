@@ -1,43 +1,42 @@
 package pages;
 
-import components.CreateAccountComponents;
-import components.LoginComponents;
-import components.PracticesComponents;
-import org.openqa.selenium.By;
-import tests.BaseClass;
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.pagefactory.AndroidFindBy;
+import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import io.appium.java_client.pagefactory.iOSXCUITFindBy;
+import org.openqa.selenium.support.PageFactory;
+import hooks.BaseClass;
+import utils.Utils;
 
-public class PracticesPage extends BaseClass {
+public class PracticesPage extends Utils {
 
-    public static void scrollToBottom() {
-        scrollToId(PracticesComponents.cardInstagram);
-        captureScreenshot();
+    public PracticesPage() {
+        AppiumDriver driver = new BaseClass().driver.get();
+        PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
-    public static void scrollToTop() {
-        scrollToId(PracticesComponents.idTopPrac);
-        captureScreenshot();
-    }
+    @AndroidFindBy(id = "ivPurchase")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement idBottomPrac;
 
-    public static void scrollAndClickCultivandoHabitoPT() {
-        log("[CLICK CULTIVANDO O HÁBITO]");
-        scrollToTextClick(PracticesComponents.textCultivandoHabitoPT);
-        pause(4);
-        captureScreenshot();
-    }
+    @AndroidFindBy(id = "cardInstagram")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement cardInstagram;
 
-    public static void scrollAndClickCaminhoPT() {
-        log("[CLICK CAMINHO]");
-        scrollToTextClick(PracticesComponents.textCaminhoPT);
-        pause(4);
-        captureScreenshot();
-    }
+    @AndroidFindBy(id = "tvrecommando_text")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement idTopPrac;
 
-    public static void scrollAndClickFundamentosPT() {
-        log("[CLICK FUNDAMENTOS]");
-        scrollToTextClick(PracticesComponents.textFundamentosPT);
-        pause(4);
-        captureScreenshot();
-    }
+    @AndroidFindBy(xpath = "//*[contains(@text,'31 DIAS • PROGRAMA')]")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement textFundamentosPT;
 
+    @AndroidFindBy(xpath = "//*[contains(@text,'21 dias de meditação começando com práticas de 10 minutos.')]")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement textCultivandoHabitoPT;
 
+    @AndroidFindBy(xpath = "//*[contains(@text,'Cultivando relaxamento, foco, clareza e felicidade genuína.')]")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement textCaminhoPT;
 }

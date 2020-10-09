@@ -8,18 +8,26 @@ import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 import org.openqa.selenium.support.PageFactory;
 import hooks.BaseClass;
 
-public class MainPage extends BaseClass {
+public class CommonPage extends BaseClass {
 
-    public MainPage() {
+    public CommonPage() {
         AppiumDriver driver = new BaseClass().driver.get();
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
-    @AndroidFindBy(id = "llInsight")
+    @AndroidFindBy(id = "btn_premium_dialog")
     @iOSXCUITFindBy(id = "Permitir")
-    public static MobileElement idBtnInsight;
+    public static MobileElement idstartPracticePremmium;
 
-    @AndroidFindBy(id = "llMain")
+    @AndroidFindBy(id = "ivLeftIcon")
     @iOSXCUITFindBy(id = "Permitir")
-    public static MobileElement idBtnMain;
+    public static MobileElement idCloseBtn;
+
+    @AndroidFindBy(id = "btn_continue")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement idBtnNext;
+
+    @AndroidFindBy(id = "ivRightIcon")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement idBtnBack;
 }

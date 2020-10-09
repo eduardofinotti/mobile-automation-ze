@@ -1,15 +1,19 @@
 package tests;
 
-import components.LanguageComponents;
+import hooks.PageFactory;
 import org.testng.annotations.Test;
-import pages.*;
+import pages.LanguagePage;
+import utils.Utils;
 
-public class TestLang extends BaseClass{
+public class TestLang extends Utils {
+
     @Test(enabled = false)
-    public void langTest(){
-        LanguagePage.clickPortuguese();
-        LanguagePage.backPage();
-        LanguagePage.clickSpanish();
+    public void langTest() {
+        PageFactory.initPages();
+
+        clickOn(LanguagePage.idBtnPortuguese);
+        Utils.back();
+        clickOn(LanguagePage.idBtnSpanish);
     }
 
 }

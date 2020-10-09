@@ -1,23 +1,33 @@
 package tests;
 
+import hooks.PageFactory;
 import org.testng.annotations.Test;
 import pages.*;
+import utils.Utils;
 
-public class TestFundamentos extends BaseClass{
+public class TestFundamentos extends Utils {
 
-    @Test(enabled = false)
-    public void fundamentosTest(){
-        IntroductionPage.clickSkip();
-        CreateAccountPage.clickToLogin();
-        LoginPage.enterEmail();
-        LoginPage.enterPassword();
-        LoginPage.clickLogin();
-        PracticesPage.scrollAndClickFundamentosPT();
+    @Test(enabled = true)
+    public void fundamentosTest() throws InterruptedException {
+
+        PageFactory.initPages();
+
+        clickOn(IntroductionPage.btSkip);
+        clickOn(CreateAccountPage.idBtnToLogin);
+
+        LoginPage.doLoginEmail();
+
+        Utils.scrollToElement("down", PracticesPage.textFundamentosPT);
+        clickOn(PracticesPage.textFundamentosPT);
+
         FundamentoPage.scrollScreenFundamentos();
-        FundamentoPage.clickDayOneFundamentos();
-        FundamentoPage.clickStartDayOneFundamentosPlay1();
-        FundamentoPage.clickStartDayOneFundamentos();
-        FundamentoPage.skipAudioDayOne1();
-        FundamentoPage.finishPracticeFundamentos();
+
+        clickOn(FundamentoPage.idDayOne);
+        clickOn(FundamentoPage.idDayPlay1);
+        clickOn(FundamentoPage.idstartPracticePremmium);
+
+        FundamentoPage.skipAudio();
+
+        clickOn(CongratsPage.idBtnCancel);
     }
 }

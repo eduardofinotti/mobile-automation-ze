@@ -1,25 +1,45 @@
 package pages;
 
-import components.PlayerComponents;
-import org.openqa.selenium.By;
-import tests.BaseClass;
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.pagefactory.AndroidFindBy;
+import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import io.appium.java_client.pagefactory.iOSXCUITFindBy;
+import org.openqa.selenium.support.PageFactory;
+import hooks.BaseClass;
+import utils.Utils;
 
+public class PlayerPage extends Utils {
 
-public class PlayerPage extends BaseClass {
-
-    public static void skipAudio(){
-        click(By.id(PlayerComponents.idBtnSkipAudio), "[CLOSE PLAYER]", 1);
-        log("SKIP");
+    public PlayerPage() {
+        AppiumDriver driver = new BaseClass().driver.get();
+        PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
+
+    @AndroidFindBy(id = "ivForward")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement idBtnSkipAudio;
+
+    @AndroidFindBy(xpath = "//android.widget.LinearLayout[@content-desc = 'Rewind 10 secs']")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement xpathBtnSkeepAudio;
+
+    @AndroidFindBy(id = "ivLeftIcon")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement idCloseBtn;
+
+    @AndroidFindBy(id = "android:id/button1")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement idYesCloseBtn;
+
 
     public static void closePalyer() {
-        if (waitForElementDisplayed(By.id(PlayerComponents.idCloseBtn))) {
-            click(By.id(PlayerComponents.idCloseBtn), "[CLOSE PLAYER]", 5);
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
-    }
-    public static void confirmClosePalyer() {
-        if (waitForElementDisplayed(By.id(PlayerComponents.idYesCloseBtn))) {
-            click(By.id(PlayerComponents.idYesCloseBtn), "[CONFIRM CLOSE PLAYER]", 5);
-        }
+        clickOn(idCloseBtn);
+        clickOn(idYesCloseBtn);
     }
 }

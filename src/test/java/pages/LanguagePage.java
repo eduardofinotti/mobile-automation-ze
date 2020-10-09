@@ -1,35 +1,25 @@
 package pages;
 
-import components.IntroductionComponents;
-import components.LanguageComponents;
-import io.appium.java_client.android.AndroidKeyCode;
-import org.openqa.selenium.By;
-import tests.BaseClass;
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.pagefactory.AndroidFindBy;
+import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import io.appium.java_client.pagefactory.iOSXCUITFindBy;
+import org.openqa.selenium.support.PageFactory;
+import hooks.BaseClass;
 
 public class LanguagePage extends BaseClass {
 
-    public static void clickPortuguese(){
-        pause(5);
-        captureScreenshot();
-        pause(5);
-        if(waitForElementDisplayed(By.id(LanguageComponents.idBtnPortuguese))){
-            click(By.id(LanguageComponents.idBtnPortuguese), "[CLICK PORTUGUESE]", 5);
-            //captureScreenshot();
-        }
+    public LanguagePage() {
+        AppiumDriver driver = new BaseClass().driver.get();
+        PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
-    public static void clickSpanish(){
-        pause(5);
-        captureScreenshot();
-        pause(5);
-        if(waitForElementDisplayed(By.id(LanguageComponents.idBtnSpanish))){
-            click(By.id(LanguageComponents.idBtnSpanish), "[CLICK SPANISH]", 5);
-           // captureScreenshot();
-        }
-    }
+    @AndroidFindBy(id = "btnPortuguese")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement idBtnPortuguese;
 
-    public static void backPage(){
-        driver.pressKeyCode(AndroidKeyCode.BACK);
-    }
-
+    @AndroidFindBy(id = "btnSpanish")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement idBtnSpanish;
 }
