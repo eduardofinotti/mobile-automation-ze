@@ -1,16 +1,27 @@
 package pages;
 
-import components.CreateAccountComponents;
-import components.IntroductionComponents;
-import org.openqa.selenium.By;
-import tests.BaseClass;
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.pagefactory.AndroidFindBy;
+import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import io.appium.java_client.pagefactory.iOSXCUITFindBy;
+import org.openqa.selenium.support.PageFactory;
+import hooks.BaseClass;
+import utils.Utils;
 
-public class CreateAccountPage extends BaseClass {
+public class CreateAccountPage extends Utils {
 
-    public static void clickToLogin(){
-        if(waitForElementDisplayed(By.id(CreateAccountComponents.idBtnToLogin))){
-            click(By.id(CreateAccountComponents.idBtnToLogin), "[TO LOGIN PAGE]", 5);
-            //captureScreenshot();
-        }
+    public CreateAccountPage() {
+        AppiumDriver driver = new BaseClass().driver.get();
+        PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
+
+    @AndroidFindBy(id = "btnAlreadyAccount")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement idBtnToLogin;
+
+    @AndroidFindBy(id = "btnCreateAccount")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement idBtnCreateAccount;
+
 }

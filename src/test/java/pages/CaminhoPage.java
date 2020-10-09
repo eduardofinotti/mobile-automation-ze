@@ -1,46 +1,25 @@
 package pages;
 
-import components.CaminhoComponents;
-import components.CommonComponents;
-import components.CultivandoHabitoComponents;
-import org.openqa.selenium.By;
-import tests.BaseClass;
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.pagefactory.AndroidFindBy;
+import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import io.appium.java_client.pagefactory.iOSXCUITFindBy;
+import org.openqa.selenium.support.PageFactory;
+import hooks.BaseClass;
 
 public class CaminhoPage extends BaseClass {
 
-    private CaminhoPage(){};
-
-    public static void clickDayOneCaminho() {
-        log("[CLICK DAY ONE CAMINHO]");
-        if (waitForElementDisplayed(By.id(CaminhoComponents.idDayOne))) {
-            click(By.id(CaminhoComponents.idDayOne), "[START DAY ONE CAMINHO]", 5);
-            captureScreenshot();
-        }
+    public CaminhoPage() {
+        AppiumDriver driver = new BaseClass().driver.get();
+        PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
-    public static void clickStartDayOneCaminhoPlay1() {
-        if (waitForElementDisplayed(By.id(CaminhoComponents.idDayPlay1))) {
-            click(By.id(CaminhoComponents.idDayPlay1), "[START DAY ONE CAMINHO 1]", 5);
-            captureScreenshot();
-        }
-    }
+    @AndroidFindBy(id = "ivIconWay1")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement idDayOne;
 
-    public static void clickStartDayOneCaminho() {
-        if (waitForElementDisplayed(By.id(CommonComponents.idstartPracticePremmium))) {
-            click(By.id(CommonComponents.idstartPracticePremmium), "[START DAY ONE CAMINHO]", 10);
-            captureScreenshot();
-        }
-    }
-
-    public static void closePlayerCaminho() {
-        PlayerPage.closePalyer();
-        PlayerPage.confirmClosePalyer();
-    }
-
-    public static void closeCaminho() {
-        if (waitForElementDisplayed(By.id(CommonComponents.idCloseBtn))) {
-            click(By.id(CommonComponents.idCloseBtn), "[CLOSE CAMINHO]", 10);
-            captureScreenshot();
-        }
-    }
+    @AndroidFindBy(id = "ivPlay")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement idDayPlay1;
 }

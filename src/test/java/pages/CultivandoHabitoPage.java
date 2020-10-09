@@ -1,41 +1,27 @@
 package pages;
 
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.pagefactory.AndroidFindBy;
+import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import io.appium.java_client.pagefactory.iOSXCUITFindBy;
+import org.openqa.selenium.support.PageFactory;
+import hooks.BaseClass;
+import utils.Utils;
 
-import components.CommonComponents;
-import components.CultivandoHabitoComponents;
-import org.openqa.selenium.By;
-import tests.BaseClass;
+public class CultivandoHabitoPage extends Utils {
 
-public class CultivandoHabitoPage extends BaseClass {
-
-    public static void clickDayOneCultivandoHabito() {
-        log("[CLICK DAY ONE]");
-        scrollToTextClickHorizontal(CultivandoHabitoComponents.textCultivandoHabitoDayOne);
-        captureScreenshot();
+    public CultivandoHabitoPage() {
+        AppiumDriver driver = new BaseClass().driver.get();
+        PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
+    @AndroidFindBy(xpath = "//*[@text='1']")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement textCultivandoHabitoDayOne;
 
-    public static void clickStartDayOneCultivandoHabito() {
-        if (waitForElementDisplayed(By.id(CultivandoHabitoComponents.startPractice))) {
-            click(By.id(CultivandoHabitoComponents.startPractice), "[START DAY ONE]", 10);
-            captureScreenshot();
-        }
-    }
-
-    public static void skeepAudioDayOne() {
-        PlayerPage.skipAudio();
-    }
-
-    public static void closePlayerCultivandoHabito() {
-        PlayerPage.closePalyer();
-        PlayerPage.confirmClosePalyer();
-    }
-
-    public static void closeCultivandoHabito() {
-        if (waitForElementDisplayed(By.id(CommonComponents.idCloseBtn))) {
-            click(By.id(CommonComponents.idCloseBtn), "[CLOSE CULTIVANDO HÁBITO]", 5);
-            captureScreenshot();
-        }
-    }
+    @AndroidFindBy(id = "rlpracticeplay_button")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement startPractice;
 
 }

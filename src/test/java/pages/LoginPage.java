@@ -1,29 +1,43 @@
 package pages;
 
-import components.CreateAccountComponents;
-import components.IntroductionComponents;
-import components.LoginComponents;
-import org.openqa.selenium.By;
-import tests.BaseClass;
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.pagefactory.AndroidFindBy;
+import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import io.appium.java_client.pagefactory.iOSXCUITFindBy;
+import org.openqa.selenium.support.PageFactory;
+import hooks.BaseClass;
+import utils.Utils;
 
-public class LoginPage extends BaseClass {
+public class LoginPage extends Utils {
 
-    public static String email = "testcompra@gmail.com";
+    public static String emailPremium = "testcompra@gmail.com";
+    public static String email = "eduardo.finotti.ef@gmail.com";
     public static String password = "1234";
 
-    public static void enterEmail() {
-        sendKeys(By.id(LoginComponents.idBtnEmail), email, 3, email);
+    public LoginPage() {
+        AppiumDriver driver = new BaseClass().driver.get();
+        PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
-    public static void enterPassword() {
-        sendKeys(By.id(LoginComponents.idBtnPassword), password, 3, password);
-    }
+    @AndroidFindBy(id = "etEmail")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement idBtnEmail;
 
-    public static void clickLogin(){
-        if(waitForElementDisplayed(By.xpath(LoginComponents.xpathEnterButton))){
-            click(By.xpath(LoginComponents.xpathEnterButton), "[DO LOGIN ]", 15);
-            //captureScreenshot();
-        }
+    @AndroidFindBy(id = "etPassword")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement idBtnPassword;
+
+    @AndroidFindBy(xpath = "(//android.widget.Button[@index='0'])[1]")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement xpathEnterButton;
+
+    public static void doLoginEmail() throws InterruptedException {
+        Thread.sleep(1000);
+        fillField(LoginPage.idBtnEmail, LoginPage.emailPremium);
+        Thread.sleep(1000);
+        fillField(LoginPage.idBtnPassword, LoginPage.password);
+        clickOn(LoginPage.xpathEnterButton);
     }
 
 }

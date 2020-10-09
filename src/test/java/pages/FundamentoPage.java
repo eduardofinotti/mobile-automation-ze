@@ -1,71 +1,56 @@
 package pages;
 
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.pagefactory.AndroidFindBy;
+import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import io.appium.java_client.pagefactory.iOSXCUITFindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import hooks.BaseClass;
+import utils.Utils;
 
-import components.CommonComponents;
-import components.FundamentosComponents;
-import components.PracticesComponents;
-import org.openqa.selenium.By;
-import tests.BaseClass;
+public class FundamentoPage extends Utils {
 
-public class FundamentoPage extends BaseClass {
+    private static Logger log = LoggerFactory.getLogger(FundamentoPage.class);
 
-    public static void scrollScreenFundamentos(){
-        log("[SCROLL SCREEN FUNDAMENTOS]");
-        scrollToId(FundamentosComponents.idLastDay);
-        captureScreenshot();
-        scrollToId(FundamentosComponents.idDayOne);
-        captureScreenshot();
+    public FundamentoPage() {
+        AppiumDriver driver = new BaseClass().driver.get();
+        PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
-    public static void clickDayOneFundamentos() {
-        log("[CLICK DAY ONE FUNDAMENTOS]");
-        if (waitForElementDisplayed(By.id(FundamentosComponents.idDayOne))) {
-            click(By.id(FundamentosComponents.idDayOne), "[START DAY ONE FUNDAMENTOS]", 5);
-            captureScreenshot();
+    @AndroidFindBy(xpath = "//*[@text='Dia 1']")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement idDayOne;
+
+    @AndroidFindBy(xpath = "//*[contains(@text,'Dia 31')]")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement idLastDay;
+
+    @AndroidFindBy(id = "ivPlay")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement idDayPlay1;
+
+    @AndroidFindBy(id = "btn_premium_dialog")
+    @iOSXCUITFindBy(id = "Permitir")
+    public static MobileElement idstartPracticePremmium;
+
+    public static void scrollScreenFundamentos() {
+        FundamentoPage fundamentoPage = new FundamentoPage();
+        Utils.scrollToElement("up long", fundamentoPage.idLastDay);
+        Utils.scrollToElement("down long", fundamentoPage.idDayOne);
+    }
+
+    public static void skipAudio() {
+        PlayerPage playerPage = new PlayerPage();
+        for (int i = 0; i < 10; i++) {
+            try{
+                clickOn(playerPage.idBtnSkipAudio);
+            } catch (Exception error) {
+                log.error("ERRO: Skip audio não está na tela.");
+            }
         }
     }
 
-    public static void clickStartDayOneFundamentosPlay1() {
-        if (waitForElementDisplayed(By.id(CommonComponents.idDayPlay1))) {
-            click(By.id(CommonComponents.idDayPlay1), "[START DAY ONE FUNDAMENTOS 1]", 5);
-            captureScreenshot();
-        }
-    }
-
-    public static void clickStartDayOneFundamentos() {
-        if (waitForElementDisplayed(By.id(CommonComponents.idstartPracticePremmium))) {
-            click(By.id(CommonComponents.idstartPracticePremmium), "[START DAY ONE FUNDAMENTOS]", 10);
-            captureScreenshot();
-        }
-    }
-
-    public static void skipAudioDayOne1() {
-        PlayerPage.skipAudio();
-        PlayerPage.skipAudio();
-        PlayerPage.skipAudio();
-        PlayerPage.skipAudio();
-        PlayerPage.skipAudio();
-        PlayerPage.skipAudio();
-        pause(60);
-    }
-    public static void nextPracticeFundamentos() {
-        CongratsPage.nextPratice();
-    }
-    public static void finishPracticeFundamentos() {
-        captureScreenshot();
-        CongratsPage.finishPratice();
-    }
-
-
-    public static void closePlayerFundamentos() {
-        PlayerPage.closePalyer();
-        PlayerPage.confirmClosePalyer();
-    }
-
-    public static void closeFundamentos() {
-        if (waitForElementDisplayed(By.id(CommonComponents.idCloseBtn))) {
-            click(By.id(CommonComponents.idCloseBtn), "[CLOSE FUNDAMENTOS]", 10);
-            captureScreenshot();
-        }
-    }
 }
