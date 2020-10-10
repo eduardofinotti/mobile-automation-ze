@@ -220,3 +220,203 @@
  INFO main - 2020-10-07 23:55:43.369; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
  INFO main - 2020-10-07 23:55:46.623; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
  INFO main - 2020-10-07 23:55:51.748; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:10:06.835; - hooks.AppiumFactory - Appium running...
+ INFO main - 2020-10-09 14:10:32.172; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-09 14:10:32.172; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-09 14:10:32.172; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-09 14:10:33.850; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btSkip})]
+ INFO main - 2020-10-09 14:10:34.978; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnAlreadyAccount})]
+ INFO main - 2020-10-09 14:10:37.613; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.id: etEmail}) WITH <testcompra@gmail.com>]
+ INFO main - 2020-10-09 14:10:40.255; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.id: etPassword}) WITH <1234>]
+ INFO main - 2020-10-09 14:10:41.347; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: (//android.widget.Button[@index='0'])[1]})]
+ INFO main - 2020-10-09 14:10:48.522; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:10:52.050; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-09 14:10:57.198; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:11:00.590; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-09 14:11:05.918; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:11:09.285; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-09 14:11:14.345; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:11:17.673; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-09 14:11:22.717; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:11:26.056; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-09 14:11:31.172; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:11:34.505; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-09 14:11:39.631; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:11:42.991; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-09 14:11:45.878; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: llInsight})]
+ INFO main - 2020-10-09 14:11:49.295; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:11:52.683; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]})
+ INFO main - 2020-10-09 14:11:58.208; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:12:01.246; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]})
+ INFO main - 2020-10-09 14:12:06.887; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:12:10.197; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]})
+ INFO main - 2020-10-09 14:12:15.771; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:12:19.076; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]})
+ INFO main - 2020-10-09 14:12:24.389; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:12:27.666; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]})
+ INFO main - 2020-10-09 14:12:32.952; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:12:36.181; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]})
+ INFO main - 2020-10-09 14:14:17.727; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'FELICIDADE GENUÍNA')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:14:21.486; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'FELICIDADE GENUÍNA')]})
+ INFO main - 2020-10-09 14:15:21.052; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'FELICIDADE GENUÍNA')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:15:24.382; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'FELICIDADE GENUÍNA')]})
+ INFO main - 2020-10-09 14:15:30.090; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'FELICIDADE GENUÍNA')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:15:43.722; - hooks.AppiumFactory - Appium running...
+ INFO main - 2020-10-09 14:15:52.926; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-09 14:15:52.927; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-09 14:15:52.927; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-09 14:15:54.417; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btSkip})]
+ INFO main - 2020-10-09 14:15:55.413; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnAlreadyAccount})]
+ INFO main - 2020-10-09 14:15:58.123; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.id: etEmail}) WITH <testcompra@gmail.com>]
+ INFO main - 2020-10-09 14:16:01.198; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.id: etPassword}) WITH <1234>]
+ INFO main - 2020-10-09 14:16:02.759; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: (//android.widget.Button[@index='0'])[1]})]
+ INFO main - 2020-10-09 14:16:12.414; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:16:15.941; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-09 14:16:37.149; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:16:40.606; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-09 14:16:45.670; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:16:49.045; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-09 14:16:54.250; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:16:57.810; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-09 14:17:02.844; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:17:06.249; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-09 14:17:11.367; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:17:14.761; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-09 14:17:19.934; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:17:23.319; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-09 14:17:29.730; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'21 dias de meditação começando com práticas de 10 minutos.')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:17:33.100; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'21 dias de meditação começando com práticas de 10 minutos.')]})
+ INFO main - 2020-10-09 14:17:38.564; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'21 dias de meditação começando com práticas de 10 minutos.')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:17:42.263; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'21 dias de meditação começando com práticas de 10 minutos.')]})
+ INFO main - 2020-10-09 14:17:48.013; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'21 dias de meditação começando com práticas de 10 minutos.')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:17:51.540; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'21 dias de meditação começando com práticas de 10 minutos.')]})
+ INFO main - 2020-10-09 14:17:57.121; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'21 dias de meditação começando com práticas de 10 minutos.')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:18:01.448; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'21 dias de meditação começando com práticas de 10 minutos.')]})
+ INFO main - 2020-10-09 14:18:07.235; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'21 dias de meditação começando com práticas de 10 minutos.')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:18:10.957; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'21 dias de meditação começando com práticas de 10 minutos.')]})
+ INFO main - 2020-10-09 14:18:16.654; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'21 dias de meditação começando com práticas de 10 minutos.')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:18:20.368; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'21 dias de meditação começando com práticas de 10 minutos.')]})
+ INFO main - 2020-10-09 14:18:26.017; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'21 dias de meditação começando com práticas de 10 minutos.')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:18:29.616; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'21 dias de meditação começando com práticas de 10 minutos.')]})
+ INFO main - 2020-10-09 14:18:35.479; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'21 dias de meditação começando com práticas de 10 minutos.')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:18:39.097; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'21 dias de meditação começando com práticas de 10 minutos.')]})
+ INFO main - 2020-10-09 14:18:43.509; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //*[contains(@text,'21 dias de meditação começando com práticas de 10 minutos.')]})]
+ INFO main - 2020-10-09 14:18:44.862; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //*[@text='1']})]
+ INFO main - 2020-10-09 14:18:45.578; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: rlpracticeplay_button})]
+ INFO main - 2020-10-09 14:18:53.982; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: ivLeftIcon})]
+ INFO main - 2020-10-09 14:18:54.087; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: android:id/button1})]
+ INFO main - 2020-10-09 14:18:55.119; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: ivLeftIcon})]
+ INFO main - 2020-10-09 14:19:01.784; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //*[contains(@text,'Cultivando relaxamento, foco, clareza e felicidade genuína.')]})]
+ INFO main - 2020-10-09 14:19:02.893; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: ivIconWay1})]
+ INFO main - 2020-10-09 14:19:03.646; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: ivPlay})]
+ INFO main - 2020-10-09 14:19:04.323; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btn_premium_dialog})]
+ INFO main - 2020-10-09 14:19:12.703; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: ivLeftIcon})]
+ INFO main - 2020-10-09 14:19:12.821; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: android:id/button1})]
+ INFO main - 2020-10-09 14:19:13.819; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: ivLeftIcon})]
+ INFO main - 2020-10-09 14:19:14.526; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: ivLeftIcon})]
+ INFO main - 2020-10-09 14:19:19.792; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'31 DIAS • PROGRAMA')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:19:23.429; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'31 DIAS • PROGRAMA')]})
+ INFO main - 2020-10-09 14:19:29.073; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //*[contains(@text,'31 DIAS • PROGRAMA')]})]
+ INFO main - 2020-10-09 14:19:32.528; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Dia 31')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:19:36.128; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Dia 31')]})
+ INFO main - 2020-10-09 14:19:42.006; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Dia 31')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:19:45.454; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Dia 31')]})
+ INFO main - 2020-10-09 14:19:51.140; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Dia 31')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:19:54.526; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Dia 31')]})
+ INFO main - 2020-10-09 14:19:59.825; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Dia 31')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:20:03.222; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Dia 31')]})
+ INFO main - 2020-10-09 14:20:09.012; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Dia 31')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:20:12.378; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Dia 31')]})
+ INFO main - 2020-10-09 14:20:19.043; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[@text='Dia 1']}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:20:22.305; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[@text='Dia 1']})
+ INFO main - 2020-10-09 14:20:27.939; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[@text='Dia 1']}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:20:31.462; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[@text='Dia 1']})
+ INFO main - 2020-10-09 14:20:37.010; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[@text='Dia 1']}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:20:40.292; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[@text='Dia 1']})
+ INFO main - 2020-10-09 14:20:45.950; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[@text='Dia 1']}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:20:49.243; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[@text='Dia 1']})
+ INFO main - 2020-10-09 14:20:54.356; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[@text='Dia 1']}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-09 14:20:57.815; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[@text='Dia 1']})
+ INFO main - 2020-10-09 14:21:01.923; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //*[@text='Dia 1']})]
+ INFO main - 2020-10-09 14:21:02.990; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: ivPlay})]
+ INFO main - 2020-10-09 14:21:03.703; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btn_premium_dialog})]
+ INFO main - 2020-10-09 14:21:47.650; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: ivForward})]
+ INFO main - 2020-10-09 14:23:28.142; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: ivForward})]
+ INFO main - 2020-10-09 14:24:57.713; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: ivForward})]
+ INFO main - 2020-10-09 14:24:58.317; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: ivForward})]
+ INFO main - 2020-10-09 14:25:06.507; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: ivForward}) (tried for 5 second(s) with 100 milliseconds interval)
+ ERROR main - 2020-10-09 14:25:09.662; - pages.FundamentoPage - ERRO: Skip audio não está na tela.
+ INFO main - 2020-10-09 14:25:16.060; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: ivForward}) (tried for 5 second(s) with 100 milliseconds interval)
+ ERROR main - 2020-10-09 14:25:19.192; - pages.FundamentoPage - ERRO: Skip audio não está na tela.
+ INFO main - 2020-10-09 14:25:25.588; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: ivForward}) (tried for 5 second(s) with 100 milliseconds interval)
+ ERROR main - 2020-10-09 14:25:28.721; - pages.FundamentoPage - ERRO: Skip audio não está na tela.
+ INFO main - 2020-10-09 14:25:35.140; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: ivForward}) (tried for 5 second(s) with 100 milliseconds interval)
+ ERROR main - 2020-10-09 14:25:38.289; - pages.FundamentoPage - ERRO: Skip audio não está na tela.
+ INFO main - 2020-10-09 14:25:45.249; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: ivForward}) (tried for 5 second(s) with 100 milliseconds interval)
+ ERROR main - 2020-10-09 14:25:48.794; - pages.FundamentoPage - ERRO: Skip audio não está na tela.
+ INFO main - 2020-10-09 14:25:55.688; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: ivForward}) (tried for 5 second(s) with 100 milliseconds interval)
+ ERROR main - 2020-10-09 14:25:58.739; - pages.FundamentoPage - ERRO: Skip audio não está na tela.
+ INFO main - 2020-10-09 14:25:59.242; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnCancel})]
+ INFO main - 2020-10-09 14:25:59.244; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-09 14:25:59.244; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-09 14:25:59.245; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 14:20:43.100; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 14:20:43.106; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-10 14:20:43.106; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 14:20:50.711; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: btSkip}) (tried for 5 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-10 14:23:04.957; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 14:23:04.961; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-10 14:23:04.961; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 14:23:06.438; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnPortuguese})]
+ INFO main - 2020-10-10 14:23:07.433; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnSpanish})]
+ INFO main - 2020-10-10 14:23:07.435; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 14:23:07.435; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-10 14:23:07.435; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 14:28:57.530; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 14:28:57.535; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-10 14:28:57.536; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 14:28:58.967; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnPortuguese})]
+ INFO main - 2020-10-10 14:29:01.210; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnSpanish})]
+ INFO main - 2020-10-10 14:29:01.213; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 14:29:01.213; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-10 14:29:01.213; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 14:30:01.206; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 14:30:01.210; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-10 14:30:01.211; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 14:30:02.649; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnPortuguese})]
+ INFO main - 2020-10-10 14:30:03.640; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnSpanish})]
+ INFO main - 2020-10-10 14:30:03.642; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 14:30:03.642; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-10 14:30:03.643; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 14:30:48.820; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 14:30:51.640; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-10 14:30:51.640; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 14:30:55.869; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnPortuguese})]
+ INFO main - 2020-10-10 14:31:00.327; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnSpanish})]
+ INFO main - 2020-10-10 14:31:05.649; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 14:31:05.649; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-10 14:31:05.649; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 14:32:03.742; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 14:32:03.747; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-10 14:32:03.747; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 14:32:05.061; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnPortuguese})]
+ INFO main - 2020-10-10 14:32:06.370; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnSpanish})]
+ INFO main - 2020-10-10 14:32:06.374; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 14:32:06.374; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-10 14:32:06.374; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 14:32:58.672; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 14:32:58.675; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-10 14:32:58.676; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 14:32:59.948; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnPortuguese})]
+ INFO main - 2020-10-10 14:33:01.443; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnSpanish})]
+ INFO main - 2020-10-10 14:33:01.445; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 14:33:01.446; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-10 14:33:01.446; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 14:56:41.478; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 14:56:41.487; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-10 14:56:41.488; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 14:56:43.323; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnPortuguese})]
+ INFO main - 2020-10-10 14:56:46.695; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnSpanish})]
+ INFO main - 2020-10-10 14:56:46.699; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 14:56:46.700; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-10 14:56:46.700; - hooks.BaseClass - --------------------------------------------------------

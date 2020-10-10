@@ -11,8 +11,10 @@ import utils.Utils;
 
 public class CongratsPage extends Utils {
 
-    public CongratsPage() {
-        AppiumDriver driver = new BaseClass().driver.get();
+    private AppiumDriver driver;
+
+    public CongratsPage(AppiumDriver driver) {
+        this.driver = driver;
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 

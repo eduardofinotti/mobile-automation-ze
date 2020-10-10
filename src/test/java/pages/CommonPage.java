@@ -10,10 +10,13 @@ import hooks.BaseClass;
 
 public class CommonPage extends BaseClass {
 
-    public CommonPage() {
-        AppiumDriver driver = new BaseClass().driver.get();
+    private AppiumDriver driver;
+
+    public CommonPage(AppiumDriver driver) {
+        this.driver = driver;
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
+
 
     @AndroidFindBy(id = "btn_premium_dialog")
     @iOSXCUITFindBy(id = "Permitir")

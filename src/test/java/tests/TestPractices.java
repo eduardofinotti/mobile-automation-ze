@@ -3,9 +3,7 @@ package tests;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.*;
-import hooks.BaseClass;
 import utils.ListenerUtils;
-import hooks.PageFactory;
 import utils.Utils;
 
 @Listeners(ListenerUtils.class)
@@ -14,50 +12,65 @@ public class TestPractices extends Utils {
     @Test(enabled = true)
     public void practicesTest() throws InterruptedException {
 
-        PageFactory.initPages();
+//        PageFactory.initPages();
+        IntroductionPage introductionPage = new IntroductionPage(driver);
+        CreateAccountPage createAccountPage = new CreateAccountPage(driver);
+        PracticesPage practicesPage = new PracticesPage(driver);
+        LoginPage loginPage = new LoginPage(driver);
+        CommonPage commonPage = new CommonPage(driver);
+        PlayerPage playerPage = new PlayerPage(driver);
+        CultivandoHabitoPage cultivandoHabitoPage = new CultivandoHabitoPage(driver);
+        CaminhoPage caminhoPage = new CaminhoPage(driver);
+        FundamentoPage fundamentoPage = new FundamentoPage(driver);
+        CongratsPage congratsPage = new CongratsPage(driver);
+        LanguagePage languagePage = new LanguagePage(driver);
 
-        clickOn(IntroductionPage.btSkip);
-        clickOn(CreateAccountPage.idBtnToLogin);
+        if (Utils.isElementDisplayed(languagePage.idBtnPortuguese)) {
+            clickOn(languagePage.idBtnPortuguese);
+        }
 
-        LoginPage.doLoginEmail();
+        clickOn(introductionPage.btSkip);
+        clickOn(createAccountPage.idBtnToLogin);
 
-        Utils.scrollToElement("down long", PracticesPage.cardInstagram);
+        loginPage.doLoginEmail();
 
-        Utils.scrollToElement("up long", PracticesPage.textCultivandoHabitoPT);
-        clickOn(PracticesPage.textCultivandoHabitoPT);
+        Utils.scrollToElement("down long", practicesPage.cardInstagram);
+
+        Utils.scrollToElement("up long", practicesPage.textCultivandoHabitoPT);
+        clickOn(practicesPage.textCultivandoHabitoPT);
 
 //        Utils.scrollToElement("down long", CultivandoHabitoPage.textCultivandoHabitoDayOne);
-        clickOn(CultivandoHabitoPage.textCultivandoHabitoDayOne);
-        clickOn(CultivandoHabitoPage.startPractice);
+        clickOn(cultivandoHabitoPage.textCultivandoHabitoDayOne);
+        clickOn(cultivandoHabitoPage.startPractice);
 
-        PlayerPage.closePalyer();
+        playerPage.closePalyer();
 
-        clickOn(CommonPage.idCloseBtn);
+        clickOn(commonPage.idCloseBtn);
 
         Thread.sleep(2000);
         Utils.scroll("down");
-        clickOn(PracticesPage.textCaminhoPT);
+        clickOn(practicesPage.textCaminhoPT);
 
-        clickOn(CaminhoPage.idDayOne);
-        clickOn(CaminhoPage.idDayPlay1);
-        clickOn(CommonPage.idstartPracticePremmium);
+        clickOn(caminhoPage.idDayOne);
+        clickOn(caminhoPage.idDayPlay1);
+        clickOn(commonPage.idstartPracticePremmium);
 
-        PlayerPage.closePalyer();
+        playerPage.closePalyer();
 
-        clickOn(CommonPage.idCloseBtn);
-        clickOn(CommonPage.idCloseBtn);
+        clickOn(commonPage.idCloseBtn);
+        clickOn(commonPage.idCloseBtn);
 
         Thread.sleep(2000);
-        Utils.scrollToElement("down long", PracticesPage.textFundamentosPT);
-        clickOn(PracticesPage.textFundamentosPT);
+        Utils.scrollToElement("down long", practicesPage.textFundamentosPT);
+        clickOn(practicesPage.textFundamentosPT);
 
-        FundamentoPage.scrollScreenFundamentos();
+        fundamentoPage.scrollScreenFundamentos();
 
-        clickOn(FundamentoPage.idDayOne);
-        clickOn(FundamentoPage.idDayPlay1);
-        clickOn(FundamentoPage.idstartPracticePremmium);
+        clickOn(fundamentoPage.idDayOne);
+        clickOn(fundamentoPage.idDayPlay1);
+        clickOn(fundamentoPage.idstartPracticePremmium);
 
-        FundamentoPage.skipAudio();
-        clickOn(CongratsPage.idBtnCancel);
+        fundamentoPage.skipAudio();
+        clickOn(congratsPage.idBtnCancel);
     }
 }

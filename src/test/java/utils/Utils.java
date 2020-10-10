@@ -21,7 +21,7 @@ public class Utils extends BaseClass {
 
     public static boolean waitElementBePresent(MobileElement targetResourceId, int timeLimitInSeconds) {
         try {
-            FluentWait wait = new FluentWait(BaseClass.driver.get()).withTimeout(Duration.ofSeconds(timeLimitInSeconds))
+            FluentWait wait = new FluentWait(driver).withTimeout(Duration.ofSeconds(timeLimitInSeconds))
                     .pollingEvery(Duration.ofMillis(100))
                     .ignoring(NoSuchElementException.class, StaleElementReferenceException.class)
                     .ignoring(TimeoutException.class);
@@ -70,12 +70,12 @@ public class Utils extends BaseClass {
     }
 
     public static void verticalSwipeByPercentages(double startPercentage, double endPercentage, double anchorPercentage) {
-        Dimension size = driver.get().manage().window().getSize();
+        Dimension size = driver.manage().window().getSize();
         int anchor = (int) (size.width * anchorPercentage);
         int startPoint = (int) (size.height * startPercentage);
         int endPoint = (int) (size.height * endPercentage);
 
-        new TouchAction(driver.get())
+        new TouchAction(driver)
                 .longPress(PointOption.point(anchor, startPoint))
                 .moveTo(PointOption.point(anchor, endPoint))
                 .release()
@@ -91,7 +91,7 @@ public class Utils extends BaseClass {
     }
 
     public static void back() {
-        driver.get().navigate().back();
+        driver.navigate().back();
     }
 
     public static void clickOn(MobileElement element) {

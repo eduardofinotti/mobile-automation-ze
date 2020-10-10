@@ -1,6 +1,5 @@
 package tests;
 
-import hooks.PageFactory;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.*;
@@ -13,45 +12,52 @@ public class TestPurchase extends Utils {
     @Test(enabled = true)
     public void purchaseTest() throws InterruptedException {
 
-        PageFactory.initPages();
+//        PageFactory.initPages();
+        IntroductionPage introductionPage = new IntroductionPage(driver);
+        CreateAccountPage createAccountPage = new CreateAccountPage(driver);
+        LoginPage loginPage = new LoginPage(driver);
+        CommonPage commonPage = new CommonPage(driver);
+        MenuPage menuPage = new MenuPage(driver);
+        PurchasePage purchasePage = new PurchasePage(driver);
+        LanguagePage languagePage = new LanguagePage(driver);
 
-        if (Utils.isElementDisplayed(LanguagePage.idBtnPortuguese)) {
-            clickOn(LanguagePage.idBtnPortuguese);
+        if (Utils.isElementDisplayed(languagePage.idBtnPortuguese)) {
+            clickOn(languagePage.idBtnPortuguese);
         }
 
-        clickOn(IntroductionPage.btSkip);
-        clickOn(CreateAccountPage.idBtnToLogin);
+        clickOn(introductionPage.btSkip);
+        clickOn(createAccountPage.idBtnToLogin);
 
-        LoginPage.doLoginEmail();
+        loginPage.doLoginEmail();
 
-        clickOn(MenuPage.textMenuPurchase);
-        clickOn(MenuPage.textMenuPurchase);
-        clickOn(PurchasePage.idActiveAds);
+        clickOn(menuPage.textMenuPurchase);
+        clickOn(menuPage.textMenuPurchase);
+        clickOn(purchasePage.idActiveAds);
 
-        clickOn(PurchasePage.idOption1);
+        clickOn(purchasePage.idOption1);
 
-        clickOn(CommonPage.idBtnNext);
-        clickOn(CommonPage.idBtnBack);
+        clickOn(commonPage.idBtnNext);
+        clickOn(commonPage.idBtnBack);
 
-        clickOn(PurchasePage.idOption2);
+        clickOn(purchasePage.idOption2);
 
-        clickOn(CommonPage.idBtnNext);
-        clickOn(CommonPage.idBtnBack);
+        clickOn(commonPage.idBtnNext);
+        clickOn(commonPage.idBtnBack);
 
-        clickOn(PurchasePage.idOption3);
+        clickOn(purchasePage.idOption3);
 
-        clickOn(CommonPage.idBtnNext);
-        clickOn(CommonPage.idBtnBack);
+        clickOn(commonPage.idBtnNext);
+        clickOn(commonPage.idBtnBack);
 
-        clickOn(PurchasePage.idOption4);
+        clickOn(purchasePage.idOption4);
 
-        clickOn(CommonPage.idBtnNext);
-        clickOn(CommonPage.idBtnBack);
+        clickOn(commonPage.idBtnNext);
+        clickOn(commonPage.idBtnBack);
 
-        clickOn(PurchasePage.idOption5);
+        clickOn(purchasePage.idOption5);
 
-        clickOn(CommonPage.idBtnNext);
-        clickOn(CommonPage.idBtnBack);
+        clickOn(commonPage.idBtnNext);
+        clickOn(commonPage.idBtnBack);
     }
 
 }

@@ -11,8 +11,10 @@ import utils.Utils;
 
 public class CreateAccountPage extends Utils {
 
-    public CreateAccountPage() {
-        AppiumDriver driver = new BaseClass().driver.get();
+    private AppiumDriver driver;
+
+    public CreateAccountPage(AppiumDriver driver) {
+        this.driver = driver;
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 

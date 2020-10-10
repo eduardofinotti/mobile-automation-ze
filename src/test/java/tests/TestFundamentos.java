@@ -1,6 +1,5 @@
 package tests;
 
-import hooks.PageFactory;
 import org.testng.annotations.Test;
 import pages.*;
 import utils.Utils;
@@ -10,24 +9,35 @@ public class TestFundamentos extends Utils {
     @Test(enabled = true)
     public void fundamentosTest() throws InterruptedException {
 
-        PageFactory.initPages();
+//        PageFactory.initPages();
+        IntroductionPage introductionPage = new IntroductionPage(driver);
+        CreateAccountPage createAccountPage = new CreateAccountPage(driver);
+        PracticesPage practicesPage = new PracticesPage(driver);
+        LoginPage loginPage = new LoginPage(driver);
+        FundamentoPage fundamentoPage = new FundamentoPage(driver);
+        CongratsPage congratsPage = new CongratsPage(driver);
+        LanguagePage languagePage = new LanguagePage(driver);
 
-        clickOn(IntroductionPage.btSkip);
-        clickOn(CreateAccountPage.idBtnToLogin);
+        if (Utils.isElementDisplayed(languagePage.idBtnPortuguese)) {
+            clickOn(languagePage.idBtnPortuguese);
+        }
 
-        LoginPage.doLoginEmail();
+        clickOn(introductionPage.btSkip);
+        clickOn(createAccountPage.idBtnToLogin);
 
-        Utils.scrollToElement("down", PracticesPage.textFundamentosPT);
-        clickOn(PracticesPage.textFundamentosPT);
+        loginPage.doLoginEmail();
 
-        FundamentoPage.scrollScreenFundamentos();
+        Utils.scrollToElement("down", practicesPage.textFundamentosPT);
+        clickOn(practicesPage.textFundamentosPT);
 
-        clickOn(FundamentoPage.idDayOne);
-        clickOn(FundamentoPage.idDayPlay1);
-        clickOn(FundamentoPage.idstartPracticePremmium);
+        fundamentoPage.scrollScreenFundamentos();
 
-        FundamentoPage.skipAudio();
+        clickOn(fundamentoPage.idDayOne);
+        clickOn(fundamentoPage.idDayPlay1);
+        clickOn(fundamentoPage.idstartPracticePremmium);
 
-        clickOn(CongratsPage.idBtnCancel);
+        fundamentoPage.skipAudio();
+
+        clickOn(congratsPage.idBtnCancel);
     }
 }

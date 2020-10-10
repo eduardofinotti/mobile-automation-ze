@@ -10,8 +10,10 @@ import hooks.BaseClass;
 
 public class CaminhoPage extends BaseClass {
 
-    public CaminhoPage() {
-        AppiumDriver driver = new BaseClass().driver.get();
+    private AppiumDriver driver;
+
+    public CaminhoPage(AppiumDriver driver) {
+        this.driver = driver;
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
