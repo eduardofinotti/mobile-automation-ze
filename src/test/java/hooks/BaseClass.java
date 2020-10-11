@@ -66,16 +66,30 @@ public class BaseClass {
 
     public static void setCapabilitiesAndroid() {
         try {
-            DesiredCapabilities capabilities = new DesiredCapabilities();
-            capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Google Pixel 2");//note 3- 3204a822185f2173// s3-4df1b3c606d75f11//android//ZY3223FG76
-            capabilities.setCapability("appPackage", "br.com.lojong");
-            capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "ANDROID");
-            capabilities.setCapability(MobileCapabilityType.APP, "/Users/eduardo.finotti/Desktop/app-universal-release.apk");
-            capabilities.setCapability("appActivity", "br.com.lojong.activity.SplashActivity");
-            capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, AutomationName.ANDROID_UIAUTOMATOR2);
+//            DesiredCapabilities capabilities = new DesiredCapabilities();
+////            capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Google Pixel 2");//note 3- 3204a822185f2173// s3-4df1b3c606d75f11//android//ZY3223FG76
+//            capabilities.setCapability("appPackage", "br.com.lojong");
+//            capabilities.setCapability("appActivity", "br.com.lojong.activity.SplashActivity");
+//            capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "android");
+////            capabilities.setCapability(MobileCapabilityType.APP, "/Users/eduardo.finotti/Desktop/app-universal-release.apk");
+//            capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, AutomationName.ANDROID_UIAUTOMATOR2);
+//
+////            driver.set(new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities));
 
-//            driver.set(new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities));
-            driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+            String kobitonServerUrl = "https://unisollus:821a4d4e-b208-4452-bf57-83ba9df8568e@api.kobiton.com/wd/hub";
+
+            DesiredCapabilities capabilities = new DesiredCapabilities();
+            capabilities.setCapability("sessionName", "Automation test session");
+            capabilities.setCapability("sessionDescription", "");
+            capabilities.setCapability("deviceOrientation", "portrait");
+            capabilities.setCapability("captureScreenshots", true);
+            capabilities.setCapability("app", "kobiton-store:85226");
+            capabilities.setCapability("deviceGroup", "KOBITON");
+            capabilities.setCapability("deviceName", "Galaxy Note10+");
+            capabilities.setCapability("platformVersion", "10");
+            capabilities.setCapability("platformName", "Android");
+
+            driver = new AndroidDriver(new URL(kobitonServerUrl), capabilities);
 
         } catch (Exception e) {
             e.printStackTrace();

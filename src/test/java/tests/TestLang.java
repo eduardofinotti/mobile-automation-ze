@@ -1,6 +1,5 @@
 package tests;
 
-import hooks.BaseClass;
 import org.testng.annotations.Test;
 import pages.LanguagePage;
 import utils.Utils;

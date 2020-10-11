@@ -420,3 +420,59 @@
  INFO main - 2020-10-10 14:56:46.699; - hooks.BaseClass - --------------------------------------------------------
  INFO main - 2020-10-10 14:56:46.700; - hooks.BaseClass - ----------------------Test Finish-----------------------
  INFO main - 2020-10-10 14:56:46.700; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 16:04:51.056; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 16:04:51.059; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-10 16:04:51.060; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 16:04:58.010; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnPortuguese})]
+ INFO main - 2020-10-10 16:05:10.379; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnSpanish})]
+ INFO main - 2020-10-10 16:05:10.380; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 16:05:10.381; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-10 16:05:10.381; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 16:45:14.194; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 16:45:14.201; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-10 16:45:14.202; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 16:45:22.040; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnPortuguese})]
+ INFO main - 2020-10-10 16:45:30.151; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnSpanish})]
+ INFO main - 2020-10-10 16:45:30.152; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 16:45:30.153; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-10 16:45:30.153; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 17:04:10.087; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 17:04:10.090; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-10 17:04:10.091; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 17:04:17.666; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnPortuguese})]
+ INFO main - 2020-10-10 17:04:27.496; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnSpanish})]
+ INFO main - 2020-10-10 17:04:27.498; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 17:04:27.498; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-10 17:04:27.498; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 17:10:07.733; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 17:10:07.737; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-10 17:10:07.737; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 17:10:14.665; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnPortuguese})]
+ INFO main - 2020-10-10 17:10:22.726; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnSpanish})]
+ INFO main - 2020-10-10 17:10:22.728; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 17:10:22.728; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-10 17:10:22.728; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 17:15:50.903; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 17:15:50.906; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-10 17:15:50.906; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 17:15:57.882; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnPortuguese})]
+ INFO main - 2020-10-10 17:16:06.547; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnSpanish})]
+ INFO main - 2020-10-10 17:16:06.549; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-10 17:16:06.549; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-10 17:16:06.549; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 13:30:26.097; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 13:30:26.101; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-11 13:30:26.102; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 13:30:33.684; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnPortuguese})]
+ INFO main - 2020-10-11 13:30:43.810; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnSpanish})]
+ INFO main - 2020-10-11 13:30:43.812; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 13:30:43.812; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-11 13:30:43.812; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 13:33:04.544; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 13:33:04.548; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-11 13:33:04.548; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 13:33:12.570; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnPortuguese})]
+ INFO main - 2020-10-11 13:33:22.059; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnSpanish})]
+ INFO main - 2020-10-11 13:33:22.061; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 13:33:22.062; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-11 13:33:22.062; - hooks.BaseClass - --------------------------------------------------------
