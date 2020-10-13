@@ -18,7 +18,7 @@ public class MainPage extends BaseClass {
     }
 
     @AndroidFindBy(id = "llInsight")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(accessibility = "Insight")
     public static MobileElement idBtnInsight;
 
     @AndroidFindBy(id = "llMain")

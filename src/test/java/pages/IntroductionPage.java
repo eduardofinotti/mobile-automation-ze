@@ -18,6 +18,6 @@ public class IntroductionPage extends BaseClass {
     }
 
     @AndroidFindBy(id = "btSkip")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(accessibility = "Continuar com E-mail")
     public static MobileElement btSkip;
 }

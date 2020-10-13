@@ -19,11 +19,11 @@ public class InsightPage extends Utils {
     }
 
     @AndroidFindBy(xpath = "//*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(accessibility = "O QUE É EQUILÍBRIO COGNITIVO?")
     public static MobileElement textFinalVideo;
 
     @AndroidFindBy(xpath = "//*[contains(@text,'FELICIDADE GENUÍNA')]")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(accessibility = "FELICIDADE GENUÍNA")
     public static MobileElement textTopVideo;
 
     @AndroidFindBy(xpath = "//android.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.TextView[1]")
@@ -31,7 +31,7 @@ public class InsightPage extends Utils {
     public static MobileElement textVideos;
 
     @AndroidFindBy(xpath = "//android.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.TextView[2]")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeButton[@name=\"ARTIGOS\"]")
     public static MobileElement textArtigos;
 
     @AndroidFindBy(xpath = "//android.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.TextView[3]")
@@ -43,7 +43,7 @@ public class InsightPage extends Utils {
     public static MobileElement textFinalArtigos;
 
     @AndroidFindBy(xpath = "//*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(accessibility = "UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS")
     public static MobileElement textTopArtigos;
 
     @AndroidFindBy(xpath = "//*[contains(@text,'Phakchok Rinpoche')]")

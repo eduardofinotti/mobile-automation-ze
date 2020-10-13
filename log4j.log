@@ -476,3 +476,512 @@
  INFO main - 2020-10-11 13:33:22.061; - hooks.BaseClass - --------------------------------------------------------
  INFO main - 2020-10-11 13:33:22.062; - hooks.BaseClass - ----------------------Test Finish-----------------------
  INFO main - 2020-10-11 13:33:22.062; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 18:57:15.556; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 18:57:15.560; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-11 18:57:15.560; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 18:57:20.492; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnPortuguese})]
+ INFO main - 2020-10-11 18:57:22.683; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btSkip})]
+ INFO main - 2020-10-11 18:57:25.082; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnAlreadyAccount})]
+ INFO main - 2020-10-11 18:57:30.623; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.id: etEmail}) WITH <testcompra@gmail.com>]
+ INFO main - 2020-10-11 18:57:35.436; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.id: etPassword}) WITH <1234>]
+ INFO main - 2020-10-11 18:57:39.959; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: (//android.widget.Button[@index='0'])[1]})]
+ INFO main - 2020-10-11 18:57:43.852; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 18:57:47.418; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-11 18:57:53.561; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 18:57:58.453; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-11 18:58:04.313; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 18:58:07.724; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-11 18:58:13.949; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 18:58:17.831; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-11 18:58:24.606; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 18:58:28.295; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-11 18:58:34.593; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 18:58:38.224; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-11 18:58:44.860; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: llInsight})]
+ INFO main - 2020-10-11 18:58:48.739; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 18:58:52.478; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]})
+ INFO main - 2020-10-11 18:58:58.806; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 18:59:02.990; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]})
+ INFO main - 2020-10-11 18:59:08.921; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 18:59:12.871; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]})
+ INFO main - 2020-10-11 18:59:18.759; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 18:59:22.574; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]})
+ INFO main - 2020-10-11 18:59:28.590; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 18:59:32.419; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]})
+ INFO main - 2020-10-11 18:59:41.185; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'FELICIDADE GENUÍNA')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 18:59:44.871; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'FELICIDADE GENUÍNA')]})
+ INFO main - 2020-10-11 18:59:51.019; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'FELICIDADE GENUÍNA')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 18:59:54.837; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'FELICIDADE GENUÍNA')]})
+ INFO main - 2020-10-11 19:00:00.544; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'FELICIDADE GENUÍNA')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:00:04.312; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'FELICIDADE GENUÍNA')]})
+ INFO main - 2020-10-11 19:00:10.125; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'FELICIDADE GENUÍNA')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:00:13.919; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'FELICIDADE GENUÍNA')]})
+ INFO main - 2020-10-11 19:00:19.995; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'FELICIDADE GENUÍNA')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:00:23.579; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'FELICIDADE GENUÍNA')]})
+ INFO main - 2020-10-11 19:00:29.438; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'FELICIDADE GENUÍNA')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:00:33.102; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'FELICIDADE GENUÍNA')]})
+ INFO main - 2020-10-11 19:00:40.220; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //android.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.TextView[2]})]
+ INFO main - 2020-10-11 19:00:43.900; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:00:47.643; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]})
+ INFO main - 2020-10-11 19:00:53.448; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:00:57.371; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]})
+ INFO main - 2020-10-11 19:01:03.310; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:01:07.013; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]})
+ INFO main - 2020-10-11 19:01:12.839; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:01:16.622; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]})
+ INFO main - 2020-10-11 19:01:22.468; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:01:26.350; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]})
+ INFO main - 2020-10-11 19:01:32.482; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:01:36.232; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]})
+ INFO main - 2020-10-11 19:01:42.469; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:01:46.317; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]})
+ INFO main - 2020-10-11 19:01:52.257; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:01:55.983; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]})
+ INFO main - 2020-10-11 19:02:02.497; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:02:06.223; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]})
+ INFO main - 2020-10-11 19:02:12.147; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:02:16.106; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]})
+ INFO main - 2020-10-11 19:02:22.056; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:02:25.960; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]})
+ INFO main - 2020-10-11 19:02:29.652; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:02:33.525; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]})
+ INFO main - 2020-10-11 19:02:39.669; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:02:43.746; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]})
+ INFO main - 2020-10-11 19:02:50.523; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:02:54.141; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]})
+ INFO main - 2020-10-11 19:03:01.381; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:03:05.269; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]})
+ INFO main - 2020-10-11 19:03:11.106; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:03:14.584; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]})
+ INFO main - 2020-10-11 19:03:20.220; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:03:23.738; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]})
+ INFO main - 2020-10-11 19:03:30.407; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:03:33.902; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]})
+ INFO main - 2020-10-11 19:03:39.675; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:03:44.016; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]})
+ INFO main - 2020-10-11 19:03:50.019; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:03:53.807; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]})
+ INFO main - 2020-10-11 19:04:00.249; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:04:03.717; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]})
+ INFO main - 2020-10-11 19:04:09.720; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:04:13.570; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]})
+ INFO main - 2020-10-11 19:04:15.740; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //android.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.TextView[3]})]
+ INFO main - 2020-10-11 19:04:19.611; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:04:23.605; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]})
+ INFO main - 2020-10-11 19:04:29.920; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:04:33.767; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]})
+ INFO main - 2020-10-11 19:04:39.931; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:04:43.881; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]})
+ INFO main - 2020-10-11 19:04:49.800; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:04:53.710; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]})
+ INFO main - 2020-10-11 19:04:59.684; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:05:03.439; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]})
+ INFO main - 2020-10-11 19:05:09.174; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:05:12.860; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]})
+ INFO main - 2020-10-11 19:05:19.593; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:05:23.612; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]})
+ INFO main - 2020-10-11 19:05:29.551; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:05:33.954; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]})
+ INFO main - 2020-10-11 19:05:40.201; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:05:43.631; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]})
+ INFO main - 2020-10-11 19:05:49.724; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:05:53.512; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]})
+ INFO main - 2020-10-11 19:05:59.527; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:06:03.548; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]})
+ INFO main - 2020-10-11 19:06:07.268; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:06:11.154; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]})
+ INFO main - 2020-10-11 19:06:17.295; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:06:21.263; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]})
+ INFO main - 2020-10-11 19:06:27.509; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:06:31.188; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]})
+ INFO main - 2020-10-11 19:06:37.443; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:06:41.251; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]})
+ INFO main - 2020-10-11 19:06:47.182; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:06:51.165; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]})
+ INFO main - 2020-10-11 19:06:57.410; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:07:01.199; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]})
+ INFO main - 2020-10-11 19:07:07.549; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:07:11.715; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]})
+ INFO main - 2020-10-11 19:07:17.909; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:07:21.833; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]})
+ INFO main - 2020-10-11 19:07:27.926; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:07:31.408; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]})
+ INFO main - 2020-10-11 19:07:37.343; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:07:41.181; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]})
+ INFO main - 2020-10-11 19:07:46.867; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:07:50.658; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]})
+ INFO main - 2020-10-11 19:07:50.661; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 19:07:50.661; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-11 19:07:50.661; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 19:21:14.395; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 19:21:14.399; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-11 19:21:14.399; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 19:21:28.797; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnPortuguese})]
+ INFO main - 2020-10-11 19:21:36.204; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btSkip})]
+ INFO main - 2020-10-11 19:21:43.374; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnAlreadyAccount})]
+ INFO main - 2020-10-11 19:21:55.158; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.id: etEmail}) WITH <testcompra@gmail.com>]
+ INFO main - 2020-10-11 19:22:08.060; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.id: etPassword}) WITH <1234>]
+ INFO main - 2020-10-11 19:22:15.525; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: (//android.widget.Button[@index='0'])[1]})]
+ INFO main - 2020-10-11 19:22:20.045; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:22:24.803; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-11 19:22:33.990; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:22:38.726; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-11 19:22:47.930; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:22:52.628; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-11 19:23:01.197; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:23:06.214; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-11 19:23:14.539; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:23:19.323; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-11 19:23:39.695; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: llInsight})]
+ INFO main - 2020-10-11 19:23:44.410; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:23:49.223; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]})
+ INFO main - 2020-10-11 19:23:58.030; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:24:03.046; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]})
+ INFO main - 2020-10-11 19:24:11.546; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:24:16.258; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]})
+ INFO main - 2020-10-11 19:24:24.443; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:24:29.057; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]})
+ INFO main - 2020-10-11 19:24:36.988; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:24:41.698; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]})
+ INFO main - 2020-10-11 19:24:57.725; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'FELICIDADE GENUÍNA')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:25:02.339; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'FELICIDADE GENUÍNA')]})
+ INFO main - 2020-10-11 19:25:10.938; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'FELICIDADE GENUÍNA')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:25:15.555; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'FELICIDADE GENUÍNA')]})
+ INFO main - 2020-10-11 19:25:23.678; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'FELICIDADE GENUÍNA')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:25:28.562; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'FELICIDADE GENUÍNA')]})
+ INFO main - 2020-10-11 19:25:36.912; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'FELICIDADE GENUÍNA')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:25:42.314; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'FELICIDADE GENUÍNA')]})
+ INFO main - 2020-10-11 19:25:50.567; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'FELICIDADE GENUÍNA')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:25:55.710; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'FELICIDADE GENUÍNA')]})
+ INFO main - 2020-10-11 19:26:03.932; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'FELICIDADE GENUÍNA')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:26:09.000; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'FELICIDADE GENUÍNA')]})
+ INFO main - 2020-10-11 19:26:28.756; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //android.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.TextView[2]})]
+ INFO main - 2020-10-11 19:26:33.985; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:26:38.416; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]})
+ INFO main - 2020-10-11 19:26:47.386; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:26:53.041; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]})
+ INFO main - 2020-10-11 19:27:01.175; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:27:06.345; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]})
+ INFO main - 2020-10-11 19:27:15.090; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:27:19.963; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]})
+ INFO main - 2020-10-11 19:27:29.179; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:27:33.996; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]})
+ INFO main - 2020-10-11 19:27:42.832; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:27:47.458; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]})
+ INFO main - 2020-10-11 19:27:55.394; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:28:00.550; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]})
+ INFO main - 2020-10-11 19:28:09.013; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:28:13.746; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]})
+ INFO main - 2020-10-11 19:28:22.118; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:28:26.804; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]})
+ INFO main - 2020-10-11 19:28:36.047; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:28:41.063; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]})
+ INFO main - 2020-10-11 19:28:49.666; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:28:54.991; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]})
+ INFO main - 2020-10-11 19:28:59.701; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:29:04.309; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]})
+ INFO main - 2020-10-11 19:29:13.079; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:29:18.080; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]})
+ INFO main - 2020-10-11 19:29:26.994; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:29:31.651; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]})
+ INFO main - 2020-10-11 19:29:40.866; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:29:46.498; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]})
+ INFO main - 2020-10-11 19:29:55.043; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:30:00.630; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]})
+ INFO main - 2020-10-11 19:30:09.149; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:30:13.941; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]})
+ INFO main - 2020-10-11 19:30:22.543; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:30:27.458; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]})
+ INFO main - 2020-10-11 19:30:35.548; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:30:40.463; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]})
+ INFO main - 2020-10-11 19:30:48.859; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:30:53.775; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]})
+ INFO main - 2020-10-11 19:31:01.856; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:31:06.882; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]})
+ INFO main - 2020-10-11 19:31:15.536; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:31:20.294; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]})
+ INFO main - 2020-10-11 19:31:27.362; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //android.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.TextView[3]})]
+ INFO main - 2020-10-11 19:31:31.978; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:31:36.556; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]})
+ INFO main - 2020-10-11 19:31:45.591; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:31:50.403; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]})
+ INFO main - 2020-10-11 19:31:58.294; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:32:03.100; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]})
+ INFO main - 2020-10-11 19:32:11.498; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:32:16.515; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]})
+ INFO main - 2020-10-11 19:32:24.643; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:32:29.586; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]})
+ INFO main - 2020-10-11 19:32:39.043; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:32:43.754; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]})
+ INFO main - 2020-10-11 19:32:52.458; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:32:57.372; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]})
+ INFO main - 2020-10-11 19:33:05.066; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:33:09.656; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]})
+ INFO main - 2020-10-11 19:33:17.955; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:33:23.350; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]})
+ INFO main - 2020-10-11 19:33:31.165; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:33:36.284; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]})
+ INFO main - 2020-10-11 19:33:45.706; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:33:50.674; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Jon Kabat-Zinn')]})
+ INFO main - 2020-10-11 19:33:55.611; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:34:00.554; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]})
+ INFO main - 2020-10-11 19:34:08.865; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:34:13.531; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]})
+ INFO main - 2020-10-11 19:34:21.648; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:34:26.461; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]})
+ INFO main - 2020-10-11 19:34:35.472; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:34:40.182; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]})
+ INFO main - 2020-10-11 19:34:48.989; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:34:54.826; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]})
+ INFO main - 2020-10-11 19:35:03.018; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:35:08.138; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]})
+ INFO main - 2020-10-11 19:35:16.244; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:35:21.142; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]})
+ INFO main - 2020-10-11 19:35:30.296; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:35:34.967; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]})
+ INFO main - 2020-10-11 19:35:43.569; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:35:48.381; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]})
+ INFO main - 2020-10-11 19:35:57.043; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:36:01.809; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]})
+ INFO main - 2020-10-11 19:36:10.056; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 19:36:14.592; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.xpath: //*[contains(@text,'Phakchok Rinpoche')]})
+ INFO main - 2020-10-11 19:36:14.595; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 19:36:14.595; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-11 19:36:14.595; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:15:10.044; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-11 21:15:54.294; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:15:54.295; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-11 21:15:54.295; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:16:09.819; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnPortuguese})]
+ INFO main - 2020-10-11 21:16:22.390; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-11 21:16:52.103; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:16:52.104; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-11 21:16:52.104; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:16:56.853; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnPortuguese})]
+ INFO main - 2020-10-11 21:16:59.477; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btSkip})]
+ INFO main - 2020-10-11 21:17:02.212; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnAlreadyAccount})]
+ INFO main - 2020-10-11 21:17:07.091; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.id: etEmail}) WITH <testcompra@gmail.com>]
+ INFO main - 2020-10-11 21:17:11.670; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.id: etPassword}) WITH <1234>]
+ INFO main - 2020-10-11 21:17:14.140; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: (//android.widget.Button[@index='0'])[1]})]
+ INFO main - 2020-10-11 21:17:17.937; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 21:17:21.539; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-11 21:17:27.449; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 21:17:31.023; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-11 21:17:37.355; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 21:17:41.366; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-11 21:17:47.407; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 21:17:51.196; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-11 21:17:58.672; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 21:18:03.383; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-11 21:18:10.561; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 21:18:14.236; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-11 21:18:22.489; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: llInsight})]
+ INFO main - 2020-10-11 21:18:26.422; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'O QUE É EQUILÍBRIO COGNITIVO?')]}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 21:18:34.033; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-11 21:19:04.300; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:19:04.300; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-11 21:19:04.301; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:19:14.368; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnPortuguese})]
+ INFO main - 2020-10-11 21:19:17.576; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btSkip})]
+ INFO main - 2020-10-11 21:19:21.031; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnAlreadyAccount})]
+ INFO main - 2020-10-11 21:19:27.369; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.id: etEmail}) WITH <testcompra@gmail.com>]
+ INFO main - 2020-10-11 21:19:32.907; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.id: etPassword}) WITH <1234>]
+ INFO main - 2020-10-11 21:19:35.691; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: (//android.widget.Button[@index='0'])[1]})]
+ INFO main - 2020-10-11 21:19:40.279; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 21:19:43.837; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: cardInstagram})
+ INFO main - 2020-10-11 21:19:49.674; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: cardInstagram}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 21:21:24.070; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-11 21:21:34.458; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:21:34.459; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-11 21:21:34.459; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:21:35.705; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnPortuguese})]
+ INFO main - 2020-10-11 21:21:37.030; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnSpanish})]
+ INFO main - 2020-10-11 21:21:37.032; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:21:37.033; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-11 21:21:37.033; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:23:03.364; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-11 21:23:15.310; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:23:15.311; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-11 21:23:15.312; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:23:16.613; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnPortuguese})]
+ INFO main - 2020-10-11 21:23:17.507; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnSpanish})]
+ INFO main - 2020-10-11 21:23:17.509; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:23:17.510; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-11 21:23:17.510; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:23:40.478; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-11 21:25:25.721; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-11 21:26:06.963; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-11 21:26:35.810; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-11 21:26:46.938; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-11 21:29:40.815; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-11 21:29:51.132; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:29:51.132; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-11 21:29:51.132; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:29:58.273; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: Permitir}) (tried for 5 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 21:30:01.627; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:30:01.627; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-11 21:30:01.627; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:31:38.560; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-11 21:31:52.500; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:31:52.500; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-11 21:31:52.500; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:35:00.941; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-11 21:35:10.260; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:35:10.261; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-11 21:35:10.261; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:35:11.231; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar com E-mail})]
+ INFO main - 2020-10-11 21:35:21.480; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: Permitir}) (tried for 5 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-11 21:35:24.853; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:35:24.853; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-11 21:35:24.853; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:36:05.561; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-11 21:36:17.700; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:36:17.701; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-11 21:36:17.701; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:37:48.961; - hooks.BaseClass - ERRO: org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: 'fe80:0:0:0:c01:98f6:2e0f:bb07%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/eduardo.finotti/Desk..., appActivity: br.com.lojong.activity.Spla..., appPackage: br.com.lojong, automationName: UIAutomator2, databaseEnabled: false, desired: {app: /Users/eduardo.finotti/Desk..., appActivity: br.com.lojong.activity.Spla..., appPackage: br.com.lojong, automationName: UIAutomator2, deviceName: Google Pixel 2, platformName: android}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: android, platformVersion: 9, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 857a2ed0-b5e8-4250-9732-0c6cde9f7e1b
+*** Element info: {Using=id, value=btnPortuguese}
+ INFO main - 2020-10-11 21:38:00.678; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-11 21:39:00.471; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:39:00.472; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-11 21:39:00.472; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:41:11.074; - hooks.BaseClass - ERRO: org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: 'fe80:0:0:0:c01:98f6:2e0f:bb07%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/eduardo.finotti/Desk..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone 11 Pro Max, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: false, platform: MAC, platformName: iOS, platformVersion: 13.1, takesScreenshot: true, udid: 4BD63F91-7E7A-458D-A25F-7E1..., webStorageEnabled: false}
+Session ID: 2f26c555-a388-4c4a-b33d-e7680c2449a6
+*** Element info: {Using=accessibility id, value=CONTINUAR EM PORTGUÊS}
+ INFO main - 2020-10-11 21:41:11.104; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:41:11.104; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-11 21:41:11.105; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:41:18.180; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-11 21:44:05.631; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-11 21:44:18.694; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:44:18.694; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-11 21:44:18.694; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:45:30.314; - hooks.BaseClass - ERRO: org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: 'fe80:0:0:0:c01:98f6:2e0f:bb07%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/eduardo.finotti/Desk..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone 11 Pro Max, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: false, platform: MAC, platformName: iOS, platformVersion: 13.1, takesScreenshot: true, udid: 4BD63F91-7E7A-458D-A25F-7E1..., webStorageEnabled: false}
+Session ID: 0d2a601e-25d5-457a-88d3-922bb2dd2074
+*** Element info: {Using=accessibility id, value=Continuar em Português}
+ INFO main - 2020-10-11 21:45:30.332; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:45:30.333; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-11 21:45:30.334; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:45:35.785; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-11 21:45:48.437; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:45:48.438; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-11 21:45:48.438; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:45:53.979; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-11 21:50:58.346; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-11 21:51:14.580; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:51:14.581; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-11 21:51:14.581; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-11 21:51:17.791; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-12 17:32:12.983; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-12 17:36:49.124; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-12 17:37:04.416; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-12 17:37:04.416; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-12 17:37:04.417; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-12 17:37:17.800; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-12 17:37:20.893; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic close white})]
+ INFO main - 2020-10-12 17:40:12.383; - hooks.BaseClass - ERRO: org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: 'fe80:0:0:0:c01:98f6:2e0f:bb07%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/eduardo.finotti/Desk..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone 11, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: false, platform: MAC, platformName: iOS, platformVersion: 13.1, takesScreenshot: true, udid: 14ADAC54-053A-4FAD-B80C-C21..., webStorageEnabled: false}
+Session ID: 9231680c-4066-4114-9dc3-f210e7b5b9bc
+*** Element info: {Using=accessibility id, value=Continue en Espanhol}
+ INFO main - 2020-10-12 17:40:12.405; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-12 17:40:12.405; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-12 17:40:12.405; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-12 17:40:17.650; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-12 17:40:31.311; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-12 17:40:31.311; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-12 17:40:31.311; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-12 17:40:46.864; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-12 17:40:55.205; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continue en Espanhol})]
+ INFO main - 2020-10-12 17:40:55.207; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-12 17:40:55.207; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-12 17:40:55.208; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-12 17:42:17.531; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-12 17:42:27.081; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-12 17:42:27.081; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-12 17:42:27.082; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-12 17:42:27.832; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-12 17:42:36.308; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continue en Espanhol})]
+ INFO main - 2020-10-12 17:42:36.311; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-12 17:42:36.311; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-12 17:42:36.312; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-12 18:57:04.102; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-12 18:57:16.215; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-12 18:57:16.216; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-12 18:57:16.216; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-12 18:57:17.077; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-12 18:57:21.498; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-12 18:57:29.369; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-12 18:57:29.369; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-12 18:57:29.370; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-12 18:57:36.576; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-12 18:58:12.125; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-12 18:58:21.790; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-12 18:58:21.791; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-12 18:58:21.791; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-12 18:58:28.192; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-12 19:08:48.368; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-12 19:09:05.697; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-12 19:09:05.698; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-12 19:09:05.698; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-12 19:09:11.130; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-12 19:09:13.567; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar com E-mail})]
+ INFO main - 2020-10-12 19:09:17.428; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Já tenho uma Conta"]})]
+ INFO main - 2020-10-12 19:09:23.844; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[1]}) WITH <testcompra@gmail.com>]
+ INFO main - 2020-10-12 19:09:29.524; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[2]}) WITH <1234>]
+ INFO main - 2020-10-12 19:09:38.410; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: Permitir}) (tried for 5 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-12 19:10:07.791; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-12 19:10:21.749; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-12 19:10:21.750; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-12 19:10:21.750; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-12 19:10:23.014; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-12 19:10:23.906; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar com E-mail})]
+ INFO main - 2020-10-12 19:10:24.940; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Já tenho uma Conta"]})]
+ INFO main - 2020-10-12 19:10:27.923; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[1]}) WITH <testcompra@gmail.com>]
+ INFO main - 2020-10-12 19:10:31.044; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[2]}) WITH <1234>]
+ INFO main - 2020-10-12 19:10:37.108; - hooks.BaseClass - [CLICK ON Located by By.chained({By.className: Entrar})]
+ INFO main - 2020-10-12 19:12:18.323; - hooks.BaseClass - ERRO: org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: 'fe80:0:0:0:c01:98f6:2e0f:bb07%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/eduardo.finotti/Desk..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone 11, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: false, platform: MAC, platformName: iOS, platformVersion: 13.1, takesScreenshot: true, udid: 14ADAC54-053A-4FAD-B80C-C21..., webStorageEnabled: false}
+Session ID: 9bd6d0ae-40d5-4a2f-9a24-cf6ff35c9505
+*** Element info: {Using=id, value=Permitir}
+ INFO main - 2020-10-12 19:12:18.393; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-12 19:12:18.394; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-12 19:12:18.394; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-12 19:13:39.269; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-12 19:13:51.841; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-12 19:13:51.841; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-12 19:13:51.841; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-12 19:13:53.049; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-12 19:13:53.963; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar com E-mail})]
+ INFO main - 2020-10-12 19:13:54.941; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Já tenho uma Conta"]})]
+ INFO main - 2020-10-12 19:13:57.936; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[1]}) WITH <testcompra@gmail.com>]
+ INFO main - 2020-10-12 19:14:01.035; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[2]}) WITH <1234>]
+ INFO main - 2020-10-12 19:14:02.532; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeButton[@name="Entrar"]})]
+ INFO main - 2020-10-12 19:14:08.651; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Allow})]
+ INFO main - 2020-10-12 19:14:25.731; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: Permitir}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-12 19:14:29.212; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: Permitir})
+ INFO main - 2020-10-12 19:14:33.712; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: Permitir}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-12 19:14:37.101; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: Permitir})
+ INFO main - 2020-10-12 19:14:41.558; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: Permitir}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-12 19:14:45.047; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: Permitir})
+ INFO main - 2020-10-12 19:14:49.469; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: Permitir}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-12 19:14:52.931; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: Permitir})
+ INFO main - 2020-10-12 19:14:57.327; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: Permitir}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-12 19:15:00.735; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: Permitir})

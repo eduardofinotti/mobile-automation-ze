@@ -8,7 +8,6 @@ public class TestLang extends Utils {
 
     @Test(enabled = true)
     public void langTest() {
-//        PageFactory.initPages();
         LanguagePage languagePage = new LanguagePage(driver);
 
         clickOn(languagePage.idBtnPortuguese);

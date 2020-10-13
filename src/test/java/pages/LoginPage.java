@@ -23,16 +23,22 @@ public class LoginPage extends Utils {
     }
 
     @AndroidFindBy(id = "etEmail")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[1]")
     public static MobileElement idBtnEmail;
 
     @AndroidFindBy(id = "etPassword")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[2]")
     public static MobileElement idBtnPassword;
 
     @AndroidFindBy(xpath = "(//android.widget.Button[@index='0'])[1]")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeButton[@name=\"Entrar\"]")
     public static MobileElement xpathEnterButton;
+
+    @iOSXCUITFindBy(accessibility = "ic close white")
+    public static MobileElement back;
+
+    @iOSXCUITFindBy(accessibility = "Allow")
+    public static MobileElement allow;
 
     public static void doLoginEmail() throws InterruptedException {
         Thread.sleep(1000);
@@ -40,6 +46,10 @@ public class LoginPage extends Utils {
         Thread.sleep(1000);
         fillField(LoginPage.idBtnPassword, LoginPage.password);
         clickOn(LoginPage.xpathEnterButton);
+
+        if(!isAndroid) {
+            clickOn(LoginPage.allow);
+        }
     }
 
 }

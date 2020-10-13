@@ -19,7 +19,7 @@ public class CreateAccountPage extends Utils {
     }
 
     @AndroidFindBy(id = "btnAlreadyAccount")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"Já tenho uma Conta\"]")
     public static MobileElement idBtnToLogin;
 
     @AndroidFindBy(id = "btnCreateAccount")

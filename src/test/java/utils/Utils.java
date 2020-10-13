@@ -12,6 +12,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import pages.LoginPage;
 
 import java.time.Duration;
 
@@ -91,7 +92,11 @@ public class Utils extends BaseClass {
     }
 
     public static void back() {
-        driver.navigate().back();
+        if(BaseClass.isAndroid){
+            driver.navigate().back();
+        } else {
+            driver.launchApp();
+        }
     }
 
     public static void clickOn(MobileElement element) {

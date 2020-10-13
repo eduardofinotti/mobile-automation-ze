@@ -25,8 +25,8 @@ public class TestGeral extends Utils {
         if (Utils.isElementDisplayed(languagePage.idBtnPortuguese)) {
             clickOn(languagePage.idBtnPortuguese);
         }
-        clickOn(introductionPage.btSkip);
 
+        clickOn(introductionPage.btSkip);
         clickOn(createAccountPage.idBtnToLogin);
 
         loginPage.doLoginEmail();

@@ -11,8 +11,6 @@ public class TestPractices extends Utils {
 
     @Test(enabled = true)
     public void practicesTest() throws InterruptedException {
-
-//        PageFactory.initPages();
         IntroductionPage introductionPage = new IntroductionPage(driver);
         CreateAccountPage createAccountPage = new CreateAccountPage(driver);
         PracticesPage practicesPage = new PracticesPage(driver);

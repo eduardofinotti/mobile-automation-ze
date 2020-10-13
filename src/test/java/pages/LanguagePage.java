@@ -17,10 +17,10 @@ public class LanguagePage extends BaseClass {
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
     @AndroidFindBy(id = "btnPortuguese")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(accessibility = "Continuar en Portugués")
     public static MobileElement idBtnPortuguese;
 
     @AndroidFindBy(id = "btnSpanish")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(accessibility = "Continue en Espanhol")
     public static MobileElement idBtnSpanish;
 }

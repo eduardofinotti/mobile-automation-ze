@@ -23,7 +23,7 @@ public class PracticesPage extends Utils {
     public static MobileElement idBottomPrac;
 
     @AndroidFindBy(id = "cardInstagram")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(accessibility = "Siga-nos no Instagram!")
     public static MobileElement cardInstagram;
 
     @AndroidFindBy(id = "tvrecommando_text")
