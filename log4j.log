@@ -985,3 +985,1028 @@ Session ID: 9bd6d0ae-40d5-4a2f-9a24-cf6ff35c9505
  INFO main - 2020-10-12 19:14:52.931; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: Permitir})
  INFO main - 2020-10-12 19:14:57.327; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: Permitir}) (tried for 3 second(s) with 100 milliseconds interval)
  INFO main - 2020-10-12 19:15:00.735; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: Permitir})
+ INFO main - 2020-10-16 14:34:47.861; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-16 14:35:18.180; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 14:35:18.181; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-16 14:35:18.182; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 14:35:25.380; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-16 14:35:36.785; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar com E-mail})]
+ INFO main - 2020-10-16 14:35:39.175; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Já tenho uma Conta"]})]
+ INFO main - 2020-10-16 14:35:43.039; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[1]}) WITH <testcompra@gmail.com>]
+ INFO main - 2020-10-16 14:35:46.156; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[2]}) WITH <1234>]
+ INFO main - 2020-10-16 14:35:47.675; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeButton[@name="Entrar"]})]
+ INFO main - 2020-10-16 14:35:55.941; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Allow})]
+ INFO main - 2020-10-16 14:36:10.435; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: Siga-nos no Instagram!}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 14:36:16.337; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: Siga-nos no Instagram!}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 14:36:21.902; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: Siga-nos no Instagram!}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 14:36:41.573; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Insight})]
+ INFO main - 2020-10-16 14:36:55.442; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: O QUE É EQUILÍBRIO COGNITIVO?}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 14:37:00.276; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: O QUE É EQUILÍBRIO COGNITIVO?}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 14:37:15.994; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: FELICIDADE GENUÍNA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 14:37:22.671; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: FELICIDADE GENUÍNA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 14:37:27.538; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: FELICIDADE GENUÍNA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 14:37:34.815; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeButton[@name="ARTIGOS"]})]
+ INFO main - 2020-10-16 14:37:39.800; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: Permitir}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 14:37:43.234; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: Permitir})
+ INFO main - 2020-10-16 14:37:47.122; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: Permitir}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 14:37:50.730; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: Permitir})
+ INFO main - 2020-10-16 14:37:54.708; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: Permitir}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 14:37:58.169; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: Permitir})
+ INFO main - 2020-10-16 14:38:02.009; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: Permitir}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 14:38:05.440; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: Permitir})
+ INFO main - 2020-10-16 14:38:09.326; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: Permitir}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 14:38:12.580; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: Permitir})
+ INFO main - 2020-10-16 14:38:17.086; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: Permitir}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 14:38:20.413; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: Permitir})
+ INFO main - 2020-10-16 14:38:25.039; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: Permitir}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 14:38:28.332; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: Permitir})
+ INFO main - 2020-10-16 14:38:32.814; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: Permitir}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 14:38:36.152; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: Permitir})
+ INFO main - 2020-10-16 14:38:40.789; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: Permitir}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 14:38:44.277; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: Permitir})
+ INFO main - 2020-10-16 14:38:49.072; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: Permitir}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 14:38:52.296; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: Permitir})
+ INFO main - 2020-10-16 14:38:56.629; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: Permitir}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 14:39:00.421; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.id: Permitir})
+ INFO main - 2020-10-16 14:54:22.173; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-16 14:54:49.370; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 14:54:49.371; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-16 14:54:49.372; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 14:54:50.939; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-16 14:54:52.065; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar com E-mail})]
+ INFO main - 2020-10-16 14:54:53.256; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Já tenho uma Conta"]})]
+ INFO main - 2020-10-16 14:54:56.684; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[1]}) WITH <testcompra@gmail.com>]
+ INFO main - 2020-10-16 14:55:00.075; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[2]}) WITH <1234>]
+ INFO main - 2020-10-16 14:55:01.805; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeButton[@name="Entrar"]})]
+ INFO main - 2020-10-16 14:55:04.672; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Allow})]
+ INFO main - 2020-10-16 14:55:07.718; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: Siga-nos no Instagram!}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 14:55:13.740; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: Siga-nos no Instagram!}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 14:55:19.589; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: Siga-nos no Instagram!}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 14:55:28.686; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Insight})]
+ INFO main - 2020-10-16 14:55:31.799; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: O QUE É EQUILÍBRIO COGNITIVO?}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 14:55:36.657; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: O QUE É EQUILÍBRIO COGNITIVO?}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 14:55:43.752; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: FELICIDADE GENUÍNA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 14:55:48.602; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: FELICIDADE GENUÍNA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 14:55:53.318; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: FELICIDADE GENUÍNA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 14:55:58.036; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeButton[@name="ARTIGOS"]})]
+ INFO main - 2020-10-16 14:56:01.723; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 14:56:05.310; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 14:56:09.213; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 14:56:12.760; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 14:56:16.718; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 14:56:20.208; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 14:56:24.060; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 14:56:27.566; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 14:56:31.563; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 14:56:34.810; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 14:56:39.409; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 14:56:42.712; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 14:56:47.209; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 14:56:50.509; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 14:56:55.112; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 14:56:58.420; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 14:57:03.010; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 14:57:06.258; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 14:57:10.859; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 14:57:14.116; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 14:57:18.409; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 14:57:22.159; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 14:57:26.405; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 14:57:32.028; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 14:57:37.614; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 14:57:43.162; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 14:57:57.098; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: Permitir}) (tried for 5 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 14:58:01.153; - hooks.BaseClass - /var/folders/hl/n94bp1ys2wb6c96dqspxtlsw0000gp/T/screenshot5928320317633081126.png
+ INFO main - 2020-10-16 14:58:01.190; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 14:58:01.190; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-16 14:58:01.190; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 14:59:19.611; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-16 14:59:28.216; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 14:59:28.216; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-16 14:59:28.216; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 14:59:34.544; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-16 14:59:36.138; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar com E-mail})]
+ INFO main - 2020-10-16 14:59:38.040; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Já tenho uma Conta"]})]
+ INFO main - 2020-10-16 14:59:42.095; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[1]}) WITH <testcompra@gmail.com>]
+ INFO main - 2020-10-16 14:59:45.304; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[2]}) WITH <1234>]
+ INFO main - 2020-10-16 14:59:46.895; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeButton[@name="Entrar"]})]
+ INFO main - 2020-10-16 14:59:54.470; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Allow})]
+ INFO main - 2020-10-16 15:00:00.188; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: Siga-nos no Instagram!}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:00:06.462; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: Siga-nos no Instagram!}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:00:12.263; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: Siga-nos no Instagram!}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:00:24.826; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Insight})]
+ INFO main - 2020-10-16 15:00:35.730; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: O QUE É EQUILÍBRIO COGNITIVO?}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:00:40.465; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: O QUE É EQUILÍBRIO COGNITIVO?}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:00:49.538; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: FELICIDADE GENUÍNA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:00:54.447; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: FELICIDADE GENUÍNA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:00:59.748; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: FELICIDADE GENUÍNA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:01:04.196; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeButton[@name="ARTIGOS"]})]
+ INFO main - 2020-10-16 15:01:12.532; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:01:16.058; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:01:20.145; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:01:23.659; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:01:27.693; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:01:31.148; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:01:35.637; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:01:39.068; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:01:43.648; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:01:46.935; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:01:51.446; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:01:54.705; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:01:59.210; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:02:02.564; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:02:07.030; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:02:10.310; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:02:14.854; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:02:18.083; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:02:22.672; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:02:25.902; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:02:30.179; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:02:33.888; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:02:38.036; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:02:43.945; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:02:49.594; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:02:55.916; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:03:12.011; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.id: Permitir}) (tried for 5 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:03:47.348; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-16 15:03:56.278; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 15:03:56.279; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-16 15:03:56.279; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 15:03:57.553; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-16 15:03:58.542; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar com E-mail})]
+ INFO main - 2020-10-16 15:03:59.757; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Já tenho uma Conta"]})]
+ INFO main - 2020-10-16 15:04:02.974; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[1]}) WITH <testcompra@gmail.com>]
+ INFO main - 2020-10-16 15:04:06.267; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[2]}) WITH <1234>]
+ INFO main - 2020-10-16 15:04:07.887; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeButton[@name="Entrar"]})]
+ INFO main - 2020-10-16 15:04:10.862; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Allow})]
+ INFO main - 2020-10-16 15:04:14.880; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: Siga-nos no Instagram!}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:04:20.580; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: Siga-nos no Instagram!}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:04:26.337; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: Siga-nos no Instagram!}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:04:35.145; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Insight})]
+ INFO main - 2020-10-16 15:04:38.183; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: O QUE É EQUILÍBRIO COGNITIVO?}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:04:43.093; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: O QUE É EQUILÍBRIO COGNITIVO?}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:04:50.255; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: FELICIDADE GENUÍNA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:04:55.096; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: FELICIDADE GENUÍNA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:04:59.440; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: FELICIDADE GENUÍNA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:05:04.038; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeButton[@name="ARTIGOS"]})]
+ INFO main - 2020-10-16 15:05:07.716; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:05:11.303; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:05:15.353; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:05:18.904; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:05:23.003; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:05:26.461; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:05:30.403; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:05:33.907; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:05:38.653; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:05:41.906; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:05:46.509; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:05:49.758; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:05:54.309; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:05:57.598; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:06:02.103; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:06:05.358; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:06:09.949; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:06:13.196; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:06:17.648; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:06:20.896; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:06:25.162; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:06:28.896; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:06:32.984; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:06:38.482; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:06:44.184; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:06:49.790; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:07:00.904; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeButton[@name="CITAÇÕES"]})]
+ INFO main - 2020-10-16 15:07:03.999; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: Pema Chodron}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:07:08.381; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: Pema Chodron}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:07:13.053; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: Pema Chodron}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:07:17.591; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: Pema Chodron}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:07:25.577; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: Phakchok Rinpoche}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:07:30.385; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: Phakchok Rinpoche}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:07:33.995; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 15:07:33.995; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-16 15:07:33.995; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 15:36:03.679; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-16 15:36:28.912; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 15:36:28.913; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-16 15:36:28.914; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 15:36:30.205; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-16 15:36:31.521; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar com E-mail})]
+ INFO main - 2020-10-16 15:36:32.702; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Já tenho uma Conta"]})]
+ INFO main - 2020-10-16 15:36:36.028; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[1]}) WITH <testcompra@gmail.com>]
+ INFO main - 2020-10-16 15:36:39.347; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[2]}) WITH <1234>]
+ INFO main - 2020-10-16 15:36:41.027; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeButton[@name="Entrar"]})]
+ INFO main - 2020-10-16 15:36:43.885; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Allow})]
+ INFO main - 2020-10-16 15:36:48.066; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: Siga-nos no Instagram!}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:36:54.073; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: Siga-nos no Instagram!}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:36:59.979; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: Siga-nos no Instagram!}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:37:09.233; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Insight})]
+ INFO main - 2020-10-16 15:37:12.457; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: O QUE É EQUILÍBRIO COGNITIVO?}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:37:17.275; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: O QUE É EQUILÍBRIO COGNITIVO?}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:37:24.527; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: FELICIDADE GENUÍNA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:37:29.475; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: FELICIDADE GENUÍNA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:37:34.177; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: FELICIDADE GENUÍNA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:37:39.043; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeButton[@name="ARTIGOS"]})]
+ INFO main - 2020-10-16 15:37:42.741; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:37:46.329; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:37:50.231; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:37:53.690; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:37:57.728; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:38:01.234; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:38:05.228; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:38:08.683; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:38:12.676; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:38:15.926; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:38:20.427; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:38:23.689; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:38:28.277; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:38:31.578; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:38:36.086; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:38:39.391; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:38:44.028; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:38:47.428; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:38:51.528; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:38:55.129; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:38:59.827; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO}) (tried for 3 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:39:03.638; - hooks.BaseClass - ERRO: Can't locate an element by this strategy: By.chained({By.AccessibilityId: A SOBREVIVÊNCIA DO MAIS BONDOSO})
+ INFO main - 2020-10-16 15:39:07.925; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:39:13.613; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:39:19.315; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:39:25.058; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:39:36.419; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeButton[@name="CITAÇÕES"]})]
+ INFO main - 2020-10-16 15:39:39.558; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: Pema Chodron}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:39:43.822; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: Pema Chodron}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:39:48.123; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: Pema Chodron}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:39:52.944; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: Pema Chodron}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:40:01.081; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: Phakchok Rinpoche}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:40:05.974; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: Phakchok Rinpoche}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:40:09.929; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 15:40:09.930; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-16 15:40:09.930; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 15:40:16.837; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-16 15:40:25.332; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 15:40:25.332; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-16 15:40:25.333; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 15:40:26.667; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-16 15:40:27.689; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar com E-mail})]
+ INFO main - 2020-10-16 15:40:28.838; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Já tenho uma Conta"]})]
+ INFO main - 2020-10-16 15:40:32.152; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[1]}) WITH <testcompra@gmail.com>]
+ INFO main - 2020-10-16 15:40:35.584; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[2]}) WITH <1234>]
+ INFO main - 2020-10-16 15:40:37.243; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeButton[@name="Entrar"]})]
+ INFO main - 2020-10-16 15:40:40.575; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Allow})]
+ INFO main - 2020-10-16 15:40:44.751; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: 31 DIAS • PROGRAMA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:40:50.596; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: 31 DIAS • PROGRAMA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:40:56.353; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: 31 DIAS • PROGRAMA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:41:02.272; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: 31 DIAS • PROGRAMA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:41:08.338; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: 31 DIAS • PROGRAMA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:41:14.022; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: 31 DIAS • PROGRAMA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:41:19.575; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: 31 DIAS • PROGRAMA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:41:25.125; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: 31 DIAS • PROGRAMA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:41:30.775; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: 31 DIAS • PROGRAMA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:41:36.436; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: 31 DIAS • PROGRAMA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:41:41.989; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: 31 DIAS • PROGRAMA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:41:48.972; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: 31 DIAS • PROGRAMA}) (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:41:53.417; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: 31 DIAS • PROGRAMA})]
+ INFO main - 2020-10-16 15:42:01.098; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Dia 1"]}) (tried for 5 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 15:42:04.808; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 15:42:04.808; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-16 15:42:04.808; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 15:49:32.909; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-16 15:49:41.069; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 15:49:41.070; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-16 15:49:41.071; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 15:49:42.237; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-16 15:49:43.264; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar com E-mail})]
+ INFO main - 2020-10-16 15:49:44.608; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Já tenho uma Conta"]})]
+ INFO main - 2020-10-16 15:49:47.786; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[1]}) WITH <testcompra@gmail.com>]
+ INFO main - 2020-10-16 15:49:51.044; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[2]}) WITH <1234>]
+ INFO main - 2020-10-16 15:49:52.619; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeButton[@name="Entrar"]})]
+ INFO main - 2020-10-16 15:49:55.295; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Allow})]
+ INFO main - 2020-10-16 15:49:59.404; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: 31 DIAS • PROGRAMA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:50:05.109; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: 31 DIAS • PROGRAMA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:50:10.789; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: 31 DIAS • PROGRAMA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:50:16.837; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: 31 DIAS • PROGRAMA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:50:22.727; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: 31 DIAS • PROGRAMA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:50:28.284; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: 31 DIAS • PROGRAMA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:50:33.864; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: 31 DIAS • PROGRAMA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:50:39.198; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: 31 DIAS • PROGRAMA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:50:44.536; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: 31 DIAS • PROGRAMA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:50:49.975; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: 31 DIAS • PROGRAMA}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:51:08.700; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-16 15:51:15.955; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-16 15:51:32.875; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 15:51:32.876; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-16 15:51:32.876; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 15:51:44.351; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-16 15:51:45.417; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar com E-mail})]
+ INFO main - 2020-10-16 15:51:46.527; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Já tenho uma Conta"]})]
+ INFO main - 2020-10-16 15:51:49.612; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[1]}) WITH <testcompra@gmail.com>]
+ INFO main - 2020-10-16 15:51:52.717; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[2]}) WITH <1234>]
+ INFO main - 2020-10-16 15:51:54.255; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeButton[@name="Entrar"]})]
+ INFO main - 2020-10-16 15:52:07.550; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Allow})]
+ INFO main - 2020-10-16 15:52:16.427; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: 31 DIAS • PROGRAMA}) (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:52:20.588; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: 31 DIAS • PROGRAMA})]
+ INFO main - 2020-10-16 15:52:51.414; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-16 15:52:59.771; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 15:52:59.772; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-16 15:52:59.772; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 15:53:00.964; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-16 15:53:01.997; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar com E-mail})]
+ INFO main - 2020-10-16 15:53:03.052; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Já tenho uma Conta"]})]
+ INFO main - 2020-10-16 15:53:06.213; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[1]}) WITH <testcompra@gmail.com>]
+ INFO main - 2020-10-16 15:53:09.479; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[2]}) WITH <1234>]
+ INFO main - 2020-10-16 15:53:11.106; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeButton[@name="Entrar"]})]
+ INFO main - 2020-10-16 15:53:13.817; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Allow})]
+ INFO main - 2020-10-16 15:53:27.066; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: 31 DIAS • PROGRAMA}) (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:53:31.204; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: 31 DIAS • PROGRAMA})]
+ INFO main - 2020-10-16 15:53:51.319; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-16 15:53:59.560; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 15:53:59.561; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-16 15:53:59.561; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 15:54:00.804; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-16 15:54:01.833; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar com E-mail})]
+ INFO main - 2020-10-16 15:54:02.933; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Já tenho uma Conta"]})]
+ INFO main - 2020-10-16 15:54:06.106; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[1]}) WITH <testcompra@gmail.com>]
+ INFO main - 2020-10-16 15:54:09.490; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[2]}) WITH <1234>]
+ INFO main - 2020-10-16 15:54:11.104; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeButton[@name="Entrar"]})]
+ INFO main - 2020-10-16 15:54:13.871; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Allow})]
+ INFO main - 2020-10-16 15:54:25.537; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: Fundamentos}) (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:54:29.610; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Fundamentos})]
+ INFO main - 2020-10-16 15:58:01.198; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-16 15:58:15.547; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 15:58:15.548; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-16 15:58:15.548; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 15:58:16.920; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-16 15:58:17.953; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar com E-mail})]
+ INFO main - 2020-10-16 15:58:19.159; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Já tenho uma Conta"]})]
+ INFO main - 2020-10-16 15:58:22.575; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[1]}) WITH <testcompra@gmail.com>]
+ INFO main - 2020-10-16 15:58:25.998; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[2]}) WITH <1234>]
+ INFO main - 2020-10-16 15:58:27.579; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeButton[@name="Entrar"]})]
+ INFO main - 2020-10-16 15:58:30.690; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Allow})]
+ INFO main - 2020-10-16 15:58:39.254; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Introdução teórica e prática a meditação."]}) (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 15:58:43.450; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Introdução teórica e prática a meditação."]})]
+ INFO main - 2020-10-16 16:06:03.928; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-16 16:06:15.760; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:06:15.761; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-16 16:06:15.761; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:06:16.870; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-16 16:06:17.866; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar com E-mail})]
+ INFO main - 2020-10-16 16:06:18.927; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Já tenho uma Conta"]})]
+ INFO main - 2020-10-16 16:06:22.018; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[1]}) WITH <testcompra@gmail.com>]
+ INFO main - 2020-10-16 16:06:25.190; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[2]}) WITH <1234>]
+ INFO main - 2020-10-16 16:06:26.757; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeButton[@name="Entrar"]})]
+ INFO main - 2020-10-16 16:06:29.950; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Allow})]
+ INFO main - 2020-10-16 16:06:40.573; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="31 DIAS • PROGRAMA"]}) (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 16:06:44.755; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="31 DIAS • PROGRAMA"]})]
+ INFO main - 2020-10-16 16:09:12.994; - hooks.BaseClass - ERRO: org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/eduardo.finotti/Desk..., automationName: XCuiTest, browserName: , databaseEnabled: false, deviceName: iPhone 11, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: false, platform: MAC, platformName: iOS, platformVersion: 13.1, takesScreenshot: true, udid: 14ADAC54-053A-4FAD-B80C-C21..., webStorageEnabled: false}
+Session ID: d26c6844-0e53-4066-894f-06b222556db6
+*** Element info: {Using=xpath, value=//XCUIElementTypeStaticText[@name="Dia 1"]}
+ INFO main - 2020-10-16 16:09:33.401; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-16 16:09:45.572; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:09:45.572; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-16 16:09:45.572; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:09:46.670; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-16 16:09:47.687; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar com E-mail})]
+ INFO main - 2020-10-16 16:09:48.757; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Já tenho uma Conta"]})]
+ INFO main - 2020-10-16 16:09:51.897; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[1]}) WITH <testcompra@gmail.com>]
+ INFO main - 2020-10-16 16:09:55.063; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[2]}) WITH <1234>]
+ INFO main - 2020-10-16 16:09:56.666; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeButton[@name="Entrar"]})]
+ INFO main - 2020-10-16 16:09:59.401; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Allow})]
+ INFO main - 2020-10-16 16:10:30.831; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //XCUIElementTypeApplication[@name="Lojong"]/XCUIElementTypeWindow[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton}) (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 16:10:32.377; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeApplication[@name="Lojong"]/XCUIElementTypeWindow[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton})]
+ INFO main - 2020-10-16 16:10:43.375; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Dia 1"]})]
+ INFO main - 2020-10-16 16:10:46.657; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeCell[1]})]
+ INFO main - 2020-10-16 16:10:49.699; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: INICIAR})]
+ INFO main - 2020-10-16 16:10:54.682; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:10:55.472; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:10:56.256; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:10:57.050; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:10:57.834; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:10:58.613; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:10:59.375; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:11:00.159; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:11:00.933; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:11:01.697; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:11:12.031; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: ic close}) (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 16:11:14.713; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic close})]
+ INFO main - 2020-10-16 16:15:43.107; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:15:43.109; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-16 16:15:43.109; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:15:48.669; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-16 16:16:01.513; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:16:01.513; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-16 16:16:01.513; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:16:02.614; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-16 16:16:03.660; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar com E-mail})]
+ INFO main - 2020-10-16 16:16:04.710; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Já tenho uma Conta"]})]
+ INFO main - 2020-10-16 16:16:07.841; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[1]}) WITH <testcompra@gmail.com>]
+ INFO main - 2020-10-16 16:16:11.053; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[2]}) WITH <1234>]
+ INFO main - 2020-10-16 16:16:12.639; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeButton[@name="Entrar"]})]
+ INFO main - 2020-10-16 16:16:15.464; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Allow})]
+ INFO main - 2020-10-16 16:16:21.708; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //XCUIElementTypeApplication[@name="Lojong"]/XCUIElementTypeWindow[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton}) (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 16:16:23.386; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeApplication[@name="Lojong"]/XCUIElementTypeWindow[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton})]
+ INFO main - 2020-10-16 16:16:25.375; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Dia 1"]})]
+ INFO main - 2020-10-16 16:16:27.169; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeCell[1]})]
+ INFO main - 2020-10-16 16:16:28.474; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: INICIAR})]
+ INFO main - 2020-10-16 16:16:29.678; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:16:30.413; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:16:31.227; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:16:31.972; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:16:32.707; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:16:33.466; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:16:34.254; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:16:35.026; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:16:35.850; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:16:36.520; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:16:37.258; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:16:38.072; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:16:38.846; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:16:39.668; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:16:40.419; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:16:41.246; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:16:41.961; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:16:42.799; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:16:43.554; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:16:44.303; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:16:50.951; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="CONCLUIR"]}) (tried for 5 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 16:16:54.205; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:16:54.205; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-16 16:16:54.205; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:17:34.852; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-16 16:17:43.748; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:17:43.750; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-16 16:17:43.750; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:17:44.952; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-16 16:17:45.990; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar com E-mail})]
+ INFO main - 2020-10-16 16:17:47.094; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Já tenho uma Conta"]})]
+ INFO main - 2020-10-16 16:17:50.696; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[1]}) WITH <testcompra@gmail.com>]
+ INFO main - 2020-10-16 16:17:53.974; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[2]}) WITH <1234>]
+ INFO main - 2020-10-16 16:17:55.511; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeButton[@name="Entrar"]})]
+ INFO main - 2020-10-16 16:17:58.211; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Allow})]
+ INFO main - 2020-10-16 16:18:03.711; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //XCUIElementTypeApplication[@name="Lojong"]/XCUIElementTypeWindow[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton}) (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 16:18:05.244; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeApplication[@name="Lojong"]/XCUIElementTypeWindow[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton})]
+ INFO main - 2020-10-16 16:18:07.157; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Dia 1"]})]
+ INFO main - 2020-10-16 16:18:08.922; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeCell[1]})]
+ INFO main - 2020-10-16 16:18:10.279; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: INICIAR})]
+ INFO main - 2020-10-16 16:18:11.490; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:18:12.319; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:18:13.110; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:18:13.920; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:18:14.708; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:18:15.526; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:18:16.320; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:18:17.124; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:18:17.903; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:18:18.768; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:18:19.526; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:18:20.309; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:18:21.115; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:18:21.952; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:18:22.712; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:18:23.566; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:18:24.362; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:18:25.165; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:18:25.964; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:18:26.733; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:19:31.119; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="CONCLUIR"]}) (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 16:19:33.731; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="CONCLUIR"]})]
+ INFO main - 2020-10-16 16:20:08.625; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:20:08.627; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-16 16:20:08.627; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:20:14.017; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-16 16:20:22.379; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:20:22.379; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-16 16:20:22.380; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:20:23.533; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-16 16:20:24.570; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar com E-mail})]
+ INFO main - 2020-10-16 16:20:25.651; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Já tenho uma Conta"]})]
+ INFO main - 2020-10-16 16:20:28.896; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[1]}) WITH <testcompra@gmail.com>]
+ INFO main - 2020-10-16 16:20:32.286; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[2]}) WITH <1234>]
+ INFO main - 2020-10-16 16:20:33.887; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeButton[@name="Entrar"]})]
+ INFO main - 2020-10-16 16:20:36.890; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Allow})]
+ INFO main - 2020-10-16 16:20:42.402; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //XCUIElementTypeApplication[@name="Lojong"]/XCUIElementTypeWindow[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton}) (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 16:20:43.970; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeApplication[@name="Lojong"]/XCUIElementTypeWindow[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton})]
+ INFO main - 2020-10-16 16:20:45.877; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Dia 1"]})]
+ INFO main - 2020-10-16 16:20:47.617; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeCell[1]})]
+ INFO main - 2020-10-16 16:20:48.883; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: INICIAR})]
+ INFO main - 2020-10-16 16:20:50.085; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:20:50.832; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:20:51.601; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:20:52.364; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:20:53.121; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:20:53.919; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:20:54.663; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:20:55.457; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:20:56.217; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:20:56.988; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:20:57.774; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:20:58.517; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:20:59.311; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:21:00.074; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:21:00.856; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:21:01.600; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:21:02.423; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:21:03.178; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:21:03.924; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:21:04.665; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:21:05.410; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:21:06.142; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:21:06.900; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:21:07.649; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:21:08.432; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:21:09.202; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:21:10.050; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:21:16.192; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: ic advance 10 secs2}) (tried for 5 second(s) with 100 milliseconds interval)
+ ERROR main - 2020-10-16 16:21:19.655; - pages.FundamentoPage - ERRO: Skip audio não está na tela.
+ INFO main - 2020-10-16 16:21:26.704; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: ic advance 10 secs2}) (tried for 5 second(s) with 100 milliseconds interval)
+ ERROR main - 2020-10-16 16:21:30.184; - pages.FundamentoPage - ERRO: Skip audio não está na tela.
+ INFO main - 2020-10-16 16:21:37.306; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: ic advance 10 secs2}) (tried for 5 second(s) with 100 milliseconds interval)
+ ERROR main - 2020-10-16 16:21:40.786; - pages.FundamentoPage - ERRO: Skip audio não está na tela.
+ INFO main - 2020-10-16 16:21:47.822; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: ic advance 10 secs2}) (tried for 5 second(s) with 100 milliseconds interval)
+ ERROR main - 2020-10-16 16:21:51.324; - pages.FundamentoPage - ERRO: Skip audio não está na tela.
+ INFO main - 2020-10-16 16:21:58.383; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: ic advance 10 secs2}) (tried for 5 second(s) with 100 milliseconds interval)
+ ERROR main - 2020-10-16 16:22:01.855; - pages.FundamentoPage - ERRO: Skip audio não está na tela.
+ INFO main - 2020-10-16 16:22:02.874; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeApplication[@name="Lojong"]/XCUIElementTypeWindow[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeButton[2]})]
+ INFO main - 2020-10-16 16:22:02.876; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:22:02.877; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-16 16:22:02.877; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:23:20.398; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-16 16:23:28.689; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:23:28.689; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-16 16:23:28.689; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:23:29.816; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-16 16:23:30.841; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar com E-mail})]
+ INFO main - 2020-10-16 16:23:31.886; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Já tenho uma Conta"]})]
+ INFO main - 2020-10-16 16:23:35.042; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[1]}) WITH <testcompra@gmail.com>]
+ INFO main - 2020-10-16 16:23:38.317; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[2]}) WITH <1234>]
+ INFO main - 2020-10-16 16:23:39.941; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeButton[@name="Entrar"]})]
+ INFO main - 2020-10-16 16:23:43.095; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Allow})]
+ INFO main - 2020-10-16 16:23:48.590; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //XCUIElementTypeApplication[@name="Lojong"]/XCUIElementTypeWindow[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton}) (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 16:23:50.164; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeApplication[@name="Lojong"]/XCUIElementTypeWindow[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton})]
+ INFO main - 2020-10-16 16:23:53.401; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Dia 31"]}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 16:23:57.619; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Dia 31"]}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 16:24:01.912; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Dia 31"]}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 16:24:07.636; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Dia 1"]}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 16:24:11.953; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Dia 1"]}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 16:24:16.025; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Dia 1"]}) (tried for 3 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 16:24:20.779; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Dia 1"]})]
+ INFO main - 2020-10-16 16:24:22.746; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeCell[1]})]
+ INFO main - 2020-10-16 16:24:24.094; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: INICIAR})]
+ INFO main - 2020-10-16 16:24:25.354; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:24:26.135; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:24:26.925; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:24:27.676; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:24:28.531; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:24:29.377; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:24:30.301; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:24:31.108; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:24:31.909; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:24:32.801; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:24:33.747; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:24:34.593; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:24:35.330; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:24:36.092; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:24:36.865; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:24:37.672; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:24:38.574; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:24:39.583; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:24:40.473; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:24:41.350; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:24:42.297; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:24:43.386; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:24:44.293; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:24:45.166; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:24:46.037; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ INFO main - 2020-10-16 16:24:46.880; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic advance 10 secs2})]
+ ERROR main - 2020-10-16 16:24:51.123; - pages.FundamentoPage - ERRO: Skip audio não está na tela.
+ INFO main - 2020-10-16 16:24:58.263; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: ic advance 10 secs2}) (tried for 5 second(s) with 100 milliseconds interval)
+ ERROR main - 2020-10-16 16:25:01.773; - pages.FundamentoPage - ERRO: Skip audio não está na tela.
+ INFO main - 2020-10-16 16:25:08.938; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: ic advance 10 secs2}) (tried for 5 second(s) with 100 milliseconds interval)
+ ERROR main - 2020-10-16 16:25:12.476; - pages.FundamentoPage - ERRO: Skip audio não está na tela.
+ INFO main - 2020-10-16 16:25:19.671; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: ic advance 10 secs2}) (tried for 5 second(s) with 100 milliseconds interval)
+ ERROR main - 2020-10-16 16:25:23.236; - pages.FundamentoPage - ERRO: Skip audio não está na tela.
+ INFO main - 2020-10-16 16:25:24.440; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeApplication[@name="Lojong"]/XCUIElementTypeWindow[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeButton[2]})]
+ INFO main - 2020-10-16 16:25:24.442; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:25:24.443; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-16 16:25:24.443; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:26:46.098; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-16 16:26:54.263; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:26:54.264; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-16 16:26:54.264; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:26:55.089; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-16 16:27:03.527; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continue en Espanhol})]
+ INFO main - 2020-10-16 16:27:03.530; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:27:03.530; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-16 16:27:03.530; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:42:02.283; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-16 16:42:19.805; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-16 16:42:38.146; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-16 16:42:46.778; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:42:46.778; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-16 16:42:46.779; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:42:47.953; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-16 16:42:48.965; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar com E-mail})]
+ INFO main - 2020-10-16 16:42:50.088; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Já tenho uma Conta"]})]
+ INFO main - 2020-10-16 16:42:53.317; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[1]}) WITH <testcompra@gmail.com>]
+ INFO main - 2020-10-16 16:42:56.598; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[2]}) WITH <1234>]
+ INFO main - 2020-10-16 16:42:58.259; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeButton[@name="Entrar"]})]
+ INFO main - 2020-10-16 16:43:01.268; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Allow})]
+ INFO main - 2020-10-16 16:43:13.348; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: //XCUIElementTypeApplication[@name="Lojong"]/XCUIElementTypeWindow[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton}) (tried for 5 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 16:44:03.489; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-16 16:44:12.016; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:44:12.016; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-16 16:44:12.017; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:44:13.249; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-16 16:44:14.268; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar com E-mail})]
+ INFO main - 2020-10-16 16:44:15.316; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Já tenho uma Conta"]})]
+ INFO main - 2020-10-16 16:44:18.543; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[1]}) WITH <testcompra@gmail.com>]
+ INFO main - 2020-10-16 16:44:21.817; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[2]}) WITH <1234>]
+ INFO main - 2020-10-16 16:44:23.431; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeButton[@name="Entrar"]})]
+ INFO main - 2020-10-16 16:44:26.158; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Allow})]
+ INFO main - 2020-10-16 16:44:41.475; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //XCUIElementTypeApplication[@name="Lojong"]/XCUIElementTypeWindow[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton}) (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 16:44:43.054; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeApplication[@name="Lojong"]/XCUIElementTypeWindow[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton})]
+ INFO main - 2020-10-16 16:44:46.233; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="1"]})]
+ INFO main - 2020-10-16 16:44:48.400; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: INICIAR})]
+ INFO main - 2020-10-16 16:45:01.165; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: ic close}) (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 16:45:03.840; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic close})]
+ INFO main - 2020-10-16 16:45:10.903; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: Sim}) (tried for 5 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-16 16:45:49.780; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-16 16:45:58.523; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:45:58.523; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-16 16:45:58.523; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:45:59.754; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-16 16:46:00.779; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar com E-mail})]
+ INFO main - 2020-10-16 16:46:01.870; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Já tenho uma Conta"]})]
+ INFO main - 2020-10-16 16:46:05.088; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[1]}) WITH <testcompra@gmail.com>]
+ INFO main - 2020-10-16 16:46:08.315; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[2]}) WITH <1234>]
+ INFO main - 2020-10-16 16:46:09.926; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeButton[@name="Entrar"]})]
+ INFO main - 2020-10-16 16:46:12.644; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Allow})]
+ INFO main - 2020-10-16 16:46:18.236; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //XCUIElementTypeApplication[@name="Lojong"]/XCUIElementTypeWindow[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton}) (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 16:46:19.788; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeApplication[@name="Lojong"]/XCUIElementTypeWindow[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton})]
+ INFO main - 2020-10-16 16:46:21.240; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="1"]})]
+ INFO main - 2020-10-16 16:46:22.247; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: INICIAR})]
+ INFO main - 2020-10-16 16:46:37.290; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.AccessibilityId: ic close}) (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 16:46:39.807; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: ic close})]
+ INFO main - 2020-10-16 16:49:11.025; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-16 16:49:19.528; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-16 16:49:43.934; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:49:43.934; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-16 16:49:43.935; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-16 16:49:45.308; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar en Portugués})]
+ INFO main - 2020-10-16 16:49:46.333; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Continuar com E-mail})]
+ INFO main - 2020-10-16 16:49:47.416; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="Já tenho uma Conta"]})]
+ INFO main - 2020-10-16 16:49:50.707; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[1]}) WITH <testcompra@gmail.com>]
+ INFO main - 2020-10-16 16:49:54.072; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.xpath: //XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther[2]}) WITH <1234>]
+ INFO main - 2020-10-16 16:49:55.790; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeButton[@name="Entrar"]})]
+ INFO main - 2020-10-16 16:49:58.621; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: Allow})]
+ INFO main - 2020-10-16 16:50:04.363; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //XCUIElementTypeApplication[@name="Lojong"]/XCUIElementTypeWindow[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton}) (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 16:50:05.967; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeApplication[@name="Lojong"]/XCUIElementTypeWindow[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton})]
+ INFO main - 2020-10-16 16:50:07.348; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeStaticText[@name="1"]})]
+ INFO main - 2020-10-16 16:50:08.369; - hooks.BaseClass - [CLICK ON Located by By.chained({By.AccessibilityId: INICIAR})]
+ INFO main - 2020-10-16 16:50:31.118; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //XCUIElementTypeButton[@name="ic close"]}) (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'eduardo-finotti.local', ip: '2804:7f5:f380:4b42:cc1:1f0c:d962:ce98%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+ INFO main - 2020-10-16 16:50:33.704; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: //XCUIElementTypeButton[@name="ic close"]})]

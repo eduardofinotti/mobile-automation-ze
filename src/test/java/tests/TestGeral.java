@@ -6,13 +6,11 @@ import pages.*;
 import utils.ListenerUtils;
 import utils.Utils;
 
-
 @Listeners(ListenerUtils.class)
 public class TestGeral extends Utils {
 
     @Test(enabled = true)
     public void testGeral() throws InterruptedException {
-//        PageFactory.initPages();
 
         IntroductionPage introductionPage = new IntroductionPage(driver);
         CreateAccountPage createAccountPage = new CreateAccountPage(driver);

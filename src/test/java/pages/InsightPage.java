@@ -35,11 +35,11 @@ public class InsightPage extends Utils {
     public static MobileElement textArtigos;
 
     @AndroidFindBy(xpath = "//android.widget.HorizontalScrollView/android.widget.LinearLayout/android.widget.TextView[3]")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeButton[@name=\"CITAÇÕES\"]")
     public static MobileElement textCitacoes;
 
-    @AndroidFindBy(xpath = "//*[contains(@text,'O CORPO EQUILIBRADO E O CAMINHO DO MEIO')]")
-    @iOSXCUITFindBy(id = "Permitir")
+        @AndroidFindBy(xpath = "//*[contains(@text,'A SOBREVIVÊNCIA DO MAIS BONDOSO')]")
+    @iOSXCUITFindBy(accessibility = "A SOBREVIVÊNCIA DO MAIS BONDOSO")
     public static MobileElement textFinalArtigos;
 
     @AndroidFindBy(xpath = "//*[contains(@text,'UMA ABORDAGEM MINDFUL DIANTE DO CORONAVÍRUS')]")
@@ -47,10 +47,10 @@ public class InsightPage extends Utils {
     public static MobileElement textTopArtigos;
 
     @AndroidFindBy(xpath = "//*[contains(@text,'Phakchok Rinpoche')]")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(accessibility = "Phakchok Rinpoche")
     public static MobileElement textTopCitacoes;
 
-    @AndroidFindBy(xpath = "//*[contains(@text,'Jon Kabat-Zinn')]")
-    @iOSXCUITFindBy(id = "Permitir")
+    @AndroidFindBy(xpath = "//*[contains(@text,'Pema Chodron')]")
+    @iOSXCUITFindBy(accessibility = "Pema Chodron")
     public static MobileElement textFinalCitacoes;
 }

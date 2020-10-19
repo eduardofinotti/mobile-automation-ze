@@ -19,11 +19,11 @@ public class CommonPage extends BaseClass {
 
 
     @AndroidFindBy(id = "btn_premium_dialog")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(accessibility = "INICIAR")
     public static MobileElement idstartPracticePremmium;
 
     @AndroidFindBy(id = "ivLeftIcon")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(accessibility = "back")
     public static MobileElement idCloseBtn;
 
     @AndroidFindBy(id = "btn_continue")

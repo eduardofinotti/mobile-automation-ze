@@ -19,7 +19,7 @@ public class PlayerPage extends Utils {
     }
 
     @AndroidFindBy(id = "ivForward")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(accessibility = "ic advance 10 secs2")
     public static MobileElement idBtnSkipAudio;
 
     @AndroidFindBy(xpath = "//android.widget.LinearLayout[@content-desc = 'Rewind 10 secs']")
@@ -27,11 +27,11 @@ public class PlayerPage extends Utils {
     public static MobileElement xpathBtnSkeepAudio;
 
     @AndroidFindBy(id = "ivLeftIcon")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeButton[@name=\"ic close\"]")
     public static MobileElement idCloseBtn;
 
     @AndroidFindBy(id = "android:id/button1")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(accessibility = "Sim")
     public static MobileElement idYesCloseBtn;
 
 

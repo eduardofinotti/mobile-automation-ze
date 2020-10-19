@@ -9,7 +9,6 @@ public class TestFundamentos extends Utils {
     @Test(enabled = true)
     public void fundamentosTest() throws InterruptedException {
 
-//        PageFactory.initPages();
         IntroductionPage introductionPage = new IntroductionPage(driver);
         CreateAccountPage createAccountPage = new CreateAccountPage(driver);
         PracticesPage practicesPage = new PracticesPage(driver);
@@ -27,7 +26,9 @@ public class TestFundamentos extends Utils {
 
         loginPage.doLoginEmail();
 
-        Utils.scrollToElement("down", practicesPage.textFundamentosPT);
+        if (isAndroid) {
+            Utils.scrollToElement("down", practicesPage.textFundamentosPT);
+        }
         clickOn(practicesPage.textFundamentosPT);
 
         fundamentoPage.scrollScreenFundamentos();

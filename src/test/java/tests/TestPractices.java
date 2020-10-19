@@ -32,9 +32,9 @@ public class TestPractices extends Utils {
 
         loginPage.doLoginEmail();
 
-        Utils.scrollToElement("down long", practicesPage.cardInstagram);
+//        Utils.scrollToElement("down long", practicesPage.cardInstagram);  
+//        Utils.scrollToElement("up long", practicesPage.textCultivandoHabitoPT);
 
-        Utils.scrollToElement("up long", practicesPage.textCultivandoHabitoPT);
         clickOn(practicesPage.textCultivandoHabitoPT);
 
 //        Utils.scrollToElement("down long", CultivandoHabitoPage.textCultivandoHabitoDayOne);
@@ -46,7 +46,10 @@ public class TestPractices extends Utils {
         clickOn(commonPage.idCloseBtn);
 
         Thread.sleep(2000);
-        Utils.scroll("down");
+        if(isAndroid){
+            Utils.scroll("down");
+        }
+
         clickOn(practicesPage.textCaminhoPT);
 
         clickOn(caminhoPage.idDayOne);
@@ -55,8 +58,18 @@ public class TestPractices extends Utils {
 
         playerPage.closePalyer();
 
+        if(isAndroid){
+            clickOn(commonPage.idCloseBtn);
+        } else {
+            clickOn(playerPage.idCloseBtn);
+            clickOn(playerPage.idYesCloseBtn);
+        }
+
         clickOn(commonPage.idCloseBtn);
-        clickOn(commonPage.idCloseBtn);
+
+        if(!isAndroid) {
+            clickOn(commonPage.idCloseBtn);
+        }
 
         Thread.sleep(2000);
         Utils.scrollToElement("down long", practicesPage.textFundamentosPT);

@@ -1,5 +1,6 @@
 package pages;
 
+import hooks.BaseClass;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
@@ -22,36 +23,42 @@ public class FundamentoPage extends Utils {
     }
 
     @AndroidFindBy(xpath = "//*[@text='Dia 1']")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"Dia 1\"]")
     public static MobileElement idDayOne;
 
     @AndroidFindBy(xpath = "//*[contains(@text,'Dia 31')]")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"Dia 31\"]")
     public static MobileElement idLastDay;
 
     @AndroidFindBy(id = "ivPlay")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeCell[1]")
     public static MobileElement idDayPlay1;
 
     @AndroidFindBy(id = "btn_premium_dialog")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(accessibility = "INICIAR")
     public static MobileElement idstartPracticePremmium;
 
     public static void scrollScreenFundamentos() {
-//        FundamentoPage fundamentoPage = new FundamentoPage();
-//        Utils.scrollToElement("up long", fundamentoPage.idLastDay);
-//        Utils.scrollToElement("down long", fundamentoPage.idDayOne);
+        FundamentoPage fundamentoPage = new FundamentoPage(BaseClass.driver);
+        Utils.scrollToElement("up long", fundamentoPage.idLastDay);
+        Utils.scrollToElement("down long", fundamentoPage.idDayOne);
     }
 
     public static void skipAudio() {
-//        PlayerPage playerPage = new PlayerPage();
-//        for (int i = 0; i < 10; i++) {
-//            try {
-//                clickOn(playerPage.idBtnSkipAudio);
-//            } catch (Exception error) {
-//                log.error("ERRO: Skip audio não está na tela.");
-//            }
-//        }
+        PlayerPage playerPage = new PlayerPage(BaseClass.driver);
+        int quantity = 30;
+
+        if (isAndroid){
+            quantity = 10;
+        }
+
+        for (int i = 0; i < quantity; i++) {
+            try {
+                clickOn(playerPage.idBtnSkipAudio);
+            } catch (Exception error) {
+                log.error("ERRO: Skip audio não está na tela.");
+            }
+        }
     }
 
 }

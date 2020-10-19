@@ -18,10 +18,10 @@ public class CaminhoPage extends BaseClass {
     }
 
     @AndroidFindBy(id = "ivIconWay1")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(accessibility = "path img2")
     public static MobileElement idDayOne;
 
     @AndroidFindBy(id = "ivPlay")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeApplication[@name=\"Lojong\"]/XCUIElementTypeWindow[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[1]")
     public static MobileElement idDayPlay1;
 }
