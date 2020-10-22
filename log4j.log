@@ -3895,3 +3895,42 @@ Driver info: driver.version: unknown
  INFO main - 2020-10-22 09:21:01.823; - hooks.BaseClass - [FILL FIELD Located by By.chained({By.id: etPassword}) WITH <123456789>]
  INFO main - 2020-10-22 09:21:02.662; - hooks.BaseClass - [CLICK ON Located by By.chained({By.xpath: (//android.widget.Button[@index='0'])[1]})]
  INFO main - 2020-10-22 09:21:15.604; - hooks.BaseClass - ERRO: Expected condition failed: waiting for element to be clickable: Located by By.chained({By.xpath: //*[contains(@text,'TORNE-SE PREMIUM')]}) (tried for 5 second(s) with 100 milliseconds interval)
+ INFO main - 2020-10-22 09:43:29.015; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-22 09:43:36.271; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-22 09:43:36.271; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-22 09:43:36.272; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-22 09:43:37.700; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnPortuguese})]
+ INFO main - 2020-10-22 09:43:42.363; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnSpanish})]
+ INFO main - 2020-10-22 09:43:42.365; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-22 09:43:42.365; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-22 09:43:42.365; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-22 09:44:01.203; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-22 09:45:13.528; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-22 09:45:59.069; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-22 09:45:59.070; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-22 09:45:59.070; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-22 09:46:11.049; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnPortuguese})]
+ INFO main - 2020-10-22 09:46:27.902; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnSpanish})]
+ INFO main - 2020-10-22 09:46:27.903; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-22 09:46:27.903; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-22 09:46:27.904; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-22 09:58:35.479; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-22 09:59:51.900; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-22 10:00:50.026; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-22 10:01:36.135; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-22 10:01:36.135; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-22 10:01:36.135; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-22 10:01:49.235; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnPortuguese})]
+ INFO main - 2020-10-22 10:02:06.826; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnSpanish})]
+ INFO main - 2020-10-22 10:02:06.828; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-22 10:02:06.828; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-22 10:02:06.828; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-22 10:04:01.790; - hooks.AppiumController - Appium running...
+ INFO main - 2020-10-22 10:04:08.818; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-22 10:04:08.818; - hooks.BaseClass - ----------------------Test Start------------------------
+ INFO main - 2020-10-22 10:04:08.819; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-22 10:04:10.528; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnPortuguese})]
+ INFO main - 2020-10-22 10:04:15.114; - hooks.BaseClass - [CLICK ON Located by By.chained({By.id: btnSpanish})]
+ INFO main - 2020-10-22 10:04:15.325; - hooks.BaseClass - --------------------------------------------------------
+ INFO main - 2020-10-22 10:04:15.325; - hooks.BaseClass - ----------------------Test Finish-----------------------
+ INFO main - 2020-10-22 10:04:15.325; - hooks.BaseClass - --------------------------------------------------------
