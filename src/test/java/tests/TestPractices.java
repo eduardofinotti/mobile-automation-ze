@@ -30,7 +30,7 @@ public class TestPractices extends Utils {
         clickOn(introductionPage.btSkip);
         clickOn(createAccountPage.idBtnToLogin);
 
-        loginPage.doLoginEmail();
+        loginPage.doLoginEmail(LoginPage.emailPremium);
 
 //        Utils.scrollToElement("down long", practicesPage.cardInstagram);  
 //        Utils.scrollToElement("up long", practicesPage.textCultivandoHabitoPT);
@@ -43,7 +43,12 @@ public class TestPractices extends Utils {
 
         playerPage.closePalyer();
 
-        clickOn(commonPage.idCloseBtn);
+        Thread.sleep(2000);
+        if(isAndroid){
+            clickOn(commonPage.idCloseBtn);
+        }else{
+            Utils.backScreenIOS();
+        }
 
         Thread.sleep(2000);
         if(isAndroid){
@@ -61,14 +66,10 @@ public class TestPractices extends Utils {
         if(isAndroid){
             clickOn(commonPage.idCloseBtn);
         } else {
-            clickOn(playerPage.idCloseBtn);
-            clickOn(playerPage.idYesCloseBtn);
-        }
-
-        clickOn(commonPage.idCloseBtn);
-
-        if(!isAndroid) {
-            clickOn(commonPage.idCloseBtn);
+            Thread.sleep(1000);
+            Utils.backScreenIOS();
+            Thread.sleep(1000);
+            Utils.backScreenIOS();
         }
 
         Thread.sleep(2000);

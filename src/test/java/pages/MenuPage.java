@@ -18,7 +18,7 @@ public class MenuPage extends BaseClass {
     }
 
     @AndroidFindBy(xpath = "//*[contains(@text,'TORNE-SE PREMIUM')]")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(id = "CONVIDE AMIGOS")
     public static MobileElement textMenuPurchase;
 
 

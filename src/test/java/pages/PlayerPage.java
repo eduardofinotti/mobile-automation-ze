@@ -3,9 +3,11 @@ package pages;
 import hooks.BaseClass;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
+import io.appium.java_client.touch.offset.PointOption;
 import org.openqa.selenium.support.PageFactory;
 import utils.Utils;
 
@@ -27,7 +29,7 @@ public class PlayerPage extends Utils {
     public static MobileElement xpathBtnSkeepAudio;
 
     @AndroidFindBy(id = "ivLeftIcon")
-    @iOSXCUITFindBy(xpath = "//XCUIElementTypeButton[@name=\"ic close\"]")
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeApplication[@name=\"Lojong\"]/XCUIElementTypeWindow[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeButton[@name=\"ic close\"]")
     public static MobileElement idCloseBtn;
 
     @AndroidFindBy(id = "android:id/button1")
@@ -41,7 +43,16 @@ public class PlayerPage extends Utils {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        clickOn(idCloseBtn);
+
+        if(isAndroid){
+            clickOn(idCloseBtn);
+        } else {
+            Utils.backScreenIOS();
+        }
+
         clickOn(idYesCloseBtn);
     }
 }
+
+
+//XCUIElementTypeApplication[@name="Lojong"]/XCUIElementTypeWindow[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeButton[@name="ic close"]

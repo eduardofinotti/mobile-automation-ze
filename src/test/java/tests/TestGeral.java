@@ -27,7 +27,7 @@ public class TestGeral extends Utils {
         clickOn(introductionPage.btSkip);
         clickOn(createAccountPage.idBtnToLogin);
 
-        loginPage.doLoginEmail();
+        loginPage.doLoginEmail(LoginPage.emailPremium);
 
         Utils.scrollToElement("down long", practicesPage.cardInstagram);
         clickOn(mainPage.idBtnInsight);

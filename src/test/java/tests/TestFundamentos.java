@@ -24,7 +24,7 @@ public class TestFundamentos extends Utils {
         clickOn(introductionPage.btSkip);
         clickOn(createAccountPage.idBtnToLogin);
 
-        loginPage.doLoginEmail();
+        loginPage.doLoginEmail(LoginPage.emailPremium);
 
         if (isAndroid) {
             Utils.scrollToElement("down", practicesPage.textFundamentosPT);

@@ -112,4 +112,7 @@ public class Utils extends BaseClass {
         log.info("[FILL FIELD " + field + " WITH <" + value + ">]");
     }
 
+    protected static void backScreenIOS() {
+        new TouchAction(BaseClass.driver).tap(PointOption.point(25,65)).release().perform();
+    }
 }

@@ -11,8 +11,6 @@ public class TestPurchase extends Utils {
 
     @Test(enabled = true)
     public void purchaseTest() throws InterruptedException {
-
-//        PageFactory.initPages();
         IntroductionPage introductionPage = new IntroductionPage(driver);
         CreateAccountPage createAccountPage = new CreateAccountPage(driver);
         LoginPage loginPage = new LoginPage(driver);
@@ -28,9 +26,8 @@ public class TestPurchase extends Utils {
         clickOn(introductionPage.btSkip);
         clickOn(createAccountPage.idBtnToLogin);
 
-        loginPage.doLoginEmail();
+        loginPage.doLoginEmail(LoginPage.email);
 
-        clickOn(menuPage.textMenuPurchase);
         clickOn(menuPage.textMenuPurchase);
         clickOn(purchasePage.idActiveAds);
 

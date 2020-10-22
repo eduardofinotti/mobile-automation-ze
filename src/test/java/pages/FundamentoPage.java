@@ -57,6 +57,7 @@ public class FundamentoPage extends Utils {
                 clickOn(playerPage.idBtnSkipAudio);
             } catch (Exception error) {
                 log.error("ERRO: Skip audio não está na tela.");
+                break;
             }
         }
     }

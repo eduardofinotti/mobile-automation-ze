@@ -12,8 +12,8 @@ import utils.Utils;
 public class LoginPage extends Utils {
 
     public static String emailPremium = "testcompra@gmail.com";
-    public static String email = "eduardo.finotti.ef@gmail.com";
-    public static String password = "1234";
+    public static String email = "eduardo.finotti@hotmail.com";
+    public static String password = "123456789";
 
     private AppiumDriver driver;
 
@@ -40,14 +40,14 @@ public class LoginPage extends Utils {
     @iOSXCUITFindBy(accessibility = "Allow")
     public static MobileElement allow;
 
-    public static void doLoginEmail() throws InterruptedException {
+    public static void  doLoginEmail(String email) throws InterruptedException {
         Thread.sleep(1000);
-        fillField(LoginPage.idBtnEmail, LoginPage.emailPremium);
+        fillField(LoginPage.idBtnEmail, email);
         Thread.sleep(1000);
         fillField(LoginPage.idBtnPassword, LoginPage.password);
         clickOn(LoginPage.xpathEnterButton);
 
-        if(!isAndroid) {
+        if(!System.getProperty("platform").equalsIgnoreCase("android")) {
             clickOn(LoginPage.allow);
         }
     }
