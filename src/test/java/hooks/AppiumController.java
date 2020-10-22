@@ -6,9 +6,9 @@ import io.appium.java_client.service.local.flags.GeneralServerFlag;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class AppiumFactory {
+public class AppiumController extends BaseClass {
 
-    private static Logger log = LoggerFactory.getLogger(AppiumFactory.class);
+    private static Logger log = LoggerFactory.getLogger(AppiumController.class);
 
     public static void startAppium() {
         AppiumServiceBuilder builder = new AppiumServiceBuilder();
@@ -18,7 +18,7 @@ public class AppiumFactory {
         builder.withArgument(GeneralServerFlag.LOG_LEVEL, "error");
 
         try {
-            BaseClass.service = AppiumDriverLocalService.buildService(builder);
+            service = AppiumDriverLocalService.buildService(builder);
             BaseClass.service.start();
             log.info("Appium running...");
         } catch (Exception error) {

@@ -1,23 +1,27 @@
 package pages;
 
+import hooks.BaseClass;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
+import io.appium.java_client.touch.offset.PointOption;
 import org.openqa.selenium.support.PageFactory;
-import hooks.BaseClass;
 import utils.Utils;
 
 public class PlayerPage extends Utils {
 
-    public PlayerPage() {
-        AppiumDriver driver = new BaseClass().driver.get();
+    private AppiumDriver driver;
+
+    public PlayerPage(AppiumDriver driver) {
+        this.driver = driver;
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
     @AndroidFindBy(id = "ivForward")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(accessibility = "ic advance 10 secs2")
     public static MobileElement idBtnSkipAudio;
 
     @AndroidFindBy(xpath = "//android.widget.LinearLayout[@content-desc = 'Rewind 10 secs']")
@@ -25,11 +29,11 @@ public class PlayerPage extends Utils {
     public static MobileElement xpathBtnSkeepAudio;
 
     @AndroidFindBy(id = "ivLeftIcon")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeApplication[@name=\"Lojong\"]/XCUIElementTypeWindow[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeButton[@name=\"ic close\"]")
     public static MobileElement idCloseBtn;
 
     @AndroidFindBy(id = "android:id/button1")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(accessibility = "Sim")
     public static MobileElement idYesCloseBtn;
 
 
@@ -39,7 +43,16 @@ public class PlayerPage extends Utils {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        clickOn(idCloseBtn);
+
+        if(isAndroid){
+            clickOn(idCloseBtn);
+        } else {
+            Utils.backScreenIOS();
+        }
+
         clickOn(idYesCloseBtn);
     }
 }
+
+
+//XCUIElementTypeApplication[@name="Lojong"]/XCUIElementTypeWindow[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeButton[@name="ic close"]

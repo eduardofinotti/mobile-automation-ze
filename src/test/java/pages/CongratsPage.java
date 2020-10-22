@@ -6,13 +6,14 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 import org.openqa.selenium.support.PageFactory;
-import hooks.BaseClass;
 import utils.Utils;
 
 public class CongratsPage extends Utils {
 
-    public CongratsPage() {
-        AppiumDriver driver = new BaseClass().driver.get();
+    private AppiumDriver driver;
+
+    public CongratsPage(AppiumDriver driver) {
+        this.driver = driver;
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
@@ -21,7 +22,7 @@ public class CongratsPage extends Utils {
     public static MobileElement idBtnNext;
 
     @AndroidFindBy(id = "btnCancel")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeApplication[@name=\"Lojong\"]/XCUIElementTypeWindow[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeButton[2]")
     public static MobileElement idBtnCancel;
 
 }

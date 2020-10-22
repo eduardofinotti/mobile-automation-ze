@@ -1,19 +1,18 @@
 package tests;
 
-import hooks.PageFactory;
 import org.testng.annotations.Test;
 import pages.LanguagePage;
 import utils.Utils;
 
 public class TestLang extends Utils {
 
-    @Test(enabled = false)
+    @Test(enabled = true)
     public void langTest() {
-        PageFactory.initPages();
+        LanguagePage languagePage = new LanguagePage(driver);
 
-        clickOn(LanguagePage.idBtnPortuguese);
+        clickOn(languagePage.idBtnPortuguese);
         Utils.back();
-        clickOn(LanguagePage.idBtnSpanish);
+        clickOn(languagePage.idBtnSpanish);
     }
 
 }

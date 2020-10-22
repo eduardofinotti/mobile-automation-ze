@@ -10,16 +10,18 @@ import hooks.BaseClass;
 
 public class CaminhoPage extends BaseClass {
 
-    public CaminhoPage() {
-        AppiumDriver driver = new BaseClass().driver.get();
+    private AppiumDriver driver;
+
+    public CaminhoPage(AppiumDriver driver) {
+        this.driver = driver;
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
     @AndroidFindBy(id = "ivIconWay1")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(accessibility = "path img6")
     public static MobileElement idDayOne;
 
     @AndroidFindBy(id = "ivPlay")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeApplication[@name=\"Lojong\"]/XCUIElementTypeWindow[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[1]")
     public static MobileElement idDayPlay1;
 }

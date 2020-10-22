@@ -6,22 +6,23 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 import org.openqa.selenium.support.PageFactory;
-import hooks.BaseClass;
 import utils.Utils;
 
 public class CultivandoHabitoPage extends Utils {
 
-    public CultivandoHabitoPage() {
-        AppiumDriver driver = new BaseClass().driver.get();
+    private AppiumDriver driver;
+
+    public CultivandoHabitoPage(AppiumDriver driver) {
+        this.driver = driver;
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
     @AndroidFindBy(xpath = "//*[@text='1']")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"1\"]")
     public static MobileElement textCultivandoHabitoDayOne;
 
     @AndroidFindBy(id = "rlpracticeplay_button")
-    @iOSXCUITFindBy(id = "Permitir")
+    @iOSXCUITFindBy(accessibility = "INICIAR")
     public static MobileElement startPractice;
 
 }

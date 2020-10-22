@@ -3,9 +3,7 @@ package tests;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.*;
-import hooks.BaseClass;
 import utils.ListenerUtils;
-import hooks.PageFactory;
 import utils.Utils;
 
 @Listeners(ListenerUtils.class)
@@ -13,51 +11,78 @@ public class TestPractices extends Utils {
 
     @Test(enabled = true)
     public void practicesTest() throws InterruptedException {
+        IntroductionPage introductionPage = new IntroductionPage(driver);
+        CreateAccountPage createAccountPage = new CreateAccountPage(driver);
+        PracticesPage practicesPage = new PracticesPage(driver);
+        LoginPage loginPage = new LoginPage(driver);
+        CommonPage commonPage = new CommonPage(driver);
+        PlayerPage playerPage = new PlayerPage(driver);
+        CultivandoHabitoPage cultivandoHabitoPage = new CultivandoHabitoPage(driver);
+        CaminhoPage caminhoPage = new CaminhoPage(driver);
+        FundamentoPage fundamentoPage = new FundamentoPage(driver);
+        CongratsPage congratsPage = new CongratsPage(driver);
+        LanguagePage languagePage = new LanguagePage(driver);
 
-        PageFactory.initPages();
+        if (Utils.isElementDisplayed(languagePage.idBtnPortuguese)) {
+            clickOn(languagePage.idBtnPortuguese);
+        }
 
-        clickOn(IntroductionPage.btSkip);
-        clickOn(CreateAccountPage.idBtnToLogin);
+        clickOn(introductionPage.btSkip);
+        clickOn(createAccountPage.idBtnToLogin);
 
-        LoginPage.doLoginEmail();
+        loginPage.doLoginEmail(LoginPage.emailPremium);
 
-        Utils.scrollToElement("down long", PracticesPage.cardInstagram);
+//        Utils.scrollToElement("down long", practicesPage.cardInstagram);  
+//        Utils.scrollToElement("up long", practicesPage.textCultivandoHabitoPT);
 
-        Utils.scrollToElement("up long", PracticesPage.textCultivandoHabitoPT);
-        clickOn(PracticesPage.textCultivandoHabitoPT);
+        clickOn(practicesPage.textCultivandoHabitoPT);
 
 //        Utils.scrollToElement("down long", CultivandoHabitoPage.textCultivandoHabitoDayOne);
-        clickOn(CultivandoHabitoPage.textCultivandoHabitoDayOne);
-        clickOn(CultivandoHabitoPage.startPractice);
+        clickOn(cultivandoHabitoPage.textCultivandoHabitoDayOne);
+        clickOn(cultivandoHabitoPage.startPractice);
 
-        PlayerPage.closePalyer();
-
-        clickOn(CommonPage.idCloseBtn);
+        playerPage.closePalyer();
 
         Thread.sleep(2000);
-        Utils.scroll("down");
-        clickOn(PracticesPage.textCaminhoPT);
-
-        clickOn(CaminhoPage.idDayOne);
-        clickOn(CaminhoPage.idDayPlay1);
-        clickOn(CommonPage.idstartPracticePremmium);
-
-        PlayerPage.closePalyer();
-
-        clickOn(CommonPage.idCloseBtn);
-        clickOn(CommonPage.idCloseBtn);
+        if(isAndroid){
+            clickOn(commonPage.idCloseBtn);
+        }else{
+            Utils.backScreenIOS();
+        }
 
         Thread.sleep(2000);
-        Utils.scrollToElement("down long", PracticesPage.textFundamentosPT);
-        clickOn(PracticesPage.textFundamentosPT);
+        if(isAndroid){
+            Utils.scroll("down");
+        }
 
-        FundamentoPage.scrollScreenFundamentos();
+        clickOn(practicesPage.textCaminhoPT);
 
-        clickOn(FundamentoPage.idDayOne);
-        clickOn(FundamentoPage.idDayPlay1);
-        clickOn(FundamentoPage.idstartPracticePremmium);
+        clickOn(caminhoPage.idDayOne);
+        clickOn(caminhoPage.idDayPlay1);
+        clickOn(commonPage.idstartPracticePremmium);
 
-        FundamentoPage.skipAudio();
-        clickOn(CongratsPage.idBtnCancel);
+        playerPage.closePalyer();
+
+        if(isAndroid){
+            clickOn(commonPage.idCloseBtn);
+        } else {
+            Thread.sleep(1000);
+            Utils.backScreenIOS();
+            Thread.sleep(1000);
+            Utils.backScreenIOS();
+        }
+
+        Thread.sleep(2000);
+        Utils.scrollToElement("down long", practicesPage.textFundamentosPT);
+        clickOn(practicesPage.textFundamentosPT);
+
+        fundamentoPage.scrollScreenFundamentos();
+
+        clickOn(fundamentoPage.idDayOne);
+        clickOn(fundamentoPage.idDayPlay1);
+        clickOn(fundamentoPage.idstartPracticePremmium);
+
+        fundamentoPage.skipAudio();
+        clickOn(congratsPage.idBtnCancel);
     }
 }
