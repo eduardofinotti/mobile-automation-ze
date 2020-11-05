@@ -10,7 +10,7 @@ import org.openqa.selenium.remote.Augmenter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeMethod;
 import utils.CapabilitiesFactory;
 
 import java.io.File;
@@ -19,15 +19,17 @@ import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 public class BaseClass {
+    public static ThreadLocal<AppiumDriver> driver = new ThreadLocal<>();
 
     static AppiumDriverLocalService service;
-    public static AppiumDriver driver;
-
     public static Boolean isAndroid = System.getProperty("platform").toLowerCase() == "android" ? true : false;
-
     private static Logger log = LoggerFactory.getLogger(BaseClass.class);
 
-    @BeforeTest
+    public AppiumDriver getDriver() {
+        return driver.get();
+    }
+
+    @BeforeMethod
     public void setup() throws MalformedURLException {
 
         AppiumController.startAppium();
@@ -46,7 +48,7 @@ public class BaseClass {
             }
         }
 
-        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        driver.get().manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 
         log.info("--------------------------------------------------------");
         log.info("----------------------Test Start------------------------");
@@ -55,7 +57,7 @@ public class BaseClass {
 
     @AfterTest
     public void teardown() {
-        driver.quit();
+        driver.get().quit();
         service.stop();
 
         log.info("--------------------------------------------------------");
@@ -74,11 +76,11 @@ public class BaseClass {
     public static void takeScreenshotAndSave() {
         String imagesLocation = "target/surefire-reports/screenshot/";
         new File(imagesLocation).mkdirs();
-        String filename = imagesLocation + "screenshot.jpg";
+        String filename = imagesLocation + "device.jpg";
 
         try {
             Thread.sleep(500);
-            WebDriver augmentedDriver = new Augmenter().augment(driver);
+            WebDriver augmentedDriver = new Augmenter().augment(driver.get());
             File scrFile = ((TakesScreenshot) augmentedDriver).getScreenshotAs(OutputType.FILE);
             FileUtils.copyFile(scrFile, new File(filename), true);
         } catch (Exception e) {

@@ -39,13 +39,13 @@ public class FundamentoPage extends Utils {
     public static MobileElement idstartPracticePremmium;
 
     public static void scrollScreenFundamentos() {
-        FundamentoPage fundamentoPage = new FundamentoPage(BaseClass.driver);
+        FundamentoPage fundamentoPage = new FundamentoPage(BaseClass.driver.get());
         Utils.scrollToElement("up long", fundamentoPage.idLastDay);
         Utils.scrollToElement("down long", fundamentoPage.idDayOne);
     }
 
     public static void skipAudio() {
-        PlayerPage playerPage = new PlayerPage(BaseClass.driver);
+        PlayerPage playerPage = new PlayerPage(BaseClass.driver.get());
         int quantity = 30;
 
         if (isAndroid){
