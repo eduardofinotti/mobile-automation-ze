@@ -12,7 +12,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import pages.LoginPage;
 
 import java.time.Duration;
 
@@ -71,12 +70,12 @@ public class Utils extends BaseClass {
     }
 
     public static void verticalSwipeByPercentages(double startPercentage, double endPercentage, double anchorPercentage) {
-        Dimension size = driver.manage().window().getSize();
+        Dimension size = driver.get().manage().window().getSize();
         int anchor = (int) (size.width * anchorPercentage);
         int startPoint = (int) (size.height * startPercentage);
         int endPoint = (int) (size.height * endPercentage);
 
-        new TouchAction(driver)
+        new TouchAction(driver.get())
                 .longPress(PointOption.point(anchor, startPoint))
                 .moveTo(PointOption.point(anchor, endPoint))
                 .release()
@@ -93,9 +92,9 @@ public class Utils extends BaseClass {
 
     public static void back() {
         if(BaseClass.isAndroid){
-            driver.navigate().back();
+            driver.get().navigate().back();
         } else {
-            driver.launchApp();
+            driver.get().launchApp();
         }
     }
 
@@ -103,6 +102,11 @@ public class Utils extends BaseClass {
         Utils.waitElementBePresent(element, 5);
         element.click();
         log.info("[CLICK ON " + element + "]");
+    }
+
+    public static String getText(MobileElement element) {
+        Utils.waitElementBePresent(element, 5);
+        return element.getAttribute("label");
     }
 
     public static void fillField(MobileElement field, String value) {
@@ -113,6 +117,6 @@ public class Utils extends BaseClass {
     }
 
     protected static void backScreenIOS() {
-        new TouchAction(BaseClass.driver).tap(PointOption.point(25,65)).release().perform();
+        new TouchAction(BaseClass.driver.get()).tap(PointOption.point(25,65)).release().perform();
     }
 }

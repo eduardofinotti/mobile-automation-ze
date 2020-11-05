@@ -9,15 +9,15 @@ import utils.Utils;
 @Listeners(ListenerUtils.class)
 public class TestPurchase extends Utils {
 
-    @Test(enabled = true)
+    @Test(enabled = false)
     public void purchaseTest() throws InterruptedException {
-        IntroductionPage introductionPage = new IntroductionPage(driver);
-        CreateAccountPage createAccountPage = new CreateAccountPage(driver);
-        LoginPage loginPage = new LoginPage(driver);
-        CommonPage commonPage = new CommonPage(driver);
-        MenuPage menuPage = new MenuPage(driver);
-        PurchasePage purchasePage = new PurchasePage(driver);
-        LanguagePage languagePage = new LanguagePage(driver);
+        IntroductionPage introductionPage = new IntroductionPage(driver.get());
+        CreateAccountPage createAccountPage = new CreateAccountPage(driver.get());
+        LoginPage loginPage = new LoginPage(driver.get());
+        CommonPage commonPage = new CommonPage(driver.get());
+        MenuPage menuPage = new MenuPage(driver.get());
+        PurchasePage purchasePage = new PurchasePage(driver.get());
+        LanguagePage languagePage = new LanguagePage(driver.get());
 
         if (Utils.isElementDisplayed(languagePage.idBtnPortuguese)) {
             clickOn(languagePage.idBtnPortuguese);

@@ -11,17 +11,17 @@ public class TestPractices extends Utils {
 
     @Test(enabled = true)
     public void practicesTest() throws InterruptedException {
-        IntroductionPage introductionPage = new IntroductionPage(driver);
-        CreateAccountPage createAccountPage = new CreateAccountPage(driver);
-        PracticesPage practicesPage = new PracticesPage(driver);
-        LoginPage loginPage = new LoginPage(driver);
-        CommonPage commonPage = new CommonPage(driver);
-        PlayerPage playerPage = new PlayerPage(driver);
-        CultivandoHabitoPage cultivandoHabitoPage = new CultivandoHabitoPage(driver);
-        CaminhoPage caminhoPage = new CaminhoPage(driver);
-        FundamentoPage fundamentoPage = new FundamentoPage(driver);
-        CongratsPage congratsPage = new CongratsPage(driver);
-        LanguagePage languagePage = new LanguagePage(driver);
+        IntroductionPage introductionPage = new IntroductionPage(driver.get());
+        CreateAccountPage createAccountPage = new CreateAccountPage(driver.get());
+        PracticesPage practicesPage = new PracticesPage(driver.get());
+        LoginPage loginPage = new LoginPage(driver.get());
+        CommonPage commonPage = new CommonPage(driver.get());
+        PlayerPage playerPage = new PlayerPage(driver.get());
+        CultivandoHabitoPage cultivandoHabitoPage = new CultivandoHabitoPage(driver.get());
+        CaminhoPage caminhoPage = new CaminhoPage(driver.get());
+        FundamentoPage fundamentoPage = new FundamentoPage(driver.get());
+        CongratsPage congratsPage = new CongratsPage(driver.get());
+        LanguagePage languagePage = new LanguagePage(driver.get());
 
         if (Utils.isElementDisplayed(languagePage.idBtnPortuguese)) {
             clickOn(languagePage.idBtnPortuguese);

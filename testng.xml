@@ -1,8 +1,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Practice Suite">
-    <test name="Test Basics 1">
+<suite name="Suite">
+    <test name="Test Language">
         <classes>
-            <class name="tests.TestLang"/>
+            <class name="tests.TestLanguage"/>
         </classes>
-    </test> <!-- Test -->
-</suite> <!-- Suite -->
+    </test>
+</suite>
+
+<!-- To run -->
+<!-- mvn test -DskitTests=false -Dplatform=android -Dlocal=local -->

@@ -9,13 +9,13 @@ public class TestFundamentos extends Utils {
     @Test(enabled = true)
     public void fundamentosTest() throws InterruptedException {
 
-        IntroductionPage introductionPage = new IntroductionPage(driver);
-        CreateAccountPage createAccountPage = new CreateAccountPage(driver);
-        PracticesPage practicesPage = new PracticesPage(driver);
-        LoginPage loginPage = new LoginPage(driver);
-        FundamentoPage fundamentoPage = new FundamentoPage(driver);
-        CongratsPage congratsPage = new CongratsPage(driver);
-        LanguagePage languagePage = new LanguagePage(driver);
+        IntroductionPage introductionPage = new IntroductionPage(driver.get());
+        CreateAccountPage createAccountPage = new CreateAccountPage(driver.get());
+        PracticesPage practicesPage = new PracticesPage(driver.get());
+        LoginPage loginPage = new LoginPage(driver.get());
+        FundamentoPage fundamentoPage = new FundamentoPage(driver.get());
+        CongratsPage congratsPage = new CongratsPage(driver.get());
+        LanguagePage languagePage = new LanguagePage(driver.get());
 
         if (Utils.isElementDisplayed(languagePage.idBtnPortuguese)) {
             clickOn(languagePage.idBtnPortuguese);

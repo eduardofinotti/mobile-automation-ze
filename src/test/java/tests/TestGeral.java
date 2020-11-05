@@ -12,13 +12,13 @@ public class TestGeral extends Utils {
     @Test(enabled = true)
     public void testGeral() throws InterruptedException {
 
-        IntroductionPage introductionPage = new IntroductionPage(driver);
-        CreateAccountPage createAccountPage = new CreateAccountPage(driver);
-        PracticesPage practicesPage = new PracticesPage(driver);
-        LoginPage loginPage = new LoginPage(driver);
-        MainPage mainPage = new MainPage(driver);
-        InsightPage insightPage = new InsightPage(driver);
-        LanguagePage languagePage = new LanguagePage(driver);
+        IntroductionPage introductionPage = new IntroductionPage(driver.get());
+        CreateAccountPage createAccountPage = new CreateAccountPage(driver.get());
+        PracticesPage practicesPage = new PracticesPage(driver.get());
+        LoginPage loginPage = new LoginPage(driver.get());
+        MainPage mainPage = new MainPage(driver.get());
+        InsightPage insightPage = new InsightPage(driver.get());
+        LanguagePage languagePage = new LanguagePage(driver.get());
 
         if (Utils.isElementDisplayed(languagePage.idBtnPortuguese)) {
             clickOn(languagePage.idBtnPortuguese);
