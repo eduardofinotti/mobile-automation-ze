@@ -6,6 +6,3 @@
         </classes>
     </test>
 </suite>
-
-<!-- To run -->
-<!-- mvn test -DskitTests=false -Dplatform=android -Dlocal=local -->
