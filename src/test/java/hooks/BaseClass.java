@@ -30,7 +30,7 @@ public class BaseClass {
     }
 
     @BeforeMethod
-    public void setup() throws MalformedURLException {
+    public void setup() {
 
         AppiumController.startAppium();
 
