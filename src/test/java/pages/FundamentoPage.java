@@ -22,39 +22,39 @@ public class FundamentoPage extends Utils {
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
-    @AndroidFindBy(xpath = "//*[@text='Dia 1']")
+    @AndroidFindBy(xpath = "//*[@text='1']")
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"Dia 1\"]")
-    public static MobileElement idDayOne;
+    public static MobileElement day_1;
 
-    @AndroidFindBy(xpath = "//*[contains(@text,'Dia 31')]")
+    @AndroidFindBy(xpath = "//*[contains(@text,'31')]")
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"Dia 31\"]")
-    public static MobileElement idLastDay;
+    public static MobileElement day_31;
 
     @AndroidFindBy(id = "ivPlay")
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeCell[1]")
-    public static MobileElement idDayPlay1;
+    public static MobileElement play_1;
 
     @AndroidFindBy(id = "btn_premium_dialog")
     @iOSXCUITFindBy(accessibility = "INICIAR")
-    public static MobileElement idstartPracticePremmium;
+    public static MobileElement btn_start_pratice;
 
     public static void scrollScreenFundamentos() {
         FundamentoPage fundamentoPage = new FundamentoPage(BaseClass.driver.get());
-        Utils.scrollToElement("up long", fundamentoPage.idLastDay);
-        Utils.scrollToElement("down long", fundamentoPage.idDayOne);
+        Utils.scrollToElement("up long", fundamentoPage.day_31);
+        Utils.scrollToElement("down long", fundamentoPage.day_1);
     }
 
     public static void skipAudio() {
         PlayerPage playerPage = new PlayerPage(BaseClass.driver.get());
         int quantity = 30;
 
-        if (isAndroid){
+        if (System.getProperty("platform").equalsIgnoreCase("android")) {
             quantity = 10;
         }
 
         for (int i = 0; i < quantity; i++) {
             try {
-                clickOn(playerPage.idBtnSkipAudio);
+                clickOn(playerPage.btn_skip_audio);
             } catch (Exception error) {
                 log.error("ERRO: Skip audio não está na tela.");
                 break;
@@ -62,4 +62,15 @@ public class FundamentoPage extends Utils {
         }
     }
 
+    public void enterDay1() {
+        clickOn(day_1);
+    }
+
+    public void playAudio1() {
+        clickOn(play_1);
+    }
+
+    public void startPratice() {
+        clickOn(btn_start_pratice);
+    }
 }

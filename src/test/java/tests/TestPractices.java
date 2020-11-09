@@ -11,78 +11,53 @@ public class TestPractices extends Utils {
 
     @Test(enabled = true)
     public void practicesTest() throws InterruptedException {
-        IntroductionPage introductionPage = new IntroductionPage(driver.get());
-        CreateAccountPage createAccountPage = new CreateAccountPage(driver.get());
-        PracticesPage practicesPage = new PracticesPage(driver.get());
-        LoginPage loginPage = new LoginPage(driver.get());
+        HomePage homePage = new HomePage(driver.get());
         CommonPage commonPage = new CommonPage(driver.get());
         PlayerPage playerPage = new PlayerPage(driver.get());
         CultivandoHabitoPage cultivandoHabitoPage = new CultivandoHabitoPage(driver.get());
         CaminhoPage caminhoPage = new CaminhoPage(driver.get());
         FundamentoPage fundamentoPage = new FundamentoPage(driver.get());
         CongratsPage congratsPage = new CongratsPage(driver.get());
-        LanguagePage languagePage = new LanguagePage(driver.get());
+        LoginPage login = new LoginPage(driver.get());
+        IntroductionPage introductionPage = new IntroductionPage(driver.get());
 
-        if (Utils.isElementDisplayed(languagePage.idBtnPortuguese)) {
-            clickOn(languagePage.idBtnPortuguese);
-        }
+        introductionPage.onboarding();
+        login.login(LoginPage.emailPremium);
 
-        clickOn(introductionPage.btSkip);
-        clickOn(createAccountPage.idBtnToLogin);
+        homePage.scrollToInstagramCard();
+        homePage.scrollToCultivandoHabito();
 
-        loginPage.doLoginEmail(LoginPage.emailPremium);
-
-//        Utils.scrollToElement("down long", practicesPage.cardInstagram);  
-//        Utils.scrollToElement("up long", practicesPage.textCultivandoHabitoPT);
-
-        clickOn(practicesPage.textCultivandoHabitoPT);
-
-//        Utils.scrollToElement("down long", CultivandoHabitoPage.textCultivandoHabitoDayOne);
-        clickOn(cultivandoHabitoPage.textCultivandoHabitoDayOne);
-        clickOn(cultivandoHabitoPage.startPractice);
+        homePage.enterOnCultivandoHabito();
+        cultivandoHabitoPage.enterDay1();
+        cultivandoHabitoPage.startPratice();
 
         playerPage.closePalyer();
+        commonPage.backToHome();
 
         Thread.sleep(2000);
-        if(isAndroid){
-            clickOn(commonPage.idCloseBtn);
-        }else{
-            Utils.backScreenIOS();
-        }
-
-        Thread.sleep(2000);
-        if(isAndroid){
+        if (System.getProperty("platform").equalsIgnoreCase("android")) {
             Utils.scroll("down");
         }
 
-        clickOn(practicesPage.textCaminhoPT);
-
-        clickOn(caminhoPage.idDayOne);
-        clickOn(caminhoPage.idDayPlay1);
-        clickOn(commonPage.idstartPracticePremmium);
+        homePage.enterOnCaminho();
+        caminhoPage.enterDay1();
+        caminhoPage.playAudio1();
+        commonPage.startPratice();
 
         playerPage.closePalyer();
-
-        if(isAndroid){
-            clickOn(commonPage.idCloseBtn);
-        } else {
-            Thread.sleep(1000);
-            Utils.backScreenIOS();
-            Thread.sleep(1000);
-            Utils.backScreenIOS();
-        }
+        commonPage.backToHome();
 
         Thread.sleep(2000);
-        Utils.scrollToElement("down long", practicesPage.textFundamentosPT);
-        clickOn(practicesPage.textFundamentosPT);
+        homePage.scrollToFundamentos();
+        homePage.enterOnFundamentos();
 
         fundamentoPage.scrollScreenFundamentos();
 
-        clickOn(fundamentoPage.idDayOne);
-        clickOn(fundamentoPage.idDayPlay1);
-        clickOn(fundamentoPage.idstartPracticePremmium);
+        fundamentoPage.enterDay1();
+        fundamentoPage.playAudio1();
+        fundamentoPage.startPratice();
 
         fundamentoPage.skipAudio();
-        clickOn(congratsPage.idBtnCancel);
+        congratsPage.finishPratice();
     }
 }

@@ -48,7 +48,8 @@ public class CapabilitiesFactory extends BaseClass {
             capabilities.setCapability("useNewWDA", true);
             capabilities.setCapability("noReset", false);
             capabilities.setCapability(MobileCapabilityType.APP, "/Users/eduardofinotti/Desktop/Lojong.app");
-
+            capabilities.setCapability("language", "fr");
+            capabilities.setCapability("locale", "FR");
             // Real device
             // capabilities.setCapability(MobileCapabilityType.APP, "/Users/eduardofinotti/Desktop/Lojong.ipa");
             // capabilities.setCapability(MobileCapabilityType.UDID, "00008030-000D49E42E7B802E");
@@ -100,8 +101,8 @@ public class CapabilitiesFactory extends BaseClass {
             capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, AutomationName.ANDROID_UIAUTOMATOR2);
             capabilities.setCapability("platformVersion", "11.0");
             capabilities.setCapability("noReset", false);
-            capabilities.setCapability("language", "es");
-            capabilities.setCapability("locale", "ES");
+            capabilities.setCapability("language", "fr");
+            capabilities.setCapability("locale", "FR");
 
             BaseClass.driver.set(new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities));
 

@@ -6,9 +6,9 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 import org.openqa.selenium.support.PageFactory;
-import hooks.BaseClass;
+import utils.Utils;
 
-public class CaminhoPage extends BaseClass {
+public class CaminhoPage extends Utils {
 
     private AppiumDriver driver;
 
@@ -18,10 +18,18 @@ public class CaminhoPage extends BaseClass {
     }
 
     @AndroidFindBy(id = "ivIconWay1")
-    @iOSXCUITFindBy(accessibility = "path img6")
-    public static MobileElement idDayOne;
+    @iOSXCUITFindBy(accessibility = "path img2")
+    public static MobileElement day_1;
 
     @AndroidFindBy(id = "ivPlay")
-    @iOSXCUITFindBy(xpath = "//XCUIElementTypeApplication[@name=\"Lojong\"]/XCUIElementTypeWindow[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[1]")
-    public static MobileElement idDayPlay1;
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeTable/XCUIElementTypeCell[1]")
+    public static MobileElement play_1;
+
+    public void playAudio1() {
+        clickOn(play_1);
+    }
+
+    public void enterDay1() {
+        clickOn(day_1);
+    }
 }
