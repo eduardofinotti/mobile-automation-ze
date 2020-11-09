@@ -12,6 +12,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import pages.IntroductionPage;
 
 import java.time.Duration;
 
@@ -21,7 +22,7 @@ public class Utils extends BaseClass {
 
     public static boolean waitElementBePresent(MobileElement targetResourceId, int timeLimitInSeconds) {
         try {
-            FluentWait wait = new FluentWait(driver).withTimeout(Duration.ofSeconds(timeLimitInSeconds))
+            FluentWait wait = new FluentWait(BaseClass.driver.get()).withTimeout(Duration.ofSeconds(timeLimitInSeconds))
                     .pollingEvery(Duration.ofMillis(100))
                     .ignoring(NoSuchElementException.class, StaleElementReferenceException.class)
                     .ignoring(TimeoutException.class);
@@ -34,7 +35,7 @@ public class Utils extends BaseClass {
     }
 
     public static boolean isElementDisplayed(MobileElement element) {
-        Utils.waitElementBePresent(element, 3);
+//        Utils.waitElementBePresent(element, 1);
         try {
             return element.isDisplayed();
         } catch (NoSuchElementException | StaleElementReferenceException e) {
@@ -90,7 +91,7 @@ public class Utils extends BaseClass {
         }
     }
 
-    public static void back() {
+    public static void back() throws InterruptedException {
         if(BaseClass.isAndroid){
             driver.get().navigate().back();
         } else {
@@ -106,7 +107,7 @@ public class Utils extends BaseClass {
 
     public static String getText(MobileElement element) {
         Utils.waitElementBePresent(element, 5);
-        return element.getAttribute("label");
+        return element.getAttribute("text");
     }
 
     public static void fillField(MobileElement field, String value) {
@@ -116,7 +117,7 @@ public class Utils extends BaseClass {
         log.info("[FILL FIELD " + field + " WITH <" + value + ">]");
     }
 
-    protected static void backScreenIOS() {
+    public static void backScreenIOS() {
         new TouchAction(BaseClass.driver.get()).tap(PointOption.point(25,65)).release().perform();
     }
 }

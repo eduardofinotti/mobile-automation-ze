@@ -11,50 +11,42 @@ public class TestPurchase extends Utils {
 
     @Test(enabled = false)
     public void purchaseTest() throws InterruptedException {
-        IntroductionPage introductionPage = new IntroductionPage(driver.get());
-        CreateAccountPage createAccountPage = new CreateAccountPage(driver.get());
-        LoginPage loginPage = new LoginPage(driver.get());
         CommonPage commonPage = new CommonPage(driver.get());
         MenuPage menuPage = new MenuPage(driver.get());
         PurchasePage purchasePage = new PurchasePage(driver.get());
-        LanguagePage languagePage = new LanguagePage(driver.get());
+        IntroductionPage introductionPage = new IntroductionPage(driver.get());
+        LoginPage loginPage = new LoginPage(driver.get());
 
-        if (Utils.isElementDisplayed(languagePage.idBtnPortuguese)) {
-            clickOn(languagePage.idBtnPortuguese);
-        }
+        introductionPage.onboarding();
+        loginPage.login(LoginPage.email);
 
-        clickOn(introductionPage.btSkip);
-        clickOn(createAccountPage.idBtnToLogin);
-
-        loginPage.doLoginEmail(LoginPage.email);
-
-        clickOn(menuPage.textMenuPurchase);
+        clickOn(menuPage.txt_purchase);
         clickOn(purchasePage.idActiveAds);
 
         clickOn(purchasePage.idOption1);
 
-        clickOn(commonPage.idBtnNext);
-        clickOn(commonPage.idBtnBack);
+        clickOn(commonPage.btn_next);
+        clickOn(commonPage.btn_back);
 
         clickOn(purchasePage.idOption2);
 
-        clickOn(commonPage.idBtnNext);
-        clickOn(commonPage.idBtnBack);
+        clickOn(commonPage.btn_next);
+        clickOn(commonPage.btn_back);
 
         clickOn(purchasePage.idOption3);
 
-        clickOn(commonPage.idBtnNext);
-        clickOn(commonPage.idBtnBack);
+        clickOn(commonPage.btn_next);
+        clickOn(commonPage.btn_back);
 
         clickOn(purchasePage.idOption4);
 
-        clickOn(commonPage.idBtnNext);
-        clickOn(commonPage.idBtnBack);
+        clickOn(commonPage.btn_next);
+        clickOn(commonPage.btn_back);
 
         clickOn(purchasePage.idOption5);
 
-        clickOn(commonPage.idBtnNext);
-        clickOn(commonPage.idBtnBack);
+        clickOn(commonPage.btn_next);
+        clickOn(commonPage.btn_back);
     }
 
 }

@@ -13,34 +13,25 @@ public class TestGeral extends Utils {
     public void testGeral() throws InterruptedException {
 
         IntroductionPage introductionPage = new IntroductionPage(driver.get());
-        CreateAccountPage createAccountPage = new CreateAccountPage(driver.get());
-        PracticesPage practicesPage = new PracticesPage(driver.get());
         LoginPage loginPage = new LoginPage(driver.get());
-        MainPage mainPage = new MainPage(driver.get());
         InsightPage insightPage = new InsightPage(driver.get());
-        LanguagePage languagePage = new LanguagePage(driver.get());
+        HomePage homePage = new HomePage(driver.get());
 
-        if (Utils.isElementDisplayed(languagePage.idBtnPortuguese)) {
-            clickOn(languagePage.idBtnPortuguese);
-        }
+        introductionPage.onboarding();
+        loginPage.login(LoginPage.emailPremium);
 
-        clickOn(introductionPage.btSkip);
-        clickOn(createAccountPage.idBtnToLogin);
+        homePage.scrollToInstagramCard();
+        homePage.enterInsightTab();
 
-        loginPage.doLoginEmail(LoginPage.emailPremium);
+        insightPage.scrollToFinalVideoTab();
+        insightPage.scrollToTopVideoTab();
 
-        Utils.scrollToElement("down long", practicesPage.cardInstagram);
-        clickOn(mainPage.idBtnInsight);
+        insightPage.enterArtigosTab();
+        insightPage.scrollToFinalArtigosTab();
+        insightPage.scrollToTopArtigosTab();
 
-        Utils.scrollToElement("down long", insightPage.textFinalVideo);
-        Utils.scrollToElement("up long", insightPage.textTopVideo);
-        clickOn(insightPage.textArtigos);
-
-        Utils.scrollToElement("down long", insightPage.textFinalArtigos);
-        Utils.scrollToElement("up long", insightPage.textTopArtigos);
-        clickOn(insightPage.textCitacoes);
-
-        Utils.scrollToElement("down long", insightPage.textFinalCitacoes);
-        Utils.scrollToElement("up long", insightPage.textTopCitacoes);
+        insightPage.enterCitacoesTab();
+        insightPage.scrollToFinalCitacoesTab();
+        insightPage.scrollToTopCitacoesTab();
     }
 }

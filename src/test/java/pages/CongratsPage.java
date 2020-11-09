@@ -17,12 +17,11 @@ public class CongratsPage extends Utils {
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
-    @AndroidFindBy(id = "btnNext")
-    @iOSXCUITFindBy(id = "Permitir")
-    public static MobileElement idBtnNext;
-
     @AndroidFindBy(id = "btnCancel")
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeApplication[@name=\"Lojong\"]/XCUIElementTypeWindow[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[3]/XCUIElementTypeButton[2]")
-    public static MobileElement idBtnCancel;
+    public static MobileElement btn_cancel;
 
+    public void finishPratice() {
+        clickOn(btn_cancel);
+    }
 }

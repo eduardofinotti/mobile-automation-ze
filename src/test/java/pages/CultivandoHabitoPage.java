@@ -19,10 +19,17 @@ public class CultivandoHabitoPage extends Utils {
 
     @AndroidFindBy(xpath = "//*[@text='1']")
     @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"1\"]")
-    public static MobileElement textCultivandoHabitoDayOne;
+    public static MobileElement txt_day_1;
 
     @AndroidFindBy(id = "rlpracticeplay_button")
     @iOSXCUITFindBy(accessibility = "INICIAR")
-    public static MobileElement startPractice;
+    public static MobileElement start_practice;
 
+    public void startPratice() {
+        clickOn(start_practice);
+    }
+
+    public void enterDay1() {
+        clickOn(txt_day_1);
+    }
 }

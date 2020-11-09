@@ -14,11 +14,11 @@ import org.testng.annotations.BeforeMethod;
 import utils.CapabilitiesFactory;
 
 import java.io.File;
-import java.net.MalformedURLException;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 public class BaseClass {
+
     public static ThreadLocal<AppiumDriver> driver = new ThreadLocal<>();
 
     static AppiumDriverLocalService service;
