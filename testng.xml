@@ -1,8 +1,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-    <test name="Test Language">
-        <classes>
-            <class name="tests.TestLanguage"/>
-        </classes>
-    </test>
+<suite name="uber-smoke-suite" verbose="1" parallel="methods" thread-count="1" configfailurepolicy="continue">
+    <suite-files>
+        <suite-file path="df-ios-testng.xml" />
+        <suite-file path="local-ios-testng.xml" />
+
+        <suite-file path="df-android-testng.xml" />
+        <suite-file path="local-android-testng.xml" />
+    </suite-files>
 </suite>

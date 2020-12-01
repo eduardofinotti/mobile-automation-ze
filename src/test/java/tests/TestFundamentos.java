@@ -1,5 +1,6 @@
 package tests;
 
+import hooks.BaseClass;
 import org.testng.annotations.Test;
 import pages.*;
 import utils.Utils;
@@ -18,7 +19,7 @@ public class TestFundamentos extends Utils {
         introductionPage.onboarding();
         loginPage.login(LoginPage.emailPremium);
 
-        if (System.getProperty("platform").equalsIgnoreCase("android" )) {
+        if (BaseClass.platform_run.equalsIgnoreCase("android" )) {
             Utils.scrollToElement("down", homePage.txt_fundamentos);
         }
 

@@ -1,5 +1,6 @@
 package pages;
 
+import hooks.BaseClass;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
@@ -10,7 +11,7 @@ import utils.Utils;
 
 public class PlayerPage extends Utils {
 
-    private AppiumDriver driver;
+    private final AppiumDriver driver;
 
     public PlayerPage(AppiumDriver driver) {
         this.driver = driver;
@@ -40,12 +41,12 @@ public class PlayerPage extends Utils {
             e.printStackTrace();
         }
 
-        if (System.getProperty("platform").equalsIgnoreCase("android")) {
+        if (BaseClass.platform_run.equalsIgnoreCase("android")) {
             clickOn(btn_close_audio);
         } else {
             Utils.backScreenIOS();
         }
 
-         clickOn(btn_confirm_close_audio);
+        clickOn(btn_confirm_close_audio);
     }
 }
