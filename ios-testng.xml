@@ -1,0 +1,63 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite iOS">
+    <test name="Test iPhone 11">
+        <parameter name = "device" value="iPhone 11"/>
+        <parameter name = "osVersion" value="13.0"/>
+        <parameter name = "local" value="df"/>
+        <parameter name = "platform" value="ios"/>
+        <classes>
+            <class name="tests.TestDiarioGratidao"/>
+        </classes>
+    </test>
+
+    <test name="Test iPhone 8">
+        <parameter name = "device" value="iPhone 8"/>
+        <parameter name = "osVersion" value="13.0"/>
+        <parameter name = "local" value="df"/>
+        <parameter name = "platform" value="ios"/>
+        <classes>
+            <class name="tests.TestDiarioGratidao"/>
+        </classes>
+    </test>
+
+    <test name="Test iPhone 7">
+        <parameter name = "device" value="iPhone 7"/>
+        <parameter name = "osVersion" value="12.0"/>
+        <parameter name = "local" value="df"/>
+        <parameter name = "platform" value="ios"/>
+        <classes>
+            <class name="tests.TestDiarioGratidao"/>
+        </classes>
+    </test>
+
+    <test name="Test iPhone X">
+        <parameter name = "device" value="iPhone X"/>
+        <parameter name = "osVersion" value="11.0"/>
+        <parameter name = "local" value="df"/>
+        <parameter name = "platform" value="ios"/>
+        <classes>
+            <class name="tests.TestDiarioGratidao"/>
+        </classes>
+    </test>
+
+    <test name="Test iPhone 11 Pro">
+        <parameter name = "device" value="iPhone 11 Pro"/>
+        <parameter name = "osVersion" value="13.0"/>
+        <parameter name = "local" value="df"/>
+        <parameter name = "platform" value="ios"/>
+        <classes>
+            <class name="tests.TestDiarioGratidao"/>
+        </classes>
+    </test>
+
+    <test name="Test iPhone XS">
+        <parameter name = "device" value="iPhone XS"/>
+        <parameter name = "osVersion" value="13.0"/>
+        <parameter name = "local" value="df"/>
+        <parameter name = "platform" value="ios"/>
+        <classes>
+            <class name="tests.TestDiarioGratidao"/>
+        </classes>
+    </test>
+</suite>
+

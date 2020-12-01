@@ -22,16 +22,26 @@ public class HomePage extends Utils {
     public static MobileElement card_instagram;
 
     @AndroidFindBy(xpath = "//*[contains(@text,'31 DIAS • PROGRAMA')]")
-    @iOSXCUITFindBy(xpath = "//XCUIElementTypeApplication[@name=\"Lojong\"]/XCUIElementTypeWindow[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeTable/XCUIElementTypeCell[3]/XCUIElementTypeButton")
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"Fundamentos\"]")
     public static MobileElement txt_fundamentos;
 
     @AndroidFindBy(xpath = "//*[contains(@text,'21 dias de meditação começando com práticas de 10 minutos.')]")
-    @iOSXCUITFindBy(xpath = "//XCUIElementTypeApplication[@name=\"Lojong\"]/XCUIElementTypeWindow[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeTable/XCUIElementTypeCell[1]/XCUIElementTypeButton")
+    @iOSXCUITFindBy(xpath = "\t\n" +
+            "//XCUIElementTypeStaticText[@name=\"Cultivando o Hábito\"]")
     public static MobileElement txt_cultivando_o_habito;
 
     @AndroidFindBy(xpath = "//*[contains(@text,'Cultivando relaxamento, foco, clareza e felicidade genuína.')]")
-    @iOSXCUITFindBy(xpath = "//XCUIElementTypeApplication[@name=\"Lojong\"]/XCUIElementTypeWindow[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeTable/XCUIElementTypeCell[2]/XCUIElementTypeButton")
+    @iOSXCUITFindBy(xpath = "(//XCUIElementTypeStaticText[@name=\"Caminho\"])[2]")
     public static MobileElement txt_caminho;
+
+    @AndroidFindBy(xpath = "//*[contains(@text,'Aprendendo uma nova forma de lidar com as aflições.')]")
+    @iOSXCUITFindBy(xpath = "\t\n" +
+            "//XCUIElementTypeStaticText[@name=\"Acolhendo a Ansiedade\"]")
+    public static MobileElement txt_acolhendo_ansiedade;
+
+    @AndroidFindBy(xpath = "//*[contains(@text,'Práticas de atenção plena para o momento presente.')]")
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"Programa Mindfulness\"]")
+    public static MobileElement txt_mindfulness;
 
     @AndroidFindBy(id = "llInsight")
     @iOSXCUITFindBy(accessibility = "Insight")
@@ -40,6 +50,10 @@ public class HomePage extends Utils {
     @AndroidFindBy(id = "llTimer")
     @iOSXCUITFindBy(accessibility = "Insight")
     public static MobileElement tab_tools;
+
+    @AndroidFindBy(id = "llMain")
+    @iOSXCUITFindBy(accessibility = "Mais")
+    public static MobileElement tab_more;
 
     public static void scrollToInstagramCard() {
         Utils.scrollToElement("down long", card_instagram);
@@ -61,8 +75,20 @@ public class HomePage extends Utils {
         clickOn(txt_caminho);
     }
 
+    public void enterAcolhendoAnsiedade() {
+        clickOn(txt_acolhendo_ansiedade);
+    }
+
+    public void enterProgramaMindfulness() {
+        clickOn(txt_mindfulness);
+    }
+
     public void scrollToFundamentos() {
-        Utils.scrollToElement("down long", txt_fundamentos);
+        Utils.scrollToElement("down", txt_fundamentos);
+    }
+
+    public void scrollToAcolhendoAnsiedade() {
+        Utils.scrollToElement("down long", txt_acolhendo_ansiedade);
     }
 
     public void enterOnFundamentos() {
@@ -71,5 +97,13 @@ public class HomePage extends Utils {
 
     public void enterToolsTab() {
         clickOn(tab_tools);
+    }
+
+    public void enterMoreTab() {
+        clickOn(tab_more);
+    }
+
+    public void scrollToProgramaMinfulness() {
+        Utils.scrollToElement("down", txt_mindfulness);
     }
 }

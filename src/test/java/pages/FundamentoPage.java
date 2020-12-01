@@ -48,7 +48,7 @@ public class FundamentoPage extends Utils {
         PlayerPage playerPage = new PlayerPage(BaseClass.driver.get());
         int quantity = 30;
 
-        if (System.getProperty("platform").equalsIgnoreCase("android")) {
+        if (BaseClass.platform_run.equalsIgnoreCase("android")) {
             quantity = 10;
         }
 

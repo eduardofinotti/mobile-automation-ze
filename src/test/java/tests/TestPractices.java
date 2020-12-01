@@ -1,5 +1,6 @@
 package tests;
 
+import hooks.BaseClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.*;
@@ -35,7 +36,7 @@ public class TestPractices extends Utils {
         commonPage.backToHome();
 
         Thread.sleep(2000);
-        if (System.getProperty("platform").equalsIgnoreCase("android")) {
+        if (BaseClass.platform_run.equalsIgnoreCase("android")) {
             Utils.scroll("down");
         }
 

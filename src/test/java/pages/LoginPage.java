@@ -1,5 +1,6 @@
 package pages;
 
+import hooks.BaseClass;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
@@ -57,7 +58,7 @@ public class LoginPage extends Utils {
         fillField(field_password, password);
         clickOn(btn_enter);
 
-        if(!System.getProperty("platform").equalsIgnoreCase("android")) {
+        if(!BaseClass.platform_run.equalsIgnoreCase("android")) {
             clickOn(allow);
         }
     }

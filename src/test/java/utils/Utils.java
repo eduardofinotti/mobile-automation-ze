@@ -12,7 +12,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import pages.IntroductionPage;
 
 import java.time.Duration;
 
@@ -84,15 +83,29 @@ public class Utils extends BaseClass {
     }
 
     public static void scroll(String direction) {
-        if (direction == "down") {
-            verticalSwipeByPercentages(0.7, 0.3, 0.5);
-        } else {
-            verticalSwipeByPercentages(0.2, 0.8, 0.4);
+//        if (direction == "down") {
+//            verticalSwipeByPercentages(0.7, 0.3, 0.5);
+//        } else {
+//            verticalSwipeByPercentages(0.2, 0.8, 0.4);
+//        }
+
+        switch (direction) {
+            case "down long":
+                verticalSwipeByPercentages(0.9, 0.1, 0.5);
+                break;
+            case "down":
+                verticalSwipeByPercentages(0.7, 0.3, 0.5);
+                break;
+            case "up":
+                verticalSwipeByPercentages(0.2, 0.8, 0.4);
+            case "up long":
+                verticalSwipeByPercentages(0.2, 0.9, 0.4);
+                break;
         }
     }
 
     public static void back() throws InterruptedException {
-        if(BaseClass.isAndroid){
+        if (BaseClass.platform_run.equalsIgnoreCase("android")) {
             driver.get().navigate().back();
         } else {
             driver.get().launchApp();
@@ -107,7 +120,13 @@ public class Utils extends BaseClass {
 
     public static String getText(MobileElement element) {
         Utils.waitElementBePresent(element, 5);
-        return element.getAttribute("text");
+
+        try {
+            return element.getAttribute("text");
+        } catch (Exception e) {
+            return element.getAttribute("label");
+
+        }
     }
 
     public static void fillField(MobileElement field, String value) {
@@ -118,6 +137,8 @@ public class Utils extends BaseClass {
     }
 
     public static void backScreenIOS() {
-        new TouchAction(BaseClass.driver.get()).tap(PointOption.point(25,65)).release().perform();
+        new TouchAction(BaseClass.driver.get()).tap(PointOption.point(25, 65)).release().perform();
+        new TouchAction(BaseClass.driver.get()).tap(PointOption.point(27, 41)).release().perform();
+
     }
 }

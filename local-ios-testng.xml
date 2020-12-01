@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite iOS">
+    <test name="Test iPhone 11">
+        <parameter name = "device" value="iPhone 11 Pro Max"/>
+        <parameter name = "osVersion" value="13.5"/>
+        <parameter name = "local" value="local"/>
+        <parameter name = "platform" value="ios"/>
+        <classes>
+            <class name="tests.TestDiarioGratidao"/>
+        </classes>
+    </test>
+</suite>
+

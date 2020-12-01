@@ -42,8 +42,8 @@ public class CommonPage extends Utils {
 
         HomePage homePage = new HomePage(BaseClass.driver.get());
 
-        while (!Utils.isElementDisplayed(homePage.tab_insight)){
-            if (System.getProperty("platform").equalsIgnoreCase("android")) {
+        while (!Utils.isElementDisplayed(homePage.tab_insight)) {
+            if (BaseClass.platform_run.equalsIgnoreCase("android")) {
                 clickOn(btn_close);
             } else {
                 Thread.sleep(1000);
