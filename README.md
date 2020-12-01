@@ -17,7 +17,7 @@ bash install_dependencies.sh
 Antes de executar deve-se criar as suites de teste.
 
 É possível criar suites de testes, organizando pelo nome da suite e os arquivos de testes dentro,
-seguindo modelo do arquivo XML [ios-testng.xml](ios-testng.xml). 
+seguindo modelo do arquivo XML [ios-testng.xml](df-ios-testng.xml). 
 
 *Obs: Deve ser inserido o caminho desse arquivo criando dentro do [testng.xml](testng.xml).*
 

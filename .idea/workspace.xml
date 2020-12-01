@@ -29,7 +29,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="477ca8ad-e5ff-4c24-a9dc-119837592ebe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/df-android-testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios-testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/df-ios-testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
