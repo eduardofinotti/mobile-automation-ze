@@ -21,7 +21,7 @@ public class CapabilitiesFactory extends BaseClass {
             caps.setCapability("device", BaseClass.device_run);
             caps.setCapability("os_version", BaseClass.version_run);
             caps.setCapability("project", "[iOS] Automation Testes - Lojong");
-            caps.setCapability("build", "Lojong iOS");
+            caps.setCapability("build", "Lojong iOS - " + Utils.getNewDate());
             caps.setCapability("name", "Test Automation iOS");
             caps.setCapability("automationName", "XCUITest");
             caps.setCapability("real_mobile", true);
@@ -72,7 +72,7 @@ public class CapabilitiesFactory extends BaseClass {
             caps.setCapability("device", BaseClass.device_run);
             caps.setCapability("os_version", BaseClass.version_run);
             caps.setCapability("project", "[Android] Automation Testes - Lojong");
-            caps.setCapability("build", "Lojong Android");
+            caps.setCapability("build", "Lojong Android - " + Utils.getNewDate());
             caps.setCapability("name", "Test Automation Android");
             caps.setCapability("automationName", AutomationName.ANDROID_UIAUTOMATOR2);
             caps.setCapability("real_mobile", true);
