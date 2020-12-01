@@ -14,6 +14,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.time.Duration;
+import java.util.Calendar;
 
 public class Utils extends BaseClass {
 
@@ -34,7 +35,6 @@ public class Utils extends BaseClass {
     }
 
     public static boolean isElementDisplayed(MobileElement element) {
-//        Utils.waitElementBePresent(element, 1);
         try {
             return element.isDisplayed();
         } catch (NoSuchElementException | StaleElementReferenceException e) {
@@ -83,12 +83,6 @@ public class Utils extends BaseClass {
     }
 
     public static void scroll(String direction) {
-//        if (direction == "down") {
-//            verticalSwipeByPercentages(0.7, 0.3, 0.5);
-//        } else {
-//            verticalSwipeByPercentages(0.2, 0.8, 0.4);
-//        }
-
         switch (direction) {
             case "down long":
                 verticalSwipeByPercentages(0.9, 0.1, 0.5);
@@ -140,5 +134,11 @@ public class Utils extends BaseClass {
         new TouchAction(BaseClass.driver.get()).tap(PointOption.point(25, 65)).release().perform();
         new TouchAction(BaseClass.driver.get()).tap(PointOption.point(27, 41)).release().perform();
 
+    }
+
+    public static String getNewDate() {
+        Calendar calendar = Calendar.getInstance();
+        String data = calendar.get(Calendar.DAY_OF_MONTH) + "/" + calendar.get(Calendar.MONTH);
+        return data;
     }
 }
