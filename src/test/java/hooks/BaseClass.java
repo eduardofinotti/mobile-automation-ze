@@ -10,13 +10,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.Augmenter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Parameters;
 import utils.CapabilitiesFactory;
+import utils.ResultsAPIRequests;
 
 import java.io.File;
-import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 public class BaseClass {
@@ -24,6 +25,8 @@ public class BaseClass {
     private static final Logger log = LoggerFactory.getLogger(BaseClass.class);
 
     public static ThreadLocal<AppiumDriver> driver = new ThreadLocal<>();
+
+    public static String session_id = null;
 
     public static String device_run = null;
     public static String local_run = null;
@@ -37,15 +40,26 @@ public class BaseClass {
     }
 
     @BeforeMethod
-    @Parameters({"device", "osVersion", "local", "platform"})
-    public void setup(String device, String osVersion, String local, String platform) {
+    public void setup() {
 
-        AppiumController.startAppium();
+//        AppiumController.startAppium();
 
-        local_run = local;
-        device_run = device;
-        version_run = osVersion;
-        platform_run = platform;
+//        *** EXEMPLOS DE DADOS ***
+//
+//        device_run = "iPhone 11 Pro Max";
+//        version_run = "13.5";
+//        local_run = "local";
+//        platform_run = "ios";
+//
+//        device_run = "pixel2";
+//        version_run = "11.0";
+//        local_run = "local";
+//        platform_run = "Android";
+
+        local_run = System.getProperty("local");
+        device_run = System.getProperty("device");
+        version_run = System.getProperty("version");
+        platform_run = System.getProperty("platform");
 
         if (platform_run.equalsIgnoreCase("android")) {
             if (local_run.equalsIgnoreCase("local")) {
@@ -61,6 +75,8 @@ public class BaseClass {
             }
         }
 
+        session_id = String.valueOf(getDriver().getSessionId());
+
         driver.get().manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 
         log.info("--------------------------------------------------------");
@@ -68,22 +84,29 @@ public class BaseClass {
         log.info("--------------------------------------------------------");
     }
 
+    @AfterMethod
+    public void afterMethod(ITestResult result) {
+        try {
+            if (result.getStatus() == ITestResult.FAILURE) {
+                String sessionId = String.valueOf(driver.get().getSessionId());
+                ResultsAPIRequests.sendTestStatusToBrowserStack(result.getThrowable().toString(), "failed", sessionId);
+            } else if (result.getStatus() == ITestResult.SKIP) {
+                String sessionId = String.valueOf(driver.get().getSessionId());
+                ResultsAPIRequests.sendTestStatusToBrowserStack("failed", result.getThrowable().toString(), sessionId);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
     @AfterTest
     public void teardown() {
         driver.get().quit();
-        service.stop();
+//        service.stop();
 
         log.info("--------------------------------------------------------");
         log.info("----------------------Test Finish-----------------------");
         log.info("--------------------------------------------------------");
-    }
-
-    public static void captureScreenshot() {
-        String name = new Date().toString();
-        String screenshotDirectory = System.getProperty("appium.screenshots.dir", System.getProperty("java.io.tmpdir", ""));
-        File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        screenshot.renameTo(new File(screenshotDirectory, String.format("%s.png", name)));
-        log.info(screenshot.getPath());
     }
 
     public static void takeScreenshotAndSave(String screen) {

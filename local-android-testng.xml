@@ -1,12 +1,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite Android">
     <test name="pixel">
-        <parameter name = "device" value="pixel2"/>
-        <parameter name = "osVersion" value="11.0"/>
-        <parameter name = "local" value="local"/>
-        <parameter name = "platform" value="android"/>
         <classes>
-            <class name="tests.TestDiarioGratidao"/>
+            <class name="tests.TestLogin"/>
+            <class name="tests.TestOrder"/>
+            <class name="tests.TestAddress"/>
         </classes>
     </test>
 </suite>

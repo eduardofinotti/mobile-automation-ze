@@ -34,18 +34,9 @@ public class Utils extends BaseClass {
         }
     }
 
-    public static boolean isElementDisplayed(MobileElement element) {
-        try {
-            return element.isDisplayed();
-        } catch (NoSuchElementException | StaleElementReferenceException e) {
-            log.info("ERRO: " + e.getMessage());
-            return false;
-        }
-    }
-
     public static void scrollToElement(String direction, MobileElement element) {
         Double[] array = new Double[3];
-        int scrollMaximum = 10;
+        int scrollMaximum = 2;
         switch (direction) {
             case "down long":
                 array = new Double[]{0.9, 0.1, 0.4};
@@ -69,17 +60,13 @@ public class Utils extends BaseClass {
         }
     }
 
-    public static void verticalSwipeByPercentages(double startPercentage, double endPercentage, double anchorPercentage) {
-        Dimension size = driver.get().manage().window().getSize();
-        int anchor = (int) (size.width * anchorPercentage);
-        int startPoint = (int) (size.height * startPercentage);
-        int endPoint = (int) (size.height * endPercentage);
-
-        new TouchAction(driver.get())
-                .longPress(PointOption.point(anchor, startPoint))
-                .moveTo(PointOption.point(anchor, endPoint))
-                .release()
-                .perform();
+    public static boolean isElementDisplayed(MobileElement element) {
+        try {
+            return element.isDisplayed();
+        } catch (NoSuchElementException | StaleElementReferenceException e) {
+            log.info("ERRO: " + e.getMessage());
+            return false;
+        }
     }
 
     public static void scroll(String direction) {
@@ -98,12 +85,17 @@ public class Utils extends BaseClass {
         }
     }
 
-    public static void back() throws InterruptedException {
-        if (BaseClass.platform_run.equalsIgnoreCase("android")) {
-            driver.get().navigate().back();
-        } else {
-            driver.get().launchApp();
-        }
+    public static void verticalSwipeByPercentages(double startPercentage, double endPercentage, double anchorPercentage) {
+        Dimension size = driver.get().manage().window().getSize();
+        int anchor = (int) (size.width * anchorPercentage);
+        int startPoint = (int) (size.height * startPercentage);
+        int endPoint = (int) (size.height * endPercentage);
+
+        new TouchAction(driver.get())
+                .longPress(PointOption.point(anchor, startPoint))
+                .moveTo(PointOption.point(anchor, endPoint))
+                .release()
+                .perform();
     }
 
     public static void clickOn(MobileElement element) {
@@ -114,7 +106,6 @@ public class Utils extends BaseClass {
 
     public static String getText(MobileElement element) {
         Utils.waitElementBePresent(element, 5);
-
         try {
             return element.getAttribute("text");
         } catch (Exception e) {
@@ -130,15 +121,9 @@ public class Utils extends BaseClass {
         log.info("[FILL FIELD " + field + " WITH <" + value + ">]");
     }
 
-    public static void backScreenIOS() {
-        new TouchAction(BaseClass.driver.get()).tap(PointOption.point(25, 65)).release().perform();
-        new TouchAction(BaseClass.driver.get()).tap(PointOption.point(27, 41)).release().perform();
-
-    }
-
     public static String getNewDate() {
         Calendar calendar = Calendar.getInstance();
-        String data = calendar.get(Calendar.DAY_OF_MONTH) + "/" + calendar.get(Calendar.MONTH);
+        String data = calendar.get(Calendar.DAY_OF_MONTH) + "/" + (calendar.get(Calendar.MONTH) + 1);
         return data;
     }
 }

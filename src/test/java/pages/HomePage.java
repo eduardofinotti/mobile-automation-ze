@@ -1,109 +1,69 @@
 package pages;
 
+import hooks.BaseClass;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.testng.Assert;
 import utils.Utils;
 
 public class HomePage extends Utils {
 
     private AppiumDriver driver;
+    private static Logger log = LoggerFactory.getLogger(HomePage.class);
 
     public HomePage(AppiumDriver driver) {
         this.driver = driver;
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
-    @AndroidFindBy(id = "cardInstagram")
-    @iOSXCUITFindBy(accessibility = "Siga-nos no Instagram!")
-    public static MobileElement card_instagram;
+    @AndroidFindBy(xpath = "//android.view.ViewGroup[@content-desc=\"open-search\"]/android.view.ViewGroup/android.view.ViewGroup/android.widget.EditText")
+    @iOSXCUITFindBy(xpath = "(//*[@name=\"edit-profile \uF35C menu-edit-address open-search\"])[1]")
+    public static MobileElement enter_choose_products;
 
-    @AndroidFindBy(xpath = "//*[contains(@text,'31 DIAS • PROGRAMA')]")
-    @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"Fundamentos\"]")
-    public static MobileElement txt_fundamentos;
+    @AndroidFindBy(accessibility = "search-input")
+    @iOSXCUITFindBy(accessibility = "RNE__Input__text-input")
+    public static MobileElement field_search_product;
 
-    @AndroidFindBy(xpath = "//*[contains(@text,'21 dias de meditação começando com práticas de 10 minutos.')]")
-    @iOSXCUITFindBy(xpath = "\t\n" +
-            "//XCUIElementTypeStaticText[@name=\"Cultivando o Hábito\"]")
-    public static MobileElement txt_cultivando_o_habito;
+    @AndroidFindBy(xpath = "(//android.view.ViewGroup[@content-desc=\"default-product-card\"])[1]")
+    @iOSXCUITFindBy(xpath = "(//*[@name=\"default-product-card\"])[2]")
+    public static MobileElement first_product_search;
 
-    @AndroidFindBy(xpath = "//*[contains(@text,'Cultivando relaxamento, foco, clareza e felicidade genuína.')]")
-    @iOSXCUITFindBy(xpath = "(//XCUIElementTypeStaticText[@name=\"Caminho\"])[2]")
-    public static MobileElement txt_caminho;
+    @AndroidFindBy(xpath = "//android.view.ViewGroup[@content-desc=\"menu-edit-address\"]/android.widget.TextView[2]")
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeOther[@name=\"menu-edit-address\"]")
+    public static MobileElement address_selected;
 
-    @AndroidFindBy(xpath = "//*[contains(@text,'Aprendendo uma nova forma de lidar com as aflições.')]")
-    @iOSXCUITFindBy(xpath = "\t\n" +
-            "//XCUIElementTypeStaticText[@name=\"Acolhendo a Ansiedade\"]")
-    public static MobileElement txt_acolhendo_ansiedade;
-
-    @AndroidFindBy(xpath = "//*[contains(@text,'Práticas de atenção plena para o momento presente.')]")
-    @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"Programa Mindfulness\"]")
-    public static MobileElement txt_mindfulness;
-
-    @AndroidFindBy(id = "llInsight")
-    @iOSXCUITFindBy(accessibility = "Insight")
-    public static MobileElement tab_insight;
-
-    @AndroidFindBy(id = "llTimer")
-    @iOSXCUITFindBy(accessibility = "Insight")
-    public static MobileElement tab_tools;
-
-    @AndroidFindBy(id = "llMain")
-    @iOSXCUITFindBy(accessibility = "Mais")
-    public static MobileElement tab_more;
-
-    public static void scrollToInstagramCard() {
-        Utils.scrollToElement("down long", card_instagram);
+    public void checkHome() throws InterruptedException {
+        AddressPage addressPage = new AddressPage(driver);
+        if (!isElementDisplayed(addressPage.option_address_saved) &&
+                (isElementDisplayed(addressPage.field_search_address))) {
+            addressPage.registerAddress();
+        }
+        Assert.assertTrue(isElementDisplayed(enter_choose_products));
     }
 
-    public void enterInsightTab() {
-        clickOn(tab_insight);
+    public void accessSearchProducts() {
+        clickOn(enter_choose_products);
     }
 
-    public void scrollToCultivandoHabito() {
-        Utils.scrollToElement("up long", txt_cultivando_o_habito);
+    public void checkAddressHome() {
+        while (getText(address_selected).contains("carregando")) {
+            log.info("Endereço ainda não carregado na home.");
+        }
+        if (BaseClass.platform_run.equalsIgnoreCase("ios")) {
+            log.info("#TODO");
+        } else {
+            Assert.assertEquals(getText(address_selected), "Avenida Paulista, 199 Bela Vista, São Paulo - SP");
+        }
     }
 
-    public void enterOnCultivandoHabito() {
-        clickOn(txt_cultivando_o_habito);
-    }
-
-    public void enterOnCaminho() {
-        clickOn(txt_caminho);
-    }
-
-    public void enterAcolhendoAnsiedade() {
-        clickOn(txt_acolhendo_ansiedade);
-    }
-
-    public void enterProgramaMindfulness() {
-        clickOn(txt_mindfulness);
-    }
-
-    public void scrollToFundamentos() {
-        Utils.scrollToElement("down", txt_fundamentos);
-    }
-
-    public void scrollToAcolhendoAnsiedade() {
-        Utils.scrollToElement("down long", txt_acolhendo_ansiedade);
-    }
-
-    public void enterOnFundamentos() {
-        clickOn(txt_fundamentos);
-    }
-
-    public void enterToolsTab() {
-        clickOn(tab_tools);
-    }
-
-    public void enterMoreTab() {
-        clickOn(tab_more);
-    }
-
-    public void scrollToProgramaMinfulness() {
-        Utils.scrollToElement("down", txt_mindfulness);
+    public void searchProduct() {
+        fillField(field_search_product, "skol");
+        clickOn(first_product_search);
     }
 }

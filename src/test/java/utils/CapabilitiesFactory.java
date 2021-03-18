@@ -15,22 +15,21 @@ public class CapabilitiesFactory extends BaseClass {
     public static void setCapabilitiesIOSDF() {
         try {
             DesiredCapabilities caps = new DesiredCapabilities();
-            caps.setCapability("app", "bs://e25b1c72576615910fe7f54db64827eb49554004");
+            caps.setCapability("app", "");
             caps.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.IOS);
             caps.setCapability("platform", MobilePlatform.IOS);
             caps.setCapability("device", BaseClass.device_run);
             caps.setCapability("os_version", BaseClass.version_run);
-            caps.setCapability("project", "[iOS] Automation Testes - Lojong");
-            caps.setCapability("build", "Lojong iOS - " + Utils.getNewDate());
+            caps.setCapability("project", "[iOS] Automation Testes - Ze Delivery");
+            caps.setCapability("build", "Ze iOS - " + Utils.getNewDate());
             caps.setCapability("name", "Test Automation iOS");
             caps.setCapability("automationName", "XCUITest");
             caps.setCapability("real_mobile", true);
-            caps.setCapability("browserstack.networkLogs", true);
-            caps.setCapability("browserstack.debug", true);
-            caps.setCapability("browserstack.acceptInsecureCerts", true);
             caps.setCapability("noReset", false);
+            caps.setCapability("language", "pt");
+            caps.setCapability("locale", "BR");
 
-            BaseClass.driver.set(new IOSDriver<>(new URL("https://eduardofinotti1:znLQv8yjGURuwksMJ1hH@hub-cloud.browserstack.com/wd/hub"), caps));
+            BaseClass.driver.set(new IOSDriver<>(new URL("https://user:id@hub-cloud.browserstack.com/wd/hub"), caps));
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -45,14 +44,11 @@ public class CapabilitiesFactory extends BaseClass {
             capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, BaseClass.version_run);
             capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, AutomationName.IOS_XCUI_TEST);
             capabilities.setCapability(MobileCapabilityType.NO_RESET, false);
-            capabilities.setCapability("useNewWDA", true);
+            capabilities.setCapability("useNewWDA", false);
             capabilities.setCapability("noReset", false);
-            capabilities.setCapability(MobileCapabilityType.APP, "/Users/eduardofinotti/Desktop/Lojong.app");
-            capabilities.setCapability("language", "fr");
-            capabilities.setCapability("locale", "FR");
-            // Real device
-            // capabilities.setCapability(MobileCapabilityType.APP, "/Users/eduardofinotti/Desktop/Lojong.ipa");
-            // capabilities.setCapability(MobileCapabilityType.UDID, "00008030-000D49E42E7B802E");
+            capabilities.setCapability(MobileCapabilityType.APP, "/Users/eduardofinotti/Desktop/ze.app");
+            capabilities.setCapability("language", "pt");
+            capabilities.setCapability("locale", "BR");
 
             BaseClass.driver.set(new IOSDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities));
 
@@ -64,15 +60,14 @@ public class CapabilitiesFactory extends BaseClass {
     public static void setCapabilitiesAndroidDF() {
         try {
             DesiredCapabilities caps = new DesiredCapabilities();
-            caps.setCapability("app", "bs://39ef90b58244956ce3e616cdbd3c867e605bd26b");
+            caps.setCapability("app", "");
             caps.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
             caps.setCapability("platform", MobilePlatform.ANDROID);
-            caps.setCapability("appPackage", "br.com.lojong");
-            caps.setCapability("appActivity", "br.com.lojong.activity.SplashActivity");
+            caps.setCapability("appActivity", "MainActivity");
             caps.setCapability("device", BaseClass.device_run);
             caps.setCapability("os_version", BaseClass.version_run);
-            caps.setCapability("project", "[Android] Automation Testes - Lojong");
-            caps.setCapability("build", "Lojong Android - " + Utils.getNewDate());
+            caps.setCapability("project", "[Android] Automation Testes - Ze Delivery");
+            caps.setCapability("build", "Ze Android - " + Utils.getNewDate());
             caps.setCapability("name", "Test Automation Android");
             caps.setCapability("automationName", AutomationName.ANDROID_UIAUTOMATOR2);
             caps.setCapability("real_mobile", true);
@@ -80,10 +75,10 @@ public class CapabilitiesFactory extends BaseClass {
             caps.setCapability("browserstack.debug", true);
             caps.setCapability("browserstack.acceptInsecureCerts", true);
             caps.setCapability("noReset", false);
-            caps.setCapability("language", "es");
-            caps.setCapability("locale", "es_ES");
+            caps.setCapability("language", "pt");
+            caps.setCapability("locale", "BR");
 
-            BaseClass.driver.set(new AndroidDriver(new URL("https://eduardofinotti1:znLQv8yjGURuwksMJ1hH@hub-cloud.browserstack.com/wd/hub"), caps));
+            BaseClass.driver.set(new AndroidDriver(new URL("https://user:id@hub-cloud.browserstack.com/wd/hub"), caps));
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -95,14 +90,13 @@ public class CapabilitiesFactory extends BaseClass {
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, BaseClass.device_run);
             capabilities.setCapability("platformVersion", BaseClass.version_run);
-            capabilities.setCapability("appPackage", "br.com.lojong");
-            capabilities.setCapability("appActivity", "br.com.lojong.activity.SplashActivity");
+            capabilities.setCapability("appActivity", "MainActivity");
             capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "android");
-            capabilities.setCapability(MobileCapabilityType.APP, "/Users/eduardofinotti/Desktop/lojong.apk");
+            capabilities.setCapability(MobileCapabilityType.APP, "/Users/eduardofinotti/Desktop/ze.apk");
             capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, AutomationName.ANDROID_UIAUTOMATOR2);
             capabilities.setCapability("noReset", false);
-            capabilities.setCapability("language", "fr");
-            capabilities.setCapability("locale", "FR");
+            capabilities.setCapability("language", "pt");
+            capabilities.setCapability("locale", "BR");
 
             BaseClass.driver.set(new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities));
 
