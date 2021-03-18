@@ -48,5 +48,7 @@ Caso nao tenha o appium: ``npm i appium`` e ``appium``
 
 Obs4: É gerado um `relatório` de execução no final, localizado em ``target/surefire-reports/emailable-report.html``
 
+Obs5: Alterar o caminho dos apps, em CapabilitiesFactory.java
+
 ## Autor
 [Eduardo Finotti](https://www.linkedin.com/in/eduardo-finotti/)
